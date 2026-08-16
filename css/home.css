@@ -1,0 +1,170 @@
+/* ============================================================
+   TravelX - home.css
+   Home page only: hero search section, trust-perk strip, CTA banner.
+   Loaded AFTER common.css on home.html only.
+   ============================================================ */
+
+/* ---------- 6. Hero ---------- */
+.hero {
+  position: relative;
+  overflow: hidden;
+  background: var(--hero-gradient);
+  padding: 4rem 0 5rem;
+  text-align: center;
+}
+.hero-glow {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(60px);
+}
+.hero-glow-1 {
+  top: 20px;
+  left: -60px;
+  width: 260px;
+  height: 260px;
+  background: rgba(255, 255, 255, 0.12);
+}
+.hero-glow-2 {
+  bottom: -40px;
+  right: 0;
+  width: 320px;
+  height: 320px;
+  background: rgba(20, 184, 166, 0.25);
+}
+.hero-inner {
+  position: relative;
+  z-index: 1;
+}
+
+.badge-pill {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(8px);
+  color: #fff;
+  padding: 0.4rem 1rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.hero-title {
+  font-size: clamp(2rem, 5vw, 3.25rem);
+  color: #fff;
+  max-width: 640px;
+  margin: 0 auto;
+}
+.hero-subtitle {
+  color: rgba(255, 255, 255, 0.85);
+  max-width: 520px;
+  margin: 1rem auto 0;
+  font-size: 1rem;
+}
+
+.search-bar {
+  margin: 2.5rem auto 0;
+  max-width: 900px;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: var(--radius-lg);
+  padding: 0.6rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  box-shadow: var(--shadow-glass);
+}
+.search-field {
+  flex: 1 1 180px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 999px;
+  padding: 0.7rem 1rem;
+  color: var(--sky-600);
+}
+.search-field input,
+.search-field select {
+  border: none;
+  background: transparent;
+  outline: none;
+  width: 100%;
+  color: var(--text-primary);
+  font-size: 0.85rem;
+}
+.search-btn {
+  flex: 1 1 140px;
+}
+
+/* ---------- 7. Perks / trust strip ---------- */
+.perks {
+  margin-top: -2.5rem;
+  position: relative;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+.perk-card {
+  background: var(--surface);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-soft);
+  padding: 1.25rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.9rem;
+}
+.perk-icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+  background: var(--sky-50);
+  color: var(--sky-600);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+html[data-theme="dark"] .perk-icon {
+  background: rgba(30, 139, 255, 0.15);
+}
+.perk-card h3 {
+  font-size: 0.95rem;
+  margin-bottom: 0.25rem;
+}
+.perk-card p {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+
+/* ---------- 11. CTA banner ---------- */
+.cta-banner {
+  position: relative;
+  overflow: hidden;
+  background: var(--hero-gradient);
+  border-radius: var(--radius-lg);
+  padding: 3.5rem 2rem;
+  text-align: center;
+  box-shadow: var(--shadow-glow);
+}
+.cta-glow {
+  position: absolute;
+  top: -40px;
+  right: -40px;
+  width: 220px;
+  height: 220px;
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 50%;
+  filter: blur(40px);
+}
+.cta-banner h2 {
+  color: #fff;
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  position: relative;
+}
+.cta-banner p {
+  color: rgba(255, 255, 255, 0.85);
+  margin: 0.5rem 0 1.5rem;
+  position: relative;
+}

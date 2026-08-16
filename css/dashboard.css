@@ -1,0 +1,135 @@
+/* ============================================================
+   TravelX - dashboard.css
+   Dashboard page only: tab nav, booking history, wishlist, profile form.
+   Loaded AFTER common.css on dashboard.html only.
+   ============================================================ */
+
+/* ---------- 18. Dashboard ---------- */
+.dashboard-layout {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 2rem;
+  margin-top: 2rem;
+  align-items: start;
+}
+.dashboard-tabs {
+  padding: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+.dash-tab {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.75rem 1rem;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  text-align: left;
+}
+.dash-tab.active {
+  background: var(--hero-gradient);
+  color: #fff;
+  box-shadow: var(--shadow-soft);
+}
+.dash-panel {
+  display: none;
+}
+.dash-panel.active {
+  display: block;
+}
+
+.booking-history-item {
+  background: var(--surface);
+  border: 1px solid var(--border-color);
+  border-radius: 14px;
+  padding: 1.1rem 1.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+.booking-history-item h4 {
+  font-size: 0.9rem;
+}
+.booking-history-item .small {
+  color: var(--text-muted);
+  margin-top: 0.2rem;
+}
+.booking-status {
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.3rem 0.8rem;
+  border-radius: 999px;
+}
+.status-completed {
+  background: #ccfbf1;
+  color: #0f766e;
+}
+.status-upcoming {
+  background: var(--sky-100);
+  color: var(--sky-600);
+}
+
+.wishlist-card {
+  overflow: hidden;
+}
+.wishlist-card img {
+  height: 130px;
+  width: 100%;
+  object-fit: cover;
+}
+.wishlist-card-body {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wishlist-card-body h5 {
+  font-size: 0.85rem;
+}
+.wishlist-card-body p {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  margin-top: 0.2rem;
+}
+.wishlist-remove {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wishlist-remove:hover {
+  background: #fee2e2;
+  color: #ef4444;
+}
+
+.profile-card {
+  max-width: 480px;
+  padding: 1.5rem;
+}
+.profile-avatar-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+.profile-avatar-row img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid var(--sky-50);
+}
+#profileForm {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}

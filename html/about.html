@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About | TravelX</title>
+
+  <!-- Google Fonts: Poppins for headings, Inter for body text -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Shared styles first, then this page's own styles -->
+  <link rel="stylesheet" href="../css/common.css" />
+  <link rel="stylesheet" href="../css/about.css" />
+</head>
+<body>
+
+  <header class="navbar" id="navbar">
+    <div class="container navbar-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-icon"><i class="fa-solid fa-plane"></i></span>
+        Travel<span class="logo-accent">X</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="explore.html" class="nav-link">Explore</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="dashboard.html" class="nav-link">Dashboard</a>
+      </nav>
+
+      <div class="navbar-actions">
+        <button id="themeToggle" class="fa-solid fa-btn" aria-label="Toggle dark mode">
+          <i class="fa-solid fa-moon" id="themeIcon"></i>
+        </button>
+        <a href="login.html" class="btn btn-ghost">Log in</a>
+        <a href="signup.html" class="btn btn-primary">Sign up</a>
+        <button id="menuToggle" class="fa-solid fa-btn mobile-only" aria-label="Toggle menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+
+  <main>
+    <section id="about" class="page">
+      <section class="about-hero">
+        <div class="container">
+          <h1>We Believe Travel Changes People</h1>
+          <p>TravelX was founded to make world-class travel planning accessible, honest, and genuinely exciting &mdash; one trip at a time.</p>
+        </div>
+      </section>
+
+      <section class="container section about-mission">
+        <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=900&q=80" alt="Team planning travel" />
+        <div>
+          <span class="badge-soft"><i class="fa-solid fa-bullseye"></i> Our Mission</span>
+          <h2>Making unforgettable travel effortless for everyone.</h2>
+          <p class="text-muted">
+            Founded in 2021, TravelX started as a small team of backpackers frustrated with clunky
+            booking sites. Today we help thousands of travelers a month discover destinations that
+            fit their budget, pace, and sense of adventure &mdash; backed by real support, not just
+            a search bar.
+          </p>
+          <p class="text-muted"><strong>Our vision</strong> is a world where planning a trip feels as exciting as taking one.</p>
+        </div>
+      </section>
+
+      <section class="section section-muted">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow">What drives us</span>
+            <h2>Our Values</h2>
+          </div>
+          <div class="grid grid-3">
+            <div class="value-card">
+              <span class="value-icon"><i class="fa-solid fa-compass"></i></span>
+              <h3>Curated Journeys</h3>
+              <p>Every itinerary is hand-built by travel experts, not templated packages.</p>
+            </div>
+            <div class="value-card">
+              <span class="value-icon"><i class="fa-solid fa-heart"></i></span>
+              <h3>Traveler First</h3>
+              <p>Transparent pricing, real reviews, and support that actually answers.</p>
+            </div>
+            <div class="value-card">
+              <span class="value-icon"><i class="fa-solid fa-earth-americas"></i></span>
+              <h3>Global Network</h3>
+              <p>Trusted local partners in over 60 countries for authentic experiences.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container section">
+        <div class="section-heading">
+          <span class="eyebrow">Meet the people</span>
+          <h2>Our Team</h2>
+          <p>The humans behind every itinerary.</p>
+        </div>
+        <div class="grid grid-4" id="teamGrid"><!-- Injected --></div>
+      </section>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="index.html" class="logo footer-logo">Travel<span class="logo-accent">X</span></a>
+        <p class="text-muted">Making unforgettable travel effortless for everyone, one trip at a time.</p>
+        <div class="social-icons">
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#" aria-label="Youtube"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+        <a href="#" >Careers</a>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <a href="explore.html">Destinations</a>
+        <a href="explore.html">Packages</a>
+        <a href="#" >Travel Guides</a>
+      </div>
+      <div>
+        <h4>Support</h4>
+        <a href="contact.html">Help Center</a>
+        <a href="#" >Terms of Service</a>
+        <a href="#" >Privacy Policy</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 TravelX. All rights reserved.</p>
+    </div>
+  </footer>
+
+
+  <!-- Shared script first (data + helpers), then this page's own script -->
+  <script src="../js/common.js"></script>
+  <script src="../js/about.js"></script>
+</body>
+</html>

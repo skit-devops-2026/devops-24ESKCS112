@@ -1,0 +1,154 @@
+/* ============================================================
+   TravelX - booking.css
+   Booking page only: step form, payment fields, booking success state.
+   Loaded AFTER common.css on booking.html only.
+   ============================================================ */
+
+/* ---------- 14. Booking page ---------- */
+.booking-layout {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: 2.5rem;
+  align-items: start;
+}
+.step-indicator {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 1.5rem 0;
+}
+.step {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--text-muted);
+}
+.step.active {
+  color: var(--text-primary);
+}
+.step-num {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--bg-muted);
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+.step.active .step-num {
+  background: var(--hero-gradient);
+  color: #fff;
+}
+.step-line {
+  width: 40px;
+  height: 1px;
+  background: var(--border-color);
+}
+
+.booking-form {
+  padding: 1.75rem;
+}
+.form-step {
+  display: none;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+.form-step.active {
+  display: flex;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+.field input,
+.field textarea,
+.field select {
+  padding: 0.7rem 1rem;
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  background: var(--surface);
+  color: var(--text-primary);
+  font-weight: 400;
+}
+.field input:focus,
+.field textarea:focus,
+.field select:focus {
+  outline: 2px solid var(--sky-400);
+}
+.field-error {
+  color: #ef4444;
+  font-size: 0.75rem;
+  min-height: 1em;
+}
+.field-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.85rem;
+}
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: var(--text-secondary);
+}
+.link-text {
+  color: var(--sky-600);
+  font-weight: 600;
+}
+.link-text:hover {
+  text-decoration: underline;
+}
+.info-note {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--sky-50);
+  color: var(--sky-600);
+  font-size: 0.78rem;
+  padding: 0.75rem 1rem;
+  border-radius: 10px;
+}
+html[data-theme="dark"] .info-note {
+  background: rgba(30, 139, 255, 0.12);
+}
+
+.booking-success {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.5rem;
+  padding: 2rem 0;
+}
+.booking-success.active {
+  display: flex;
+}
+.booking-success i {
+  font-size: 3rem;
+  color: var(--teal-500);
+}
+.booking-success h2 {
+  margin-top: 0.5rem;
+}
+.booking-success .btn {
+  margin-top: 1rem;
+}
+
+.summary-card img {
+  height: 150px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: var(--radius-md) var(--radius-md) 0 0;
+}
+.summary-card-body {
+  padding: 1.25rem;
+}

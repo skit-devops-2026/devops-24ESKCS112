@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Package Details | TravelX</title>
+
+  <!-- Google Fonts: Poppins for headings, Inter for body text -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Shared styles first, then this page's own styles -->
+  <link rel="stylesheet" href="../css/common.css" />
+  <link rel="stylesheet" href="../css/details.css" />
+</head>
+<body>
+
+  <header class="navbar" id="navbar">
+    <div class="container navbar-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-icon"><i class="fa-solid fa-plane"></i></span>
+        Travel<span class="logo-accent">X</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="explore.html" class="nav-link">Explore</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="dashboard.html" class="nav-link">Dashboard</a>
+      </nav>
+
+      <div class="navbar-actions">
+        <button id="themeToggle" class="fa-solid fa-btn" aria-label="Toggle dark mode">
+          <i class="fa-solid fa-moon" id="themeIcon"></i>
+        </button>
+        <a href="login.html" class="btn btn-ghost">Log in</a>
+        <a href="signup.html" class="btn btn-primary">Sign up</a>
+        <button id="menuToggle" class="fa-solid fa-btn mobile-only" aria-label="Toggle menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+
+  <main>
+    <section id="details" class="page">
+      <div class="details-hero" id="detailsHero">
+        <img id="detailsHeroImg" src="" alt="" />
+        <div class="details-hero-overlay"></div>
+        <div class="container details-hero-content">
+          <span class="badge-pill" id="detailsCategory"></span>
+          <h1 id="detailsTitle"></h1>
+          <div class="details-meta">
+            <span><i class="fa-solid fa-location-dot"></i> <span id="detailsLocation"></span></span>
+            <span><i class="fa-solid fa-clock"></i> <span id="detailsDuration"></span></span>
+            <span><i class="fa-solid fa-star star-filled"></i> <span id="detailsRating"></span></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="container section details-layout">
+        <div class="details-main">
+          <div class="gallery-strip" id="galleryStrip"><!-- Injected --></div>
+
+          <h2>Overview</h2>
+          <p id="detailsDescription" class="text-muted"></p>
+
+          <div class="grid grid-3 feature-badges">
+            <div class="feature-badge"><i class="fa-solid fa-shield-halved"></i> Verified Package</div>
+            <div class="feature-badge"><i class="fa-solid fa-calendar-check"></i> Free Cancellation</div>
+            <div class="feature-badge"><i class="fa-solid fa-users"></i> Group Friendly</div>
+          </div>
+
+          <h2>Itinerary</h2>
+          <div class="itinerary" id="itineraryList"><!-- Injected --></div>
+
+          <h2>Traveler Reviews</h2>
+          <div class="grid grid-2" id="detailsReviews"><!-- Injected --></div>
+        </div>
+
+        <aside class="booking-sidebar">
+          <div class="card">
+            <div class="price-row">
+              <div>
+                <span class="text-muted small">Starting from</span>
+                <p class="price-large"><span id="detailsPrice"></span><span class="small text-muted"> / person</span></p>
+              </div>
+              <span class="rating-badge"><i class="fa-solid fa-star star-filled"></i> <span id="detailsRatingSide"></span></span>
+            </div>
+            <div class="dashed-divider"></div>
+            <div class="summary-rows">
+              <div class="summary-row"><span>Duration</span><span id="detailsDurationSide"></span></div>
+              <div class="summary-row"><span>Category</span><span id="detailsCategorySide"></span></div>
+              <div class="summary-row"><span>Cancellation</span><span class="text-teal">Free before 7 days</span></div>
+            </div>
+            <button class="btn btn-primary btn-block" id="detailsBookBtn">Book This Trip</button>
+            <p class="text-center small text-muted">No payment charged yet</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="index.html" class="logo footer-logo">Travel<span class="logo-accent">X</span></a>
+        <p class="text-muted">Making unforgettable travel effortless for everyone, one trip at a time.</p>
+        <div class="social-icons">
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#" aria-label="Youtube"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+        <a href="#" >Careers</a>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <a href="explore.html">Destinations</a>
+        <a href="explore.html">Packages</a>
+        <a href="#" >Travel Guides</a>
+      </div>
+      <div>
+        <h4>Support</h4>
+        <a href="contact.html">Help Center</a>
+        <a href="#" >Terms of Service</a>
+        <a href="#" >Privacy Policy</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 TravelX. All rights reserved.</p>
+    </div>
+  </footer>
+
+
+  <!-- Shared script first (data + helpers), then this page's own script -->
+  <script src="../js/common.js"></script>
+  <script src="../js/details.js"></script>
+</body>
+</html>

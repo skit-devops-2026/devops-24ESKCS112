@@ -1,0 +1,742 @@
+/* ============================================================
+   TravelX - common.css
+   Shared design tokens + components used on EVERY page: resets,
+   buttons, navbar, footer, section headings, grid utilities,
+   cards, auth-page shell, 404 styling, and responsive rules.
+   Load this file on every page BEFORE that page's own .css file.
+   ============================================================ */
+
+/* ---------- 1. CSS Variables (design tokens) ---------- */
+:root {
+  --ocean: #0a4890;
+  --sky-400: #4babff;
+  --sky-500: #1e8bff;
+  --sky-600: #0a6ce6;
+  --sky-50: #f0f8ff;
+  --sky-100: #dcefff;
+  --teal-500: #14b8a6;
+  --teal-600: #0d9488;
+  --sunset-400: #ff9a5a;
+  --sunset-500: #ff7a30;
+  --sunset-600: #f2600f;
+
+  --bg-page: #f8fafc;
+  --bg-muted: #f1f5f9;
+  --surface: #ffffff;
+  --border-color: #e2e8f0;
+  --text-primary: #1e293b;
+  --text-secondary: #64748b;
+  --text-muted: #94a3b8;
+
+  --hero-gradient: linear-gradient(
+    135deg,
+    var(--ocean) 0%,
+    var(--sky-500) 50%,
+    var(--sky-400) 100%
+  );
+  --sunset-gradient: linear-gradient(
+    135deg,
+    var(--sunset-500) 0%,
+    var(--sunset-400) 100%
+  );
+
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --shadow-soft: 0 10px 30px -10px rgba(10, 76, 145, 0.15);
+  --shadow-glow: 0 0 40px -10px rgba(30, 139, 255, 0.35);
+  --shadow-glass: 0 8px 32px rgba(31, 38, 135, 0.15);
+
+  --font-heading: "Poppins", sans-serif;
+  --font-body: "Inter", sans-serif;
+}
+
+/* Dark mode overrides, toggled via [data-theme="dark"] on <html> */
+html[data-theme="dark"] {
+  --bg-page: #0f172a;
+  --bg-muted: #111c33;
+  --surface: #1e293b;
+  --border-color: #334155;
+  --text-primary: #f1f5f9;
+  --text-secondary: #cbd5e1;
+  --text-muted: #94a3b8;
+}
+
+/* ---------- 2. Reset & base ---------- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--bg-page);
+  color: var(--text-primary);
+  line-height: 1.6;
+  transition:
+    background 0.3s ease,
+    color 0.3s ease;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  line-height: 1.25;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+ul,
+li {
+  list-style: none;
+}
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 0.9rem;
+}
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+.section {
+  padding: 4rem 0;
+}
+.hidden {
+  display: none !important;
+}
+.text-muted {
+  color: var(--text-secondary);
+}
+.text-teal {
+  color: var(--teal-600);
+  font-weight: 600;
+}
+.text-sunset {
+  color: var(--sunset-400);
+}
+.small {
+  font-size: 0.8rem;
+}
+.text-center {
+  text-align: center;
+}
+
+/* ---------- 3. Page content wrapper ----------
+   Each page is now its own HTML file (no more SPA show/hide), so
+   .page is just a light fade-in wrapper instead of a router target. */
+.page {
+  animation: fadeIn 0.4s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ---------- 4. Buttons ---------- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    opacity 0.2s ease;
+  border: 2px solid transparent;
+}
+.btn:hover {
+  transform: translateY(-2px);
+}
+.btn-primary {
+  background: var(--hero-gradient);
+  color: #fff;
+  box-shadow: var(--shadow-soft);
+}
+.btn-primary:hover {
+  box-shadow: var(--shadow-glow);
+}
+.btn-accent {
+  background: var(--sunset-gradient);
+  color: #fff;
+  box-shadow: var(--shadow-soft);
+}
+.btn-outline {
+  background: transparent;
+  border-color: var(--border-color);
+  color: var(--text-primary);
+}
+.btn-outline:hover {
+  background: var(--bg-muted);
+}
+.btn-ghost {
+  color: var(--text-secondary);
+  font-weight: 500;
+  padding: 0.6rem 1rem;
+}
+.btn-ghost:hover {
+  color: var(--sky-600);
+}
+.btn-block {
+  width: 100%;
+}
+.btn-sm {
+  padding: 0.5rem 1rem;
+  font-size: 0.8rem;
+}
+.btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.icon-btn {
+  width: 38px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid var(--border-color);
+  color: var(--text-secondary);
+  transition: background 0.2s ease;
+}
+.icon-btn:hover {
+  background: var(--bg-muted);
+}
+
+/* ---------- 5. Navbar ---------- */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--border-color);
+}
+html[data-theme="dark"] .navbar {
+  background: rgba(15, 23, 42, 0.8);
+}
+
+.navbar-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.9rem 1.5rem;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--font-heading);
+  font-weight: 800;
+  font-size: 1.25rem;
+}
+.logo-icon {
+  width: 34px;
+  height: 34px;
+  border-radius: 10px;
+  background: var(--hero-gradient);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo-accent {
+  color: var(--sky-500);
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.75rem;
+}
+.nav-link {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  transition: color 0.2s ease;
+}
+.nav-link:hover,
+.nav-link.active-link {
+  color: var(--sky-600);
+}
+
+.navbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+.mobile-only {
+  display: none;
+}
+
+/* ---------- 8. Section headings ---------- */
+.section-heading {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+.section-heading-left {
+  text-align: left;
+}
+.eyebrow {
+  display: inline-block;
+  background: var(--sky-100);
+  color: var(--sky-600);
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.35rem 1rem;
+  border-radius: 999px;
+  margin-bottom: 0.75rem;
+}
+html[data-theme="dark"] .eyebrow {
+  background: rgba(30, 139, 255, 0.15);
+}
+.section-heading h2 {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  margin-bottom: 0.5rem;
+}
+.section-heading p {
+  color: var(--text-secondary);
+  max-width: 480px;
+  margin: 0 auto;
+}
+.section-heading-left p {
+  margin: 0;
+}
+.section-muted {
+  background: var(--bg-muted);
+}
+
+/* ---------- 9. Grid utility ---------- */
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+.grid-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* ---------- 10. Cards (destinations, packages, testimonials) ---------- */
+.card {
+  background: var(--surface);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-soft);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.dest-card {
+  overflow: hidden;
+}
+.dest-card:hover,
+.pkg-card:hover,
+.testimonial-card:hover,
+.value-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-glow);
+}
+.dest-card-img {
+  position: relative;
+  height: 170px;
+}
+.dest-card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.dest-tag {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: var(--sky-100);
+  color: var(--sky-600);
+  font-size: 0.65rem;
+  font-weight: 700;
+  padding: 0.3rem 0.7rem;
+  border-radius: 999px;
+}
+.dest-card-body {
+  padding: 1rem 1.1rem 1.2rem;
+}
+.dest-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+.dest-card-top h3 {
+  font-size: 0.95rem;
+}
+.dest-rating {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+.star-filled {
+  color: #fbbf24;
+}
+.dest-meta {
+  color: var(--text-muted);
+  font-size: 0.75rem;
+  margin-top: 0.3rem;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+.dest-card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.75rem;
+}
+.dest-price {
+  color: var(--sky-600);
+  font-weight: 700;
+}
+.dest-price span {
+  font-weight: 400;
+  color: var(--text-muted);
+  font-size: 0.75rem;
+}
+.dest-link-btn {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--sky-600);
+  border: 1px solid var(--sky-100);
+  border-radius: 999px;
+  padding: 0.4rem 0.9rem;
+}
+
+/* Package cards (ticket / boarding-pass motif) */
+.pkg-card {
+  padding: 1.25rem;
+  position: relative;
+}
+.pkg-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pkg-card h3 {
+  font-size: 1rem;
+}
+.pkg-included {
+  margin: 0.75rem 0;
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+.pkg-included li {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-bottom: 0.3rem;
+}
+.pkg-included i {
+  color: var(--teal-500);
+  font-size: 0.7rem;
+}
+.dashed-divider {
+  border-top: 2px dashed var(--border-color);
+  margin: 0.9rem 0;
+}
+.pkg-card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Testimonials */
+.testimonial-card {
+  padding: 1.25rem;
+  position: relative;
+}
+.testimonial-quote-icon {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 1.5rem;
+  color: var(--sky-100);
+}
+.testimonial-head {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+.testimonial-head img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.testimonial-head h4 {
+  font-size: 0.85rem;
+}
+.testimonial-head p {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+}
+.testimonial-body {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  margin-top: 0.75rem;
+  line-height: 1.6;
+}
+
+/* ---------- Shared summary card rows (used by details.html AND booking.html) ---------- */
+.summary-rows {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  font-size: 0.85rem;
+}
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  color: var(--text-secondary);
+}
+.summary-total {
+  border-top: 1px solid var(--border-color);
+  padding-top: 0.6rem;
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--text-primary);
+}
+
+/* ---------- 17. Auth pages ---------- */
+.auth-wrapper {
+  min-height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-muted);
+  padding: 3rem 1.5rem;
+}
+.auth-card {
+  width: 100%;
+  max-width: 400px;
+  padding: 2rem;
+}
+.auth-header {
+  text-align: center;
+  margin-bottom: 1.75rem;
+}
+.auth-icon {
+  display: inline-flex;
+  width: 48px;
+  height: 48px;
+  border-radius: 16px;
+  background: var(--hero-gradient);
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.75rem;
+}
+.auth-header h1 {
+  font-size: 1.4rem;
+}
+#loginForm,
+#signupForm {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+.auth-footer-text {
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  margin-top: 1.5rem;
+}
+
+/* ---------- 19. 404 ---------- */
+.not-found {
+  text-align: center;
+  padding: 5rem 1.5rem;
+}
+.not-found i {
+  font-size: 3rem;
+  color: var(--sky-400);
+}
+.not-found h1 {
+  margin: 1rem 0 0.5rem;
+  font-size: 2rem;
+}
+.not-found p {
+  color: var(--text-secondary);
+  max-width: 380px;
+  margin: 0 auto 1.5rem;
+}
+
+/* ---------- 20. Footer ---------- */
+.footer {
+  background: #0f172a;
+  color: #cbd5e1;
+  padding: 3.5rem 0 1.5rem;
+  margin-top: 2rem;
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 2rem;
+}
+.footer-logo {
+  color: #fff;
+  margin-bottom: 0.75rem;
+}
+.footer-grid p {
+  font-size: 0.82rem;
+  color: #94a3b8;
+  margin-bottom: 1rem;
+}
+.footer-grid h4 {
+  color: #fff;
+  font-size: 0.85rem;
+  margin-bottom: 0.9rem;
+}
+.footer-grid a {
+  display: block;
+  font-size: 0.82rem;
+  color: #94a3b8;
+  margin-bottom: 0.6rem;
+}
+.footer-grid a:hover {
+  color: var(--sky-400);
+}
+.social-icons {
+  display: flex;
+  gap: 0.6rem;
+}
+.social-icons a {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social-icons a:hover {
+  background: var(--sky-500);
+  color: #fff;
+}
+.footer-bottom {
+  text-align: center;
+  font-size: 0.75rem;
+  color: #64748b;
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* ---------- 21. Responsive ---------- */
+@media (max-width: 960px) {
+  .explore-layout,
+  .details-layout,
+  .booking-layout,
+  .contact-layout,
+  .dashboard-layout {
+    grid-template-columns: 1fr;
+  }
+  .filters-sidebar,
+  .booking-sidebar {
+    position: static;
+  }
+  .about-mission {
+    grid-template-columns: 1fr;
+  }
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+  .mobile-only {
+    display: flex;
+  }
+  .grid-3,
+  .grid-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .perks {
+    grid-template-columns: 1fr;
+  }
+  .search-bar {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 560px) {
+  .grid-2,
+  .grid-3,
+  .grid-4 {
+    grid-template-columns: 1fr;
+  }
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+  .navbar-actions .btn-ghost {
+    display: none;
+  }
+}
+
+/* Mobile nav menu (shown when toggled open) */
+.nav-links.mobile-open {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: var(--surface);
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid var(--border-color);
+  gap: 1rem;
+}

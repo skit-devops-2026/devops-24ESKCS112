@@ -1,0 +1,35 @@
+<!-- ============================================================
+     TravelX - header.html
+     Shared navbar markup. Pure static HTML has no native way to
+     "include" a file without a server or build step, so this
+     exact markup is copy-pasted at the top of every page's <body>.
+     Edit it here, then copy the change into each page.
+     ============================================================ -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-icon"><i class="fa-solid fa-plane"></i></span>
+        Travel<span class="logo-accent">X</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="explore.html" class="nav-link">Explore</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="dashboard.html" class="nav-link">Dashboard</a>
+      </nav>
+
+      <div class="navbar-actions">
+        <button id="themeToggle" class="fa-solid fa-btn" aria-label="Toggle dark mode">
+          <i class="fa-solid fa-moon" id="themeIcon"></i>
+        </button>
+        <a href="login.html" class="btn btn-ghost">Log in</a>
+        <a href="signup.html" class="btn btn-primary">Sign up</a>
+        <button id="menuToggle" class="fa-solid fa-btn mobile-only" aria-label="Toggle menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
