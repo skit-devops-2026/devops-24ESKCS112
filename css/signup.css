@@ -1,8 +1,0 @@
-/* ============================================================
-   TravelX - signup.css
-   Signup page uses the shared ".auth-*" classes defined once in
-   common.css (search "Auth pages") since login.html and signup.html
-   are visually identical shells. This file is here so every page
-   still has its own CSS file to extend later (e.g. a page-specific
-   background image or animation) without touching common.css.
-   ============================================================ */

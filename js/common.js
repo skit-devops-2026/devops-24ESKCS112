@@ -180,7 +180,373 @@ const destinations = [
       { day: 2, title: "Arashiyama bamboo grove", detail: "Tenryu-ji temple, monkey park." },
       { day: 3, title: "Gion district evening", detail: "Geisha spotting, traditional dinner." }
     ]
+  },
+  /* new data insert */
+  {
+    id: "goa",
+    name: "Goa, India",
+    category: "Beach",
+    price: 12999,
+    duration: "4 Days / 3 Nights",
+    rating: 4.7,
+    reviews: 3250,
+    image: "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=600&q=70",
+    gallery: [
+      "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=1200&q=70",
+      "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=70",
+      "https://images.unsplash.com/photo-1587922546307-776227941871?auto=format&fit=crop&w=1200&q=70"
+    ],
+    description: "Relax on golden beaches, explore Portuguese heritage, enjoy vibrant nightlife, and experience Goa's famous coastal culture.",
+    itinerary: [
+      { day: 1, title: "Arrival and beach evening", detail: "Airport pickup, hotel check-in, Baga Beach and sunset dinner." },
+      { day: 2, title: "North Goa exploration", detail: "Visit Fort Aguada, Calangute Beach, Anjuna and Vagator." },
+      { day: 3, title: "South Goa escape", detail: "Explore Colva Beach, Basilica of Bom Jesus and Old Goa." },
+      { day: 4, title: "Shopping and departure", detail: "Local shopping, breakfast and airport transfer." }
+    ]
+  },
+
+  {
+    id: "manali",
+    name: "Manali, Himachal Pradesh",
+    category: "Mountain",
+    price: 14999,
+    duration: "5 Days / 4 Nights",
+    rating: 4.8,
+    reviews: 2870,
+    image: "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=600&q=70",
+    gallery: [
+      "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=1200&q=70",
+      "https://images.unsplash.com/photo-1597074866923-dc0589150358?auto=format&fit=crop&w=1200&q=70",
+      "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1200&q=70"
+    ],
+    description: "Discover snow-covered mountains, scenic valleys, adventure activities, waterfalls, and peaceful Himalayan landscapes.",
+    itinerary: [
+      { day: 1, title: "Arrival in Manali", detail: "Hotel check-in, Mall Road walk and evening sightseeing." },
+      { day: 2, title: "Solang Valley adventure", detail: "Visit Solang Valley and enjoy snow and adventure activities." },
+      { day: 3, title: "Old Manali exploration", detail: "Explore Hadimba Temple, Manu Temple and Old Manali." },
+      { day: 4, title: "Rohtang region", detail: "Scenic mountain drive and Himalayan sightseeing." },
+      { day: 5, title: "Departure", detail: "Breakfast, local shopping and departure transfer." }
+    ]
+  },
+
+  {
+    id: "jaipur",
+    name: "Jaipur, Rajasthan",
+    category: "Heritage",
+    price: 9999,
+    duration: "3 Days / 2 Nights",
+    rating: 4.8,
+    reviews: 4120,
+    image: "https://images.unsplash.com/photo-1477587458883-47145ed94245?auto=format&fit=crop&w=600&q=70",
+    gallery: [
+      "https://images.unsplash.com/photo-1477587458883-47145ed94245?auto=format&fit=crop&w=1200&q=70",
+      "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=1200&q=70",
+      "https://images.unsplash.com/photo-1603262110263-fb0112e7cc33?auto=format&fit=crop&w=1200&q=70"
+    ],
+    description: "Explore the Pink City with magnificent forts, royal palaces, colorful markets, traditional cuisine, and Rajasthan's rich heritage.",
+    itinerary: [
+      { day: 1, title: "Pink City arrival", detail: "Hotel check-in, City Palace and Hawa Mahal visit." },
+      { day: 2, title: "Royal Jaipur", detail: "Visit Amber Fort, Jal Mahal and Jaigarh Fort." },
+      { day: 3, title: "Markets and departure", detail: "Explore local markets, enjoy Rajasthani food and depart." }
+    ]
+  },
+
+  {
+    id: "udaipur",
+    name: "Udaipur, Rajasthan",
+    category: "Romantic",
+    price: 11999,
+    duration: "3 Days / 2 Nights",
+    rating: 4.8,
+    reviews: 2680,
+    image: "https://images.unsplash.com/photo-1582972236019-ea9e6a5e4e50?auto=format&fit=crop&w=600&q=70",
+    gallery: [
+      "https://images.unsplash.com/photo-1582972236019-ea9e6a5e4e50?auto=format&fit=crop&w=1200&q=70",
+      "https://images.unsplash.com/photo-1602643163981-8f5c9c7f1a1a?auto=format&fit=crop&w=1200&q=70",
+      "https://images.unsplash.com/photo-1595658658481-d53d3f999875?auto=format&fit=crop&w=1200&q=70"
+    ],
+    description: "Experience the City of Lakes with magnificent palaces, peaceful lakes, romantic sunsets, and royal Rajasthani architecture.",
+    itinerary: [
+      { day: 1, title: "Arrival and Lake Pichola", detail: "Hotel check-in followed by an evening boat ride." },
+      { day: 2, title: "Royal Udaipur", detail: "Visit City Palace, Jagdish Temple and Saheliyon Ki Bari." },
+      { day: 3, title: "Sunrise and departure", detail: "Explore local markets and depart after breakfast." }
+    ]
+  },
+
+  {
+    id: "ladakh",
+    name: "Leh-Ladakh, India",
+    category: "Adventure",
+    price: 22999,
+    duration: "6 Days / 5 Nights",
+    rating: 4.9,
+    reviews: 3540,
+    image: "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=600&q=70",
+    gallery: [
+      "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=70",
+      "https://images.unsplash.com/photo-1533693397690-362cb9666fc2?auto=format&fit=crop&w=1200&q=70",
+      "https://images.unsplash.com/photo-1598091383021-15ddea10925d?auto=format&fit=crop&w=1200&q=70"
+    ],
+    description: "Ride through dramatic Himalayan landscapes, high mountain passes, turquoise lakes, ancient monasteries, and remote valleys.",
+    itinerary: [
+      { day: 1, title: "Arrival in Leh", detail: "Airport pickup, hotel check-in and acclimatization." },
+      { day: 2, title: "Leh sightseeing", detail: "Visit Shanti Stupa, Leh Palace and local markets." },
+      { day: 3, title: "Nubra Valley", detail: "Cross Khardung La and explore Nubra Valley." },
+      { day: 4, title: "Pangong Lake", detail: "Drive to Pangong Lake and enjoy the spectacular landscape." },
+      { day: 5, title: "Monasteries", detail: "Visit Thiksey and Hemis monasteries." },
+      { day: 6, title: "Departure", detail: "Breakfast and airport transfer." }
+    ]
+  },
+
+  {
+    id: "kerala",
+    name: "Kerala, India",
+    category: "Nature",
+    price: 16999,
+    duration: "5 Days / 4 Nights",
+    rating: 4.8,
+    reviews: 3010,
+    image: "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=600&q=70",
+    gallery: [
+      "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1200&q=70",
+      "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?auto=format&fit=crop&w=1200&q=70",
+      "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1200&q=70"
+    ],
+    description: "Explore Kerala's lush backwaters, tea plantations, tropical landscapes, waterfalls, and traditional culture.",
+    itinerary: [
+      { day: 1, title: "Arrival in Kochi", detail: "Airport pickup and explore Fort Kochi." },
+      { day: 2, title: "Munnar journey", detail: "Drive through scenic hills and visit tea plantations." },
+      { day: 3, title: "Munnar exploration", detail: "Visit waterfalls, viewpoints and tea gardens." },
+      { day: 4, title: "Alleppey houseboat", detail: "Enjoy a relaxing backwater cruise on a traditional houseboat." },
+      { day: 5, title: "Departure", detail: "Breakfast and transfer to the airport." }
+    ]
+  },
+
+  {
+    id: "varanasi",
+    name: "Varanasi, Uttar Pradesh",
+    category: "Spiritual",
+    price: 8999,
+    duration: "3 Days / 2 Nights",
+    rating: 4.7,
+    reviews: 3920,
+    image: "https://images.unsplash.com/photo-1561361513-2d000a50f0dc?auto=format&fit=crop&w=600&q=70",
+    gallery: [
+      "https://images.unsplash.com/photo-1561361513-2d000a50f0dc?auto=format&fit=crop&w=1200&q=70",
+      "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=70",
+      "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1200&q=70"
+    ],
+    description: "Experience one of India's oldest cities through sacred ghats, Ganga Aarti, ancient temples, spiritual traditions, and local culture.",
+    itinerary: [
+      { day: 1, title: "Arrival and Ganga Aarti", detail: "Hotel check-in and evening Ganga Aarti at Dashashwamedh Ghat." },
+      { day: 2, title: "Spiritual Varanasi", detail: "Sunrise boat ride, Kashi Vishwanath Temple and local ghats." },
+      { day: 3, title: "Sarnath and departure", detail: "Visit Sarnath, explore local markets and depart." }
+    ]
+  },
+
+  {
+    id: "rishikesh",
+    name: "Rishikesh, Uttarakhand",
+    category: "Adventure",
+    price: 10999,
+    duration: "3 Days / 2 Nights",
+    rating: 4.7,
+    reviews: 2460,
+    image: "https://images.unsplash.com/photo-1597074866923-dc0589150358?auto=format&fit=crop&w=600&q=70",
+    gallery: [
+      "https://images.unsplash.com/photo-1597074866923-dc0589150358?auto=format&fit=crop&w=1200&q=70",
+      "https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&w=1200&q=70",
+      "https://images.unsplash.com/photo-1530789253388-582c481c54b0?auto=format&fit=crop&w=1200&q=70"
+    ],
+    description: "Combine spiritual relaxation with thrilling river rafting, Himalayan scenery, yoga, temples, and peaceful riverside experiences.",
+    itinerary: [
+      { day: 1, title: "Arrival and Ganga Aarti", detail: "Check-in, explore Ram Jhula and attend evening Ganga Aarti." },
+      { day: 2, title: "River adventure", detail: "Enjoy white-water rafting and explore riverside cafes." },
+      { day: 3, title: "Yoga and departure", detail: "Morning yoga, local sightseeing and departure." }
+    ]
+  },
+
+  {
+    id: "jaisalmer",
+    name: "Jaisalmer, Rajasthan",
+    category: "Desert",
+    price: 11999,
+    duration: "3 Days / 2 Nights",
+    rating: 4.8,
+    reviews: 2210,
+    image: "https://images.unsplash.com/photo-1477587458883-47145ed94245?auto=format&fit=crop&w=600&q=70",
+    gallery: [
+      "https://images.unsplash.com/photo-1477587458883-47145ed94245?auto=format&fit=crop&w=1200&q=70",
+      "https://images.unsplash.com/photo-1603262110263-fb0112e7cc33?auto=format&fit=crop&w=1200&q=70",
+      "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=1200&q=70"
+    ],
+    description: "Discover the Golden City with its magnificent fort, ancient havelis, golden sand dunes, camel safaris, and desert sunsets.",
+    itinerary: [
+      { day: 1, title: "Golden City arrival", detail: "Visit Jaisalmer Fort and explore the old city." },
+      { day: 2, title: "Desert safari", detail: "Camel safari, dune adventure and cultural desert evening." },
+      { day: 3, title: "Havelis and departure", detail: "Visit Patwon Ki Haveli, local shopping and departure." }
+    ]
+  },
+
+  {
+    id: "andaman",
+    name: "Andaman Islands, India",
+    category: "Beach",
+    price: 24999,
+    duration: "6 Days / 5 Nights",
+    rating: 4.9,
+    reviews: 1850,
+    image: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=600&q=70",
+    gallery: [
+      "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1200&q=70",
+      "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=70",
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=70"
+    ],
+    description: "Escape to tropical islands featuring crystal-clear waters, white-sand beaches, coral reefs, snorkeling, and unforgettable sunsets.",
+    itinerary: [
+      { day: 1, title: "Arrival in Port Blair", detail: "Airport pickup and cellular jail sightseeing." },
+      { day: 2, title: "Havelock Island", detail: "Travel to Havelock and relax at the beach." },
+      { day: 3, title: "Radhanagar Beach", detail: "Enjoy one of India's most beautiful beaches." },
+      { day: 4, title: "Snorkeling adventure", detail: "Explore coral reefs and marine life." },
+      { day: 5, title: "Island exploration", detail: "Explore nearby beaches and local attractions." },
+      { day: 6, title: "Departure", detail: "Breakfast and return transfer." }
+    ]
+  },
+
+  {
+    id: "shimla",
+    name: "Shimla, Himachal Pradesh",
+    category: "Mountain",
+    price: 12999,
+    duration: "4 Days / 3 Nights",
+    rating: 4.6,
+    reviews: 2760,
+    image: "https://images.unsplash.com/photo-1609948543911-7f5f1f2d5f6f?auto=format&fit=crop&w=600&q=70",
+    gallery: [
+      "https://images.unsplash.com/photo-1609948543911-7f5f1f2d5f6f?auto=format&fit=crop&w=1200&q=70",
+      "https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?auto=format&fit=crop&w=1200&q=70",
+      "https://images.unsplash.com/photo-1533130061792-64b345e4a833?auto=format&fit=crop&w=1200&q=70"
+    ],
+    description: "Enjoy colonial architecture, mountain views, pine forests, peaceful valleys, and the charming atmosphere of India's hill capital.",
+    itinerary: [
+      { day: 1, title: "Arrival in Shimla", detail: "Hotel check-in and Mall Road evening walk." },
+      { day: 2, title: "Shimla sightseeing", detail: "Visit Kufri, Jakhu Temple and Ridge." },
+      { day: 3, title: "Mountain escape", detail: "Explore nearby scenic villages and viewpoints." },
+      { day: 4, title: "Departure", detail: "Breakfast and return journey." }
+    ]
+  },
+
+  {
+    id: "agra",
+    name: "Agra, Uttar Pradesh",
+    category: "Heritage",
+    price: 7999,
+    duration: "2 Days / 1 Night",
+    rating: 4.7,
+    reviews: 4510,
+    image: "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=600&q=70",
+    gallery: [
+      "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1200&q=70",
+      "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=70",
+      "https://images.unsplash.com/photo-1568322445389-f64ac2515020?auto=format&fit=crop&w=1200&q=70"
+    ],
+    description: "Visit the iconic Taj Mahal and explore Mughal architecture, historic forts, local markets, and the rich heritage of Agra.",
+    itinerary: [
+      { day: 1, title: "Arrival and Agra Fort", detail: "Check-in and explore Agra Fort and local markets." },
+      { day: 2, title: "Taj Mahal and departure", detail: "Sunrise visit to the Taj Mahal followed by departure." }
+    ]
+  },
+
+  {
+    id: "darjeeling",
+    name: "Darjeeling, West Bengal",
+    category: "Mountain",
+    price: 13999,
+    duration: "4 Days / 3 Nights",
+    rating: 4.7,
+    reviews: 1980,
+    image: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=600&q=70",
+    gallery: [
+      "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=70",
+      "https://images.unsplash.com/photo-1622308644420-b20142dc993c?auto=format&fit=crop&w=1200&q=70",
+      "https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?auto=format&fit=crop&w=1200&q=70"
+    ],
+    description: "Enjoy spectacular Himalayan views, famous tea gardens, the Darjeeling Himalayan Railway, and peaceful mountain landscapes.",
+    itinerary: [
+      { day: 1, title: "Arrival in Darjeeling", detail: "Hotel check-in and explore Mall Road." },
+      { day: 2, title: "Tiger Hill sunrise", detail: "Watch sunrise at Tiger Hill and visit Ghoom Monastery." },
+      { day: 3, title: "Tea garden experience", detail: "Visit tea estates and explore local attractions." },
+      { day: 4, title: "Departure", detail: "Breakfast and transfer for departure." }
+    ]
+  },
+
+  {
+    id: "mysore",
+    name: "Mysore, Karnataka",
+    category: "Heritage",
+    price: 8999,
+    duration: "3 Days / 2 Nights",
+    rating: 4.6,
+    reviews: 1740,
+    image: "https://images.unsplash.com/photo-1600112356915-089abb8fc71a?auto=format&fit=crop&w=600&q=70",
+    gallery: [
+      "https://images.unsplash.com/photo-1600112356915-089abb8fc71a?auto=format&fit=crop&w=1200&q=70",
+      "https://images.unsplash.com/photo-1590050752117-23a9d3d4b6f5?auto=format&fit=crop&w=1200&q=70",
+      "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1200&q=70"
+    ],
+    description: "Discover royal palaces, colorful markets, traditional South Indian culture, gardens, and the magnificent Mysore Palace.",
+    itinerary: [
+      { day: 1, title: "Royal Mysore", detail: "Visit Mysore Palace and Devaraja Market." },
+      { day: 2, title: "Culture and nature", detail: "Visit Chamundi Hills and Brindavan Gardens." },
+      { day: 3, title: "Departure", detail: "Breakfast, shopping and departure." }
+    ]
+  },
+
+  {
+    id: "mumbai",
+    name: "Mumbai, Maharashtra",
+    category: "City",
+    price: 10999,
+    duration: "3 Days / 2 Nights",
+    rating: 4.6,
+    reviews: 3180,
+    image: "https://images.unsplash.com/photo-1529253355930-ddbe423a2ac7?auto=format&fit=crop&w=600&q=70",
+    gallery: [
+      "https://images.unsplash.com/photo-1529253355930-ddbe423a2ac7?auto=format&fit=crop&w=1200&q=70",
+      "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?auto=format&fit=crop&w=1200&q=70",
+      "https://images.unsplash.com/photo-1566552881560-0be862a7c445?auto=format&fit=crop&w=1200&q=70"
+    ],
+    description: "Experience India's energetic financial capital through historic landmarks, coastal promenades, Bollywood culture, and incredible food.",
+    itinerary: [
+      { day: 1, title: "South Mumbai", detail: "Visit Gateway of India, Colaba and Marine Drive." },
+      { day: 2, title: "City exploration", detail: "Explore Chhatrapati Shivaji Maharaj Terminus and local markets." },
+      { day: 3, title: "Mumbai culture", detail: "Explore Bandra, cafes and Bollywood landmarks before departure." }
+    ]
+  },
+
+  {
+    id: "kaziranga",
+    name: "Kaziranga, Assam",
+    category: "Wildlife",
+    price: 15999,
+    duration: "4 Days / 3 Nights",
+    rating: 4.8,
+    reviews: 1320,
+    image: "https://images.unsplash.com/photo-1549366021-9f761d450615?auto=format&fit=crop&w=600&q=70",
+    gallery: [
+      "https://images.unsplash.com/photo-1549366021-9f761d450615?auto=format&fit=crop&w=1200&q=70",
+      "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1200&q=70",
+      "https://images.unsplash.com/photo-1561731216-c3a4d99437d5?auto=format&fit=crop&w=1200&q=70"
+    ],
+    description: "Explore the wild landscapes of Assam and experience thrilling safaris through one of India's most famous wildlife destinations.",
+    itinerary: [
+      { day: 1, title: "Arrival and nature walk", detail: "Resort check-in and explore the surrounding area." },
+      { day: 2, title: "Morning safari", detail: "Early morning jeep safari and wildlife exploration." },
+      { day: 3, title: "Wildlife adventure", detail: "Second safari and visit nearby villages and tea gardens." },
+      { day: 4, title: "Departure", detail: "Breakfast and departure transfer." }
+    ]
   }
+
 ];
 
 const testimonials = [
