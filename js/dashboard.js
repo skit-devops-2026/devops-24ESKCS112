@@ -1,10 +1,10 @@
 /* ============================================================
    TravelX - dashboard.js
-   Tab switching, booking history, wishlist, and profile form on dashboard.html.
-   Depends on common.js (must be loaded first for shared data).
+   Tab switching, booking history, wishlist, and profile form on
+   dashboard.html. The wishlist stores only destination IDs
+   (see common.js), so this file resolves those IDs against the
+   loaded destinations.json data before rendering the cards.
    ============================================================ */
-
-/* ---------- 10. Dashboard (bookings, wishlist, profile) ---------- */
 
 function renderDashboardBookings() {
   const container = document.getElementById("dashBookings");
@@ -25,14 +25,19 @@ function renderDashboardBookings() {
       </div>
       <div style="display:flex;align-items:center;gap:1rem;">
         <span class="booking-status ${b.status === "Completed" ? "status-completed" : "status-upcoming"}">${b.status}</span>
-        <strong>$${b.price}</strong>
+        <strong>₹${b.price.toLocaleString("en-IN")}</strong>
       </div>
     </div>`).join("");
 }
 
-function renderWishlist() {
+function renderWishlist(destinationsList) {
   const container = document.getElementById("dashWishlist");
-  if (wishlist.length === 0) {
+  const wishlistIds = getWishlistIds();
+  const wishlistDestinations = wishlistIds
+    .map((id) => destinationsList.find((d) => d.id === id))
+    .filter(Boolean); // drop any stale IDs that no longer exist in destinations.json
+
+  if (wishlistDestinations.length === 0) {
     container.innerHTML = `
       <div class="empty-state">
         <i class="fa-solid fa-heart"></i>
@@ -41,7 +46,7 @@ function renderWishlist() {
       </div>`;
     return;
   }
-  container.innerHTML = `<div class="grid grid-2">${wishlist.map((d) => `
+  container.innerHTML = `<div class="grid grid-2">${wishlistDestinations.map((d) => `
     <div class="card wishlist-card">
       <img src="${d.image}" alt="${d.name}" />
       <div class="wishlist-card-body">
@@ -52,13 +57,13 @@ function renderWishlist() {
 
   container.querySelectorAll("[data-remove]").forEach((btn) => {
     btn.addEventListener("click", () => {
-      wishlist = wishlist.filter((d) => d.id !== btn.dataset.remove);
-      renderWishlist();
+      removeFromWishlist(btn.dataset.remove);
+      renderWishlist(destinationsList);
     });
   });
 }
 
-function initDashboard() {
+function initDashboard(destinationsList) {
   document.querySelectorAll(".dash-tab").forEach((tab) => {
     tab.addEventListener("click", () => {
       document.querySelectorAll(".dash-tab").forEach((t) => t.classList.remove("active"));
@@ -72,14 +77,17 @@ function initDashboard() {
     e.preventDefault();
     alert("Profile changes saved.");
   });
-
-  renderDashboardBookings();
-  renderWishlist();
 }
 
 document.addEventListener("DOMContentLoaded", () => {
   renderDashboardBookings();
-  renderWishlist();
   initDashboard();
-});
 
+  getDestinations()
+    .then((destinationsList) => {
+      renderWishlist(destinationsList);
+    })
+    .catch(() => {
+      showLoadError(document.getElementById("dashWishlist"));
+    });
+});

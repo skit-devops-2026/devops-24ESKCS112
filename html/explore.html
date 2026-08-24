@@ -34,12 +34,12 @@
       </nav>
 
       <div class="navbar-actions">
-        <button id="themeToggle" class="fa-solid fa-btn" aria-label="Toggle dark mode">
+        <button id="themeToggle" class="icon-btn" aria-label="Toggle dark mode">
           <i class="fa-solid fa-moon" id="themeIcon"></i>
         </button>
         <a href="login.html" class="btn btn-ghost">Log in</a>
         <a href="signup.html" class="btn btn-primary">Sign up</a>
-        <button id="menuToggle" class="fa-solid fa-btn mobile-only" aria-label="Toggle menu">
+        <button id="menuToggle" class="icon-btn mobile-only" aria-label="Toggle menu">
           <i class="fa-solid fa-bars"></i>
         </button>
       </div>
@@ -57,7 +57,10 @@
         </div>
 
         <div class="explore-toolbar">
-          <input type="text" id="exploreSearch" class="input-field" placeholder="Search destinations..." />
+          <div class="search-with-suggestions">
+            <input type="text" id="exploreSearch" class="input-field" placeholder="Search destinations, categories, or states..." autocomplete="off" />
+            <div class="search-suggestions hidden" id="searchSuggestions"></div>
+          </div>
           <div class="sort-wrapper">
             <i class="fa-solid fa-sort"></i>
             <select id="sortSelect">
@@ -78,12 +81,24 @@
             <div class="filter-group" id="categoryFilters">
               <label><input type="checkbox" value="Beach" /> Beach</label>
               <label><input type="checkbox" value="Mountain" /> Mountain</label>
-              <label><input type="checkbox" value="City" /> City</label>
+              <label><input type="checkbox" value="Heritage" /> Heritage</label>
+              <label><input type="checkbox" value="Nature" /> Nature</label>
+              <label><input type="checkbox" value="Spiritual" /> Spiritual</label>
+              <label><input type="checkbox" value="Wildlife" /> Wildlife</label>
               <label><input type="checkbox" value="Adventure" /> Adventure</label>
+              <label><input type="checkbox" value="Desert" /> Desert</label>
+              <label><input type="checkbox" value="Romantic" /> Romantic</label>
+              <label><input type="checkbox" value="City" /> City</label>
             </div>
 
-            <p class="filter-label">Max price: <span id="maxPriceLabel">$1500</span></p>
-            <input type="range" id="priceRange" min="200" max="1500" value="1500" step="50" />
+            <p class="filter-label">Price range</p>
+            <div class="filter-group" id="priceFilters">
+              <label><input type="radio" name="priceBucket" value="any" checked /> Any Price</label>
+              <label><input type="radio" name="priceBucket" value="under10" /> Under &#8377;10,000</label>
+              <label><input type="radio" name="priceBucket" value="10-15" /> &#8377;10,000 - &#8377;15,000</label>
+              <label><input type="radio" name="priceBucket" value="15-20" /> &#8377;15,000 - &#8377;20,000</label>
+              <label><input type="radio" name="priceBucket" value="above20" /> Above &#8377;20,000</label>
+            </div>
 
             <p class="filter-label">Minimum rating</p>
             <div class="rating-chip-group" id="ratingFilters">

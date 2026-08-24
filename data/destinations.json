@@ -1,0 +1,3538 @@
+[
+  {
+    "id": "jaipur",
+    "name": "Jaipur, Rajasthan",
+    "category": "Heritage",
+    "region": "North India",
+    "price": 8499,
+    "duration": "3 Days / 2 Nights",
+    "rating": 4.0,
+    "reviews": 2573,
+    "image": "https://picsum.photos/seed/jaipur/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/jaipur-1/1200/700",
+      "https://picsum.photos/seed/jaipur-2/1200/700",
+      "https://picsum.photos/seed/jaipur-3/1200/700"
+    ],
+    "description": "Jaipur is one of North India's most loved heritage destinations, known for centuries-old architecture, royal history, and living culture. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and old-city walking tour",
+        "detail": "Arrive in Jaipur, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Guided fort and monument tour",
+        "detail": "Spend the day exploring Jaipur's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Local handicraft shopping and departure",
+        "detail": "Wrap up remaining sights around Jaipur before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "udaipur",
+    "name": "Udaipur, Rajasthan",
+    "category": "Romantic",
+    "region": "North India",
+    "price": 16499,
+    "duration": "4 Days / 3 Nights",
+    "rating": 4.2,
+    "reviews": 1159,
+    "image": "https://picsum.photos/seed/udaipur/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/udaipur-1/1200/700",
+      "https://picsum.photos/seed/udaipur-2/1200/700",
+      "https://picsum.photos/seed/udaipur-3/1200/700"
+    ],
+    "description": "Udaipur is one of North India's most loved romantic destinations, known for candlelit evenings, scenic backdrops, and unhurried getaways. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and sunset welcome dinner",
+        "detail": "Arrive in Udaipur, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Private excursion and leisure day",
+        "detail": "Spend the day exploring Udaipur's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Spa morning and departure",
+        "detail": "Wrap up remaining sights around Udaipur before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "jaisalmer",
+    "name": "Jaisalmer, Rajasthan",
+    "category": "Desert",
+    "region": "North India",
+    "price": 18499,
+    "duration": "3 Days / 2 Nights",
+    "rating": 4.1,
+    "reviews": 3776,
+    "image": "https://picsum.photos/seed/jaisalmer/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/jaisalmer-1/1200/700",
+      "https://picsum.photos/seed/jaisalmer-2/1200/700",
+      "https://picsum.photos/seed/jaisalmer-3/1200/700"
+    ],
+    "description": "Jaisalmer is one of North India's most loved desert destinations, known for golden dunes, star-filled skies, and desert-camp hospitality. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and desert-camp check-in",
+        "detail": "Arrive in Jaisalmer, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Camel safari and dune sunset",
+        "detail": "Spend the day exploring Jaisalmer's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Folk performance evening and departure",
+        "detail": "Wrap up remaining sights around Jaisalmer before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "jodhpur",
+    "name": "Jodhpur, Rajasthan",
+    "category": "Heritage",
+    "region": "North India",
+    "price": 7499,
+    "duration": "3 Days / 2 Nights",
+    "rating": 4.0,
+    "reviews": 2111,
+    "image": "https://picsum.photos/seed/jodhpur/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/jodhpur-1/1200/700",
+      "https://picsum.photos/seed/jodhpur-2/1200/700",
+      "https://picsum.photos/seed/jodhpur-3/1200/700"
+    ],
+    "description": "Jodhpur is one of North India's most loved heritage destinations, known for centuries-old architecture, royal history, and living culture. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and old-city walking tour",
+        "detail": "Arrive in Jodhpur, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Guided fort and monument tour",
+        "detail": "Spend the day exploring Jodhpur's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Local handicraft shopping and departure",
+        "detail": "Wrap up remaining sights around Jodhpur before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "mount-abu",
+    "name": "Mount Abu, Rajasthan",
+    "category": "Mountain",
+    "region": "North India",
+    "price": 13499,
+    "duration": "5 Days / 4 Nights",
+    "rating": 4.5,
+    "reviews": 537,
+    "image": "https://picsum.photos/seed/mount-abu/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/mount-abu-1/1200/700",
+      "https://picsum.photos/seed/mount-abu-2/1200/700",
+      "https://picsum.photos/seed/mount-abu-3/1200/700"
+    ],
+    "description": "Mount Abu is one of North India's most loved mountain destinations, known for misty peaks, pine-scented air, and sweeping valley views. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and hillside check-in",
+        "detail": "Arrive in Mount Abu, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Valley viewpoints and local sightseeing",
+        "detail": "Spend the day exploring Mount Abu's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Cable car ride and departure",
+        "detail": "Wrap up remaining sights around Mount Abu before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "pushkar",
+    "name": "Pushkar, Rajasthan",
+    "category": "Spiritual",
+    "region": "North India",
+    "price": 9999,
+    "duration": "2 Days / 1 Night",
+    "rating": 4.2,
+    "reviews": 4784,
+    "image": "https://picsum.photos/seed/pushkar/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/pushkar-1/1200/700",
+      "https://picsum.photos/seed/pushkar-2/1200/700",
+      "https://picsum.photos/seed/pushkar-3/1200/700"
+    ],
+    "description": "Pushkar is one of North India's most loved spiritual destinations, known for sacred temples, timeless rituals, and a deep sense of peace. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and evening temple visit",
+        "detail": "Arrive in Pushkar, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Sunrise rituals and pilgrimage circuit",
+        "detail": "Spend the day exploring Pushkar's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Temple blessing ceremony and departure",
+        "detail": "Wrap up remaining sights around Pushkar before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "bikaner",
+    "name": "Bikaner, Rajasthan",
+    "category": "Desert",
+    "region": "North India",
+    "price": 16499,
+    "duration": "3 Days / 2 Nights",
+    "rating": 4.2,
+    "reviews": 2598,
+    "image": "https://picsum.photos/seed/bikaner/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/bikaner-1/1200/700",
+      "https://picsum.photos/seed/bikaner-2/1200/700",
+      "https://picsum.photos/seed/bikaner-3/1200/700"
+    ],
+    "description": "Bikaner is one of North India's most loved desert destinations, known for golden dunes, star-filled skies, and desert-camp hospitality. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and desert-camp check-in",
+        "detail": "Arrive in Bikaner, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Camel safari and dune sunset",
+        "detail": "Spend the day exploring Bikaner's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Folk performance evening and departure",
+        "detail": "Wrap up remaining sights around Bikaner before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "agra",
+    "name": "Agra, Uttar Pradesh",
+    "category": "Heritage",
+    "region": "North India",
+    "price": 6999,
+    "duration": "3 Days / 2 Nights",
+    "rating": 4.8,
+    "reviews": 1627,
+    "image": "https://picsum.photos/seed/agra/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/agra-1/1200/700",
+      "https://picsum.photos/seed/agra-2/1200/700",
+      "https://picsum.photos/seed/agra-3/1200/700"
+    ],
+    "description": "Agra is one of North India's most loved heritage destinations, known for centuries-old architecture, royal history, and living culture. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and old-city walking tour",
+        "detail": "Arrive in Agra, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Guided fort and monument tour",
+        "detail": "Spend the day exploring Agra's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Local handicraft shopping and departure",
+        "detail": "Wrap up remaining sights around Agra before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "delhi",
+    "name": "Delhi",
+    "category": "City",
+    "region": "North India",
+    "price": 12499,
+    "duration": "3 Days / 2 Nights",
+    "rating": 4.4,
+    "reviews": 2596,
+    "image": "https://picsum.photos/seed/delhi/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/delhi-1/1200/700",
+      "https://picsum.photos/seed/delhi-2/1200/700",
+      "https://picsum.photos/seed/delhi-3/1200/700"
+    ],
+    "description": "Delhi is one of North India's most loved city destinations, known for buzzing streets, local food, and a mix of old and new India. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and city orientation tour",
+        "detail": "Arrive in Delhi, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Landmark tour and local markets",
+        "detail": "Spend the day exploring Delhi's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Museum visit and departure",
+        "detail": "Wrap up remaining sights around Delhi before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "varanasi",
+    "name": "Varanasi, Uttar Pradesh",
+    "category": "Spiritual",
+    "region": "North India",
+    "price": 6999,
+    "duration": "2 Days / 1 Night",
+    "rating": 4.2,
+    "reviews": 3077,
+    "image": "https://picsum.photos/seed/varanasi/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/varanasi-1/1200/700",
+      "https://picsum.photos/seed/varanasi-2/1200/700",
+      "https://picsum.photos/seed/varanasi-3/1200/700"
+    ],
+    "description": "Varanasi is one of North India's most loved spiritual destinations, known for sacred temples, timeless rituals, and a deep sense of peace. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and evening temple visit",
+        "detail": "Arrive in Varanasi, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Sunrise rituals and pilgrimage circuit",
+        "detail": "Spend the day exploring Varanasi's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Temple blessing ceremony and departure",
+        "detail": "Wrap up remaining sights around Varanasi before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "lucknow",
+    "name": "Lucknow, Uttar Pradesh",
+    "category": "Heritage",
+    "region": "North India",
+    "price": 8499,
+    "duration": "3 Days / 2 Nights",
+    "rating": 4.1,
+    "reviews": 1112,
+    "image": "https://picsum.photos/seed/lucknow/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/lucknow-1/1200/700",
+      "https://picsum.photos/seed/lucknow-2/1200/700",
+      "https://picsum.photos/seed/lucknow-3/1200/700"
+    ],
+    "description": "Lucknow is one of North India's most loved heritage destinations, known for centuries-old architecture, royal history, and living culture. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and old-city walking tour",
+        "detail": "Arrive in Lucknow, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Guided fort and monument tour",
+        "detail": "Spend the day exploring Lucknow's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Local handicraft shopping and departure",
+        "detail": "Wrap up remaining sights around Lucknow before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "shimla",
+    "name": "Shimla, Himachal Pradesh",
+    "category": "Mountain",
+    "region": "North India",
+    "price": 15499,
+    "duration": "5 Days / 4 Nights",
+    "rating": 4.8,
+    "reviews": 2486,
+    "image": "https://picsum.photos/seed/shimla/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/shimla-1/1200/700",
+      "https://picsum.photos/seed/shimla-2/1200/700",
+      "https://picsum.photos/seed/shimla-3/1200/700"
+    ],
+    "description": "Shimla is one of North India's most loved mountain destinations, known for misty peaks, pine-scented air, and sweeping valley views. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and hillside check-in",
+        "detail": "Arrive in Shimla, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Valley viewpoints and local sightseeing",
+        "detail": "Spend the day exploring Shimla's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Cable car ride and departure",
+        "detail": "Wrap up remaining sights around Shimla before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "manali",
+    "name": "Manali, Himachal Pradesh",
+    "category": "Mountain",
+    "region": "North India",
+    "price": 10499,
+    "duration": "5 Days / 4 Nights",
+    "rating": 4.7,
+    "reviews": 4712,
+    "image": "https://picsum.photos/seed/manali/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/manali-1/1200/700",
+      "https://picsum.photos/seed/manali-2/1200/700",
+      "https://picsum.photos/seed/manali-3/1200/700"
+    ],
+    "description": "Manali is one of North India's most loved mountain destinations, known for misty peaks, pine-scented air, and sweeping valley views. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and hillside check-in",
+        "detail": "Arrive in Manali, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Valley viewpoints and local sightseeing",
+        "detail": "Spend the day exploring Manali's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Cable car ride and departure",
+        "detail": "Wrap up remaining sights around Manali before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "dharamshala",
+    "name": "Dharamshala, Himachal Pradesh",
+    "category": "Spiritual",
+    "region": "North India",
+    "price": 6499,
+    "duration": "2 Days / 1 Night",
+    "rating": 5.0,
+    "reviews": 3420,
+    "image": "https://picsum.photos/seed/dharamshala/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/dharamshala-1/1200/700",
+      "https://picsum.photos/seed/dharamshala-2/1200/700",
+      "https://picsum.photos/seed/dharamshala-3/1200/700"
+    ],
+    "description": "Dharamshala is one of North India's most loved spiritual destinations, known for sacred temples, timeless rituals, and a deep sense of peace. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and evening temple visit",
+        "detail": "Arrive in Dharamshala, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Sunrise rituals and pilgrimage circuit",
+        "detail": "Spend the day exploring Dharamshala's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Temple blessing ceremony and departure",
+        "detail": "Wrap up remaining sights around Dharamshala before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "mcleodganj",
+    "name": "McLeod Ganj, Himachal Pradesh",
+    "category": "Spiritual",
+    "region": "North India",
+    "price": 6499,
+    "duration": "2 Days / 1 Night",
+    "rating": 4.6,
+    "reviews": 3282,
+    "image": "https://picsum.photos/seed/mcleodganj/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/mcleodganj-1/1200/700",
+      "https://picsum.photos/seed/mcleodganj-2/1200/700",
+      "https://picsum.photos/seed/mcleodganj-3/1200/700"
+    ],
+    "description": "McLeod Ganj is one of North India's most loved spiritual destinations, known for sacred temples, timeless rituals, and a deep sense of peace. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and evening temple visit",
+        "detail": "Arrive in McLeod Ganj, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Sunrise rituals and pilgrimage circuit",
+        "detail": "Spend the day exploring McLeod Ganj's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Temple blessing ceremony and departure",
+        "detail": "Wrap up remaining sights around McLeod Ganj before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "kasol",
+    "name": "Kasol, Himachal Pradesh",
+    "category": "Adventure",
+    "region": "North India",
+    "price": 19999,
+    "duration": "5 Days / 4 Nights",
+    "rating": 4.2,
+    "reviews": 889,
+    "image": "https://picsum.photos/seed/kasol/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/kasol-1/1200/700",
+      "https://picsum.photos/seed/kasol-2/1200/700",
+      "https://picsum.photos/seed/kasol-3/1200/700"
+    ],
+    "description": "Kasol is one of North India's most loved adventure destinations, known for high-altitude trails, adrenaline-charged activities, and rugged terrain. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and gear briefing",
+        "detail": "Arrive in Kasol, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Trekking and adventure activities",
+        "detail": "Spend the day exploring Kasol's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Final adventure activity and departure",
+        "detail": "Wrap up remaining sights around Kasol before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "spiti-valley",
+    "name": "Spiti Valley, Himachal Pradesh",
+    "category": "Adventure",
+    "region": "North India",
+    "price": 11499,
+    "duration": "5 Days / 4 Nights",
+    "rating": 4.7,
+    "reviews": 2690,
+    "image": "https://picsum.photos/seed/spiti-valley/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/spiti-valley-1/1200/700",
+      "https://picsum.photos/seed/spiti-valley-2/1200/700",
+      "https://picsum.photos/seed/spiti-valley-3/1200/700"
+    ],
+    "description": "Spiti Valley is one of North India's most loved adventure destinations, known for high-altitude trails, adrenaline-charged activities, and rugged terrain. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and gear briefing",
+        "detail": "Arrive in Spiti Valley, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Trekking and adventure activities",
+        "detail": "Spend the day exploring Spiti Valley's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Final adventure activity and departure",
+        "detail": "Wrap up remaining sights around Spiti Valley before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "dalhousie",
+    "name": "Dalhousie, Himachal Pradesh",
+    "category": "Mountain",
+    "region": "North India",
+    "price": 10999,
+    "duration": "5 Days / 4 Nights",
+    "rating": 4.9,
+    "reviews": 1147,
+    "image": "https://picsum.photos/seed/dalhousie/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/dalhousie-1/1200/700",
+      "https://picsum.photos/seed/dalhousie-2/1200/700",
+      "https://picsum.photos/seed/dalhousie-3/1200/700"
+    ],
+    "description": "Dalhousie is one of North India's most loved mountain destinations, known for misty peaks, pine-scented air, and sweeping valley views. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and hillside check-in",
+        "detail": "Arrive in Dalhousie, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Valley viewpoints and local sightseeing",
+        "detail": "Spend the day exploring Dalhousie's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Cable car ride and departure",
+        "detail": "Wrap up remaining sights around Dalhousie before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "rishikesh",
+    "name": "Rishikesh, Uttarakhand",
+    "category": "Adventure",
+    "region": "North India",
+    "price": 16999,
+    "duration": "5 Days / 4 Nights",
+    "rating": 4.3,
+    "reviews": 3308,
+    "image": "https://picsum.photos/seed/rishikesh/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/rishikesh-1/1200/700",
+      "https://picsum.photos/seed/rishikesh-2/1200/700",
+      "https://picsum.photos/seed/rishikesh-3/1200/700"
+    ],
+    "description": "Rishikesh is one of North India's most loved adventure destinations, known for high-altitude trails, adrenaline-charged activities, and rugged terrain. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and gear briefing",
+        "detail": "Arrive in Rishikesh, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Trekking and adventure activities",
+        "detail": "Spend the day exploring Rishikesh's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Final adventure activity and departure",
+        "detail": "Wrap up remaining sights around Rishikesh before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "haridwar",
+    "name": "Haridwar, Uttarakhand",
+    "category": "Spiritual",
+    "region": "North India",
+    "price": 6999,
+    "duration": "2 Days / 1 Night",
+    "rating": 4.4,
+    "reviews": 2036,
+    "image": "https://picsum.photos/seed/haridwar/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/haridwar-1/1200/700",
+      "https://picsum.photos/seed/haridwar-2/1200/700",
+      "https://picsum.photos/seed/haridwar-3/1200/700"
+    ],
+    "description": "Haridwar is one of North India's most loved spiritual destinations, known for sacred temples, timeless rituals, and a deep sense of peace. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and evening temple visit",
+        "detail": "Arrive in Haridwar, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Sunrise rituals and pilgrimage circuit",
+        "detail": "Spend the day exploring Haridwar's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Temple blessing ceremony and departure",
+        "detail": "Wrap up remaining sights around Haridwar before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "nainital",
+    "name": "Nainital, Uttarakhand",
+    "category": "Nature",
+    "region": "North India",
+    "price": 12999,
+    "duration": "4 Days / 3 Nights",
+    "rating": 4.7,
+    "reviews": 904,
+    "image": "https://picsum.photos/seed/nainital/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/nainital-1/1200/700",
+      "https://picsum.photos/seed/nainital-2/1200/700",
+      "https://picsum.photos/seed/nainital-3/1200/700"
+    ],
+    "description": "Nainital is one of North India's most loved nature destinations, known for lush green landscapes, backwaters, and quiet natural beauty. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and nature orientation",
+        "detail": "Arrive in Nainital, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Guided nature walk and boat ride",
+        "detail": "Spend the day exploring Nainital's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Optional trek and departure",
+        "detail": "Wrap up remaining sights around Nainital before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "mussoorie",
+    "name": "Mussoorie, Uttarakhand",
+    "category": "Mountain",
+    "region": "North India",
+    "price": 19499,
+    "duration": "5 Days / 4 Nights",
+    "rating": 4.6,
+    "reviews": 4695,
+    "image": "https://picsum.photos/seed/mussoorie/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/mussoorie-1/1200/700",
+      "https://picsum.photos/seed/mussoorie-2/1200/700",
+      "https://picsum.photos/seed/mussoorie-3/1200/700"
+    ],
+    "description": "Mussoorie is one of North India's most loved mountain destinations, known for misty peaks, pine-scented air, and sweeping valley views. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and hillside check-in",
+        "detail": "Arrive in Mussoorie, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Valley viewpoints and local sightseeing",
+        "detail": "Spend the day exploring Mussoorie's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Cable car ride and departure",
+        "detail": "Wrap up remaining sights around Mussoorie before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "jim-corbett",
+    "name": "Jim Corbett National Park, Uttarakhand",
+    "category": "Wildlife",
+    "region": "North India",
+    "price": 23499,
+    "duration": "3 Days / 2 Nights",
+    "rating": 4.2,
+    "reviews": 4106,
+    "image": "https://picsum.photos/seed/jim-corbett/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/jim-corbett-1/1200/700",
+      "https://picsum.photos/seed/jim-corbett-2/1200/700",
+      "https://picsum.photos/seed/jim-corbett-3/1200/700"
+    ],
+    "description": "Jim Corbett National Park is one of North India's most loved wildlife destinations, known for dense forests, rare species, and thrilling safari trails. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and forest lodge check-in",
+        "detail": "Arrive in Jim Corbett National Park, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Full-day jungle safari",
+        "detail": "Spend the day exploring Jim Corbett National Park's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Morning safari and departure",
+        "detail": "Wrap up remaining sights around Jim Corbett National Park before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "auli",
+    "name": "Auli, Uttarakhand",
+    "category": "Adventure",
+    "region": "North India",
+    "price": 16999,
+    "duration": "5 Days / 4 Nights",
+    "rating": 4.3,
+    "reviews": 2119,
+    "image": "https://picsum.photos/seed/auli/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/auli-1/1200/700",
+      "https://picsum.photos/seed/auli-2/1200/700",
+      "https://picsum.photos/seed/auli-3/1200/700"
+    ],
+    "description": "Auli is one of North India's most loved adventure destinations, known for high-altitude trails, adrenaline-charged activities, and rugged terrain. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and gear briefing",
+        "detail": "Arrive in Auli, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Trekking and adventure activities",
+        "detail": "Spend the day exploring Auli's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Final adventure activity and departure",
+        "detail": "Wrap up remaining sights around Auli before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "amritsar",
+    "name": "Amritsar, Punjab",
+    "category": "Spiritual",
+    "region": "North India",
+    "price": 10999,
+    "duration": "2 Days / 1 Night",
+    "rating": 4.3,
+    "reviews": 778,
+    "image": "https://picsum.photos/seed/amritsar/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/amritsar-1/1200/700",
+      "https://picsum.photos/seed/amritsar-2/1200/700",
+      "https://picsum.photos/seed/amritsar-3/1200/700"
+    ],
+    "description": "Amritsar is one of North India's most loved spiritual destinations, known for sacred temples, timeless rituals, and a deep sense of peace. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and evening temple visit",
+        "detail": "Arrive in Amritsar, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Sunrise rituals and pilgrimage circuit",
+        "detail": "Spend the day exploring Amritsar's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Temple blessing ceremony and departure",
+        "detail": "Wrap up remaining sights around Amritsar before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "chandigarh",
+    "name": "Chandigarh",
+    "category": "City",
+    "region": "North India",
+    "price": 8499,
+    "duration": "3 Days / 2 Nights",
+    "rating": 4.8,
+    "reviews": 2904,
+    "image": "https://picsum.photos/seed/chandigarh/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/chandigarh-1/1200/700",
+      "https://picsum.photos/seed/chandigarh-2/1200/700",
+      "https://picsum.photos/seed/chandigarh-3/1200/700"
+    ],
+    "description": "Chandigarh is one of North India's most loved city destinations, known for buzzing streets, local food, and a mix of old and new India. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and city orientation tour",
+        "detail": "Arrive in Chandigarh, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Landmark tour and local markets",
+        "detail": "Spend the day exploring Chandigarh's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Museum visit and departure",
+        "detail": "Wrap up remaining sights around Chandigarh before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "leh-ladakh",
+    "name": "Leh-Ladakh, Jammu and Kashmir",
+    "category": "Adventure",
+    "region": "North India",
+    "price": 16999,
+    "duration": "5 Days / 4 Nights",
+    "rating": 4.3,
+    "reviews": 2048,
+    "image": "https://picsum.photos/seed/leh-ladakh/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/leh-ladakh-1/1200/700",
+      "https://picsum.photos/seed/leh-ladakh-2/1200/700",
+      "https://picsum.photos/seed/leh-ladakh-3/1200/700"
+    ],
+    "description": "Leh-Ladakh is one of North India's most loved adventure destinations, known for high-altitude trails, adrenaline-charged activities, and rugged terrain. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and gear briefing",
+        "detail": "Arrive in Leh-Ladakh, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Trekking and adventure activities",
+        "detail": "Spend the day exploring Leh-Ladakh's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Final adventure activity and departure",
+        "detail": "Wrap up remaining sights around Leh-Ladakh before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "srinagar",
+    "name": "Srinagar, Jammu and Kashmir",
+    "category": "Nature",
+    "region": "North India",
+    "price": 13999,
+    "duration": "4 Days / 3 Nights",
+    "rating": 4.2,
+    "reviews": 4409,
+    "image": "https://picsum.photos/seed/srinagar/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/srinagar-1/1200/700",
+      "https://picsum.photos/seed/srinagar-2/1200/700",
+      "https://picsum.photos/seed/srinagar-3/1200/700"
+    ],
+    "description": "Srinagar is one of North India's most loved nature destinations, known for lush green landscapes, backwaters, and quiet natural beauty. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and nature orientation",
+        "detail": "Arrive in Srinagar, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Guided nature walk and boat ride",
+        "detail": "Spend the day exploring Srinagar's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Optional trek and departure",
+        "detail": "Wrap up remaining sights around Srinagar before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "gulmarg",
+    "name": "Gulmarg, Jammu and Kashmir",
+    "category": "Mountain",
+    "region": "North India",
+    "price": 15999,
+    "duration": "5 Days / 4 Nights",
+    "rating": 4.9,
+    "reviews": 4078,
+    "image": "https://picsum.photos/seed/gulmarg/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/gulmarg-1/1200/700",
+      "https://picsum.photos/seed/gulmarg-2/1200/700",
+      "https://picsum.photos/seed/gulmarg-3/1200/700"
+    ],
+    "description": "Gulmarg is one of North India's most loved mountain destinations, known for misty peaks, pine-scented air, and sweeping valley views. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and hillside check-in",
+        "detail": "Arrive in Gulmarg, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Valley viewpoints and local sightseeing",
+        "detail": "Spend the day exploring Gulmarg's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Cable car ride and departure",
+        "detail": "Wrap up remaining sights around Gulmarg before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "pahalgam",
+    "name": "Pahalgam, Jammu and Kashmir",
+    "category": "Mountain",
+    "region": "North India",
+    "price": 11999,
+    "duration": "5 Days / 4 Nights",
+    "rating": 4.3,
+    "reviews": 2340,
+    "image": "https://picsum.photos/seed/pahalgam/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/pahalgam-1/1200/700",
+      "https://picsum.photos/seed/pahalgam-2/1200/700",
+      "https://picsum.photos/seed/pahalgam-3/1200/700"
+    ],
+    "description": "Pahalgam is one of North India's most loved mountain destinations, known for misty peaks, pine-scented air, and sweeping valley views. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and hillside check-in",
+        "detail": "Arrive in Pahalgam, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Valley viewpoints and local sightseeing",
+        "detail": "Spend the day exploring Pahalgam's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Cable car ride and departure",
+        "detail": "Wrap up remaining sights around Pahalgam before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "munnar",
+    "name": "Munnar, Kerala",
+    "category": "Mountain",
+    "region": "South India",
+    "price": 21499,
+    "duration": "5 Days / 4 Nights",
+    "rating": 4.6,
+    "reviews": 2472,
+    "image": "https://picsum.photos/seed/munnar/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/munnar-1/1200/700",
+      "https://picsum.photos/seed/munnar-2/1200/700",
+      "https://picsum.photos/seed/munnar-3/1200/700"
+    ],
+    "description": "Munnar is one of South India's most loved mountain destinations, known for misty peaks, pine-scented air, and sweeping valley views. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and hillside check-in",
+        "detail": "Arrive in Munnar, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Valley viewpoints and local sightseeing",
+        "detail": "Spend the day exploring Munnar's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Cable car ride and departure",
+        "detail": "Wrap up remaining sights around Munnar before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "alleppey",
+    "name": "Alleppey, Kerala",
+    "category": "Nature",
+    "region": "South India",
+    "price": 15499,
+    "duration": "4 Days / 3 Nights",
+    "rating": 4.9,
+    "reviews": 3591,
+    "image": "https://picsum.photos/seed/alleppey/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/alleppey-1/1200/700",
+      "https://picsum.photos/seed/alleppey-2/1200/700",
+      "https://picsum.photos/seed/alleppey-3/1200/700"
+    ],
+    "description": "Alleppey is one of South India's most loved nature destinations, known for lush green landscapes, backwaters, and quiet natural beauty. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and nature orientation",
+        "detail": "Arrive in Alleppey, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Guided nature walk and boat ride",
+        "detail": "Spend the day exploring Alleppey's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Optional trek and departure",
+        "detail": "Wrap up remaining sights around Alleppey before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "kumarakom",
+    "name": "Kumarakom, Kerala",
+    "category": "Nature",
+    "region": "South India",
+    "price": 14499,
+    "duration": "4 Days / 3 Nights",
+    "rating": 4.2,
+    "reviews": 1453,
+    "image": "https://picsum.photos/seed/kumarakom/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/kumarakom-1/1200/700",
+      "https://picsum.photos/seed/kumarakom-2/1200/700",
+      "https://picsum.photos/seed/kumarakom-3/1200/700"
+    ],
+    "description": "Kumarakom is one of South India's most loved nature destinations, known for lush green landscapes, backwaters, and quiet natural beauty. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and nature orientation",
+        "detail": "Arrive in Kumarakom, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Guided nature walk and boat ride",
+        "detail": "Spend the day exploring Kumarakom's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Optional trek and departure",
+        "detail": "Wrap up remaining sights around Kumarakom before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "kochi",
+    "name": "Kochi, Kerala",
+    "category": "Heritage",
+    "region": "South India",
+    "price": 14999,
+    "duration": "3 Days / 2 Nights",
+    "rating": 4.5,
+    "reviews": 705,
+    "image": "https://picsum.photos/seed/kochi/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/kochi-1/1200/700",
+      "https://picsum.photos/seed/kochi-2/1200/700",
+      "https://picsum.photos/seed/kochi-3/1200/700"
+    ],
+    "description": "Kochi is one of South India's most loved heritage destinations, known for centuries-old architecture, royal history, and living culture. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and old-city walking tour",
+        "detail": "Arrive in Kochi, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Guided fort and monument tour",
+        "detail": "Spend the day exploring Kochi's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Local handicraft shopping and departure",
+        "detail": "Wrap up remaining sights around Kochi before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "wayanad",
+    "name": "Wayanad, Kerala",
+    "category": "Wildlife",
+    "region": "South India",
+    "price": 13499,
+    "duration": "3 Days / 2 Nights",
+    "rating": 4.2,
+    "reviews": 1630,
+    "image": "https://picsum.photos/seed/wayanad/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/wayanad-1/1200/700",
+      "https://picsum.photos/seed/wayanad-2/1200/700",
+      "https://picsum.photos/seed/wayanad-3/1200/700"
+    ],
+    "description": "Wayanad is one of South India's most loved wildlife destinations, known for dense forests, rare species, and thrilling safari trails. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and forest lodge check-in",
+        "detail": "Arrive in Wayanad, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Full-day jungle safari",
+        "detail": "Spend the day exploring Wayanad's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Morning safari and departure",
+        "detail": "Wrap up remaining sights around Wayanad before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "thekkady",
+    "name": "Thekkady, Kerala",
+    "category": "Wildlife",
+    "region": "South India",
+    "price": 24499,
+    "duration": "3 Days / 2 Nights",
+    "rating": 4.7,
+    "reviews": 840,
+    "image": "https://picsum.photos/seed/thekkady/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/thekkady-1/1200/700",
+      "https://picsum.photos/seed/thekkady-2/1200/700",
+      "https://picsum.photos/seed/thekkady-3/1200/700"
+    ],
+    "description": "Thekkady is one of South India's most loved wildlife destinations, known for dense forests, rare species, and thrilling safari trails. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and forest lodge check-in",
+        "detail": "Arrive in Thekkady, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Full-day jungle safari",
+        "detail": "Spend the day exploring Thekkady's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Morning safari and departure",
+        "detail": "Wrap up remaining sights around Thekkady before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "varkala",
+    "name": "Varkala, Kerala",
+    "category": "Beach",
+    "region": "South India",
+    "price": 14999,
+    "duration": "4 Days / 3 Nights",
+    "rating": 4.4,
+    "reviews": 4154,
+    "image": "https://picsum.photos/seed/varkala/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/varkala-1/1200/700",
+      "https://picsum.photos/seed/varkala-2/1200/700",
+      "https://picsum.photos/seed/varkala-3/1200/700"
+    ],
+    "description": "Varkala is one of South India's most loved beach destinations, known for sun-soaked shores, gentle waves, and laid-back coastal charm. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and beach welcome",
+        "detail": "Arrive in Varkala, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Water sports and coastal exploration",
+        "detail": "Spend the day exploring Varkala's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Leisure day and departure",
+        "detail": "Wrap up remaining sights around Varkala before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "kovalam",
+    "name": "Kovalam, Kerala",
+    "category": "Beach",
+    "region": "South India",
+    "price": 16999,
+    "duration": "4 Days / 3 Nights",
+    "rating": 4.3,
+    "reviews": 414,
+    "image": "https://picsum.photos/seed/kovalam/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/kovalam-1/1200/700",
+      "https://picsum.photos/seed/kovalam-2/1200/700",
+      "https://picsum.photos/seed/kovalam-3/1200/700"
+    ],
+    "description": "Kovalam is one of South India's most loved beach destinations, known for sun-soaked shores, gentle waves, and laid-back coastal charm. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and beach welcome",
+        "detail": "Arrive in Kovalam, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Water sports and coastal exploration",
+        "detail": "Spend the day exploring Kovalam's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Leisure day and departure",
+        "detail": "Wrap up remaining sights around Kovalam before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "ooty",
+    "name": "Ooty, Tamil Nadu",
+    "category": "Mountain",
+    "region": "South India",
+    "price": 20499,
+    "duration": "5 Days / 4 Nights",
+    "rating": 4.7,
+    "reviews": 4718,
+    "image": "https://picsum.photos/seed/ooty/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/ooty-1/1200/700",
+      "https://picsum.photos/seed/ooty-2/1200/700",
+      "https://picsum.photos/seed/ooty-3/1200/700"
+    ],
+    "description": "Ooty is one of South India's most loved mountain destinations, known for misty peaks, pine-scented air, and sweeping valley views. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and hillside check-in",
+        "detail": "Arrive in Ooty, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Valley viewpoints and local sightseeing",
+        "detail": "Spend the day exploring Ooty's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Cable car ride and departure",
+        "detail": "Wrap up remaining sights around Ooty before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "kodaikanal",
+    "name": "Kodaikanal, Tamil Nadu",
+    "category": "Mountain",
+    "region": "South India",
+    "price": 13999,
+    "duration": "5 Days / 4 Nights",
+    "rating": 4.8,
+    "reviews": 3106,
+    "image": "https://picsum.photos/seed/kodaikanal/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/kodaikanal-1/1200/700",
+      "https://picsum.photos/seed/kodaikanal-2/1200/700",
+      "https://picsum.photos/seed/kodaikanal-3/1200/700"
+    ],
+    "description": "Kodaikanal is one of South India's most loved mountain destinations, known for misty peaks, pine-scented air, and sweeping valley views. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and hillside check-in",
+        "detail": "Arrive in Kodaikanal, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Valley viewpoints and local sightseeing",
+        "detail": "Spend the day exploring Kodaikanal's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Cable car ride and departure",
+        "detail": "Wrap up remaining sights around Kodaikanal before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "chennai",
+    "name": "Chennai, Tamil Nadu",
+    "category": "City",
+    "region": "South India",
+    "price": 7499,
+    "duration": "3 Days / 2 Nights",
+    "rating": 4.3,
+    "reviews": 1615,
+    "image": "https://picsum.photos/seed/chennai/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/chennai-1/1200/700",
+      "https://picsum.photos/seed/chennai-2/1200/700",
+      "https://picsum.photos/seed/chennai-3/1200/700"
+    ],
+    "description": "Chennai is one of South India's most loved city destinations, known for buzzing streets, local food, and a mix of old and new India. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and city orientation tour",
+        "detail": "Arrive in Chennai, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Landmark tour and local markets",
+        "detail": "Spend the day exploring Chennai's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Museum visit and departure",
+        "detail": "Wrap up remaining sights around Chennai before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "madurai",
+    "name": "Madurai, Tamil Nadu",
+    "category": "Heritage",
+    "region": "South India",
+    "price": 13999,
+    "duration": "3 Days / 2 Nights",
+    "rating": 4.0,
+    "reviews": 2477,
+    "image": "https://picsum.photos/seed/madurai/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/madurai-1/1200/700",
+      "https://picsum.photos/seed/madurai-2/1200/700",
+      "https://picsum.photos/seed/madurai-3/1200/700"
+    ],
+    "description": "Madurai is one of South India's most loved heritage destinations, known for centuries-old architecture, royal history, and living culture. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and old-city walking tour",
+        "detail": "Arrive in Madurai, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Guided fort and monument tour",
+        "detail": "Spend the day exploring Madurai's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Local handicraft shopping and departure",
+        "detail": "Wrap up remaining sights around Madurai before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "rameswaram",
+    "name": "Rameswaram, Tamil Nadu",
+    "category": "Spiritual",
+    "region": "South India",
+    "price": 9999,
+    "duration": "2 Days / 1 Night",
+    "rating": 4.8,
+    "reviews": 4478,
+    "image": "https://picsum.photos/seed/rameswaram/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/rameswaram-1/1200/700",
+      "https://picsum.photos/seed/rameswaram-2/1200/700",
+      "https://picsum.photos/seed/rameswaram-3/1200/700"
+    ],
+    "description": "Rameswaram is one of South India's most loved spiritual destinations, known for sacred temples, timeless rituals, and a deep sense of peace. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and evening temple visit",
+        "detail": "Arrive in Rameswaram, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Sunrise rituals and pilgrimage circuit",
+        "detail": "Spend the day exploring Rameswaram's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Temple blessing ceremony and departure",
+        "detail": "Wrap up remaining sights around Rameswaram before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "kanyakumari",
+    "name": "Kanyakumari, Tamil Nadu",
+    "category": "Beach",
+    "region": "South India",
+    "price": 10499,
+    "duration": "4 Days / 3 Nights",
+    "rating": 4.9,
+    "reviews": 2764,
+    "image": "https://picsum.photos/seed/kanyakumari/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/kanyakumari-1/1200/700",
+      "https://picsum.photos/seed/kanyakumari-2/1200/700",
+      "https://picsum.photos/seed/kanyakumari-3/1200/700"
+    ],
+    "description": "Kanyakumari is one of South India's most loved beach destinations, known for sun-soaked shores, gentle waves, and laid-back coastal charm. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and beach welcome",
+        "detail": "Arrive in Kanyakumari, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Water sports and coastal exploration",
+        "detail": "Spend the day exploring Kanyakumari's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Leisure day and departure",
+        "detail": "Wrap up remaining sights around Kanyakumari before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "pondicherry",
+    "name": "Pondicherry",
+    "category": "Romantic",
+    "region": "South India",
+    "price": 25999,
+    "duration": "4 Days / 3 Nights",
+    "rating": 4.6,
+    "reviews": 1949,
+    "image": "https://picsum.photos/seed/pondicherry/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/pondicherry-1/1200/700",
+      "https://picsum.photos/seed/pondicherry-2/1200/700",
+      "https://picsum.photos/seed/pondicherry-3/1200/700"
+    ],
+    "description": "Pondicherry is one of South India's most loved romantic destinations, known for candlelit evenings, scenic backdrops, and unhurried getaways. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and sunset welcome dinner",
+        "detail": "Arrive in Pondicherry, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Private excursion and leisure day",
+        "detail": "Spend the day exploring Pondicherry's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Spa morning and departure",
+        "detail": "Wrap up remaining sights around Pondicherry before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "mysore",
+    "name": "Mysore, Karnataka",
+    "category": "Heritage",
+    "region": "South India",
+    "price": 8999,
+    "duration": "3 Days / 2 Nights",
+    "rating": 4.4,
+    "reviews": 1643,
+    "image": "https://picsum.photos/seed/mysore/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/mysore-1/1200/700",
+      "https://picsum.photos/seed/mysore-2/1200/700",
+      "https://picsum.photos/seed/mysore-3/1200/700"
+    ],
+    "description": "Mysore is one of South India's most loved heritage destinations, known for centuries-old architecture, royal history, and living culture. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and old-city walking tour",
+        "detail": "Arrive in Mysore, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Guided fort and monument tour",
+        "detail": "Spend the day exploring Mysore's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Local handicraft shopping and departure",
+        "detail": "Wrap up remaining sights around Mysore before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "coorg",
+    "name": "Coorg, Karnataka",
+    "category": "Nature",
+    "region": "South India",
+    "price": 17499,
+    "duration": "4 Days / 3 Nights",
+    "rating": 5.0,
+    "reviews": 4664,
+    "image": "https://picsum.photos/seed/coorg/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/coorg-1/1200/700",
+      "https://picsum.photos/seed/coorg-2/1200/700",
+      "https://picsum.photos/seed/coorg-3/1200/700"
+    ],
+    "description": "Coorg is one of South India's most loved nature destinations, known for lush green landscapes, backwaters, and quiet natural beauty. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and nature orientation",
+        "detail": "Arrive in Coorg, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Guided nature walk and boat ride",
+        "detail": "Spend the day exploring Coorg's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Optional trek and departure",
+        "detail": "Wrap up remaining sights around Coorg before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "hampi",
+    "name": "Hampi, Karnataka",
+    "category": "Heritage",
+    "region": "South India",
+    "price": 6999,
+    "duration": "3 Days / 2 Nights",
+    "rating": 4.6,
+    "reviews": 4322,
+    "image": "https://picsum.photos/seed/hampi/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/hampi-1/1200/700",
+      "https://picsum.photos/seed/hampi-2/1200/700",
+      "https://picsum.photos/seed/hampi-3/1200/700"
+    ],
+    "description": "Hampi is one of South India's most loved heritage destinations, known for centuries-old architecture, royal history, and living culture. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and old-city walking tour",
+        "detail": "Arrive in Hampi, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Guided fort and monument tour",
+        "detail": "Spend the day exploring Hampi's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Local handicraft shopping and departure",
+        "detail": "Wrap up remaining sights around Hampi before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "gokarna",
+    "name": "Gokarna, Karnataka",
+    "category": "Beach",
+    "region": "South India",
+    "price": 8999,
+    "duration": "4 Days / 3 Nights",
+    "rating": 4.1,
+    "reviews": 3293,
+    "image": "https://picsum.photos/seed/gokarna/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/gokarna-1/1200/700",
+      "https://picsum.photos/seed/gokarna-2/1200/700",
+      "https://picsum.photos/seed/gokarna-3/1200/700"
+    ],
+    "description": "Gokarna is one of South India's most loved beach destinations, known for sun-soaked shores, gentle waves, and laid-back coastal charm. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and beach welcome",
+        "detail": "Arrive in Gokarna, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Water sports and coastal exploration",
+        "detail": "Spend the day exploring Gokarna's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Leisure day and departure",
+        "detail": "Wrap up remaining sights around Gokarna before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "chikmagalur",
+    "name": "Chikmagalur, Karnataka",
+    "category": "Nature",
+    "region": "South India",
+    "price": 13499,
+    "duration": "4 Days / 3 Nights",
+    "rating": 4.2,
+    "reviews": 2293,
+    "image": "https://picsum.photos/seed/chikmagalur/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/chikmagalur-1/1200/700",
+      "https://picsum.photos/seed/chikmagalur-2/1200/700",
+      "https://picsum.photos/seed/chikmagalur-3/1200/700"
+    ],
+    "description": "Chikmagalur is one of South India's most loved nature destinations, known for lush green landscapes, backwaters, and quiet natural beauty. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and nature orientation",
+        "detail": "Arrive in Chikmagalur, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Guided nature walk and boat ride",
+        "detail": "Spend the day exploring Chikmagalur's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Optional trek and departure",
+        "detail": "Wrap up remaining sights around Chikmagalur before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "bangalore",
+    "name": "Bangalore, Karnataka",
+    "category": "City",
+    "region": "South India",
+    "price": 11499,
+    "duration": "3 Days / 2 Nights",
+    "rating": 4.9,
+    "reviews": 1021,
+    "image": "https://picsum.photos/seed/bangalore/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/bangalore-1/1200/700",
+      "https://picsum.photos/seed/bangalore-2/1200/700",
+      "https://picsum.photos/seed/bangalore-3/1200/700"
+    ],
+    "description": "Bangalore is one of South India's most loved city destinations, known for buzzing streets, local food, and a mix of old and new India. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and city orientation tour",
+        "detail": "Arrive in Bangalore, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Landmark tour and local markets",
+        "detail": "Spend the day exploring Bangalore's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Museum visit and departure",
+        "detail": "Wrap up remaining sights around Bangalore before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "bandipur",
+    "name": "Bandipur National Park, Karnataka",
+    "category": "Wildlife",
+    "region": "South India",
+    "price": 23499,
+    "duration": "3 Days / 2 Nights",
+    "rating": 4.5,
+    "reviews": 886,
+    "image": "https://picsum.photos/seed/bandipur/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/bandipur-1/1200/700",
+      "https://picsum.photos/seed/bandipur-2/1200/700",
+      "https://picsum.photos/seed/bandipur-3/1200/700"
+    ],
+    "description": "Bandipur National Park is one of South India's most loved wildlife destinations, known for dense forests, rare species, and thrilling safari trails. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and forest lodge check-in",
+        "detail": "Arrive in Bandipur National Park, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Full-day jungle safari",
+        "detail": "Spend the day exploring Bandipur National Park's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Morning safari and departure",
+        "detail": "Wrap up remaining sights around Bandipur National Park before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "hyderabad",
+    "name": "Hyderabad, Telangana",
+    "category": "Heritage",
+    "region": "South India",
+    "price": 15499,
+    "duration": "3 Days / 2 Nights",
+    "rating": 4.8,
+    "reviews": 1371,
+    "image": "https://picsum.photos/seed/hyderabad/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/hyderabad-1/1200/700",
+      "https://picsum.photos/seed/hyderabad-2/1200/700",
+      "https://picsum.photos/seed/hyderabad-3/1200/700"
+    ],
+    "description": "Hyderabad is one of South India's most loved heritage destinations, known for centuries-old architecture, royal history, and living culture. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and old-city walking tour",
+        "detail": "Arrive in Hyderabad, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Guided fort and monument tour",
+        "detail": "Spend the day exploring Hyderabad's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Local handicraft shopping and departure",
+        "detail": "Wrap up remaining sights around Hyderabad before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "tirupati",
+    "name": "Tirupati, Andhra Pradesh",
+    "category": "Spiritual",
+    "region": "South India",
+    "price": 10999,
+    "duration": "2 Days / 1 Night",
+    "rating": 4.5,
+    "reviews": 1672,
+    "image": "https://picsum.photos/seed/tirupati/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/tirupati-1/1200/700",
+      "https://picsum.photos/seed/tirupati-2/1200/700",
+      "https://picsum.photos/seed/tirupati-3/1200/700"
+    ],
+    "description": "Tirupati is one of South India's most loved spiritual destinations, known for sacred temples, timeless rituals, and a deep sense of peace. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and evening temple visit",
+        "detail": "Arrive in Tirupati, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Sunrise rituals and pilgrimage circuit",
+        "detail": "Spend the day exploring Tirupati's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Temple blessing ceremony and departure",
+        "detail": "Wrap up remaining sights around Tirupati before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "visakhapatnam",
+    "name": "Visakhapatnam, Andhra Pradesh",
+    "category": "Beach",
+    "region": "South India",
+    "price": 12999,
+    "duration": "4 Days / 3 Nights",
+    "rating": 4.5,
+    "reviews": 3786,
+    "image": "https://picsum.photos/seed/visakhapatnam/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/visakhapatnam-1/1200/700",
+      "https://picsum.photos/seed/visakhapatnam-2/1200/700",
+      "https://picsum.photos/seed/visakhapatnam-3/1200/700"
+    ],
+    "description": "Visakhapatnam is one of South India's most loved beach destinations, known for sun-soaked shores, gentle waves, and laid-back coastal charm. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and beach welcome",
+        "detail": "Arrive in Visakhapatnam, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Water sports and coastal exploration",
+        "detail": "Spend the day exploring Visakhapatnam's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Leisure day and departure",
+        "detail": "Wrap up remaining sights around Visakhapatnam before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "araku-valley",
+    "name": "Araku Valley, Andhra Pradesh",
+    "category": "Nature",
+    "region": "South India",
+    "price": 11999,
+    "duration": "4 Days / 3 Nights",
+    "rating": 4.9,
+    "reviews": 1967,
+    "image": "https://picsum.photos/seed/araku-valley/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/araku-valley-1/1200/700",
+      "https://picsum.photos/seed/araku-valley-2/1200/700",
+      "https://picsum.photos/seed/araku-valley-3/1200/700"
+    ],
+    "description": "Araku Valley is one of South India's most loved nature destinations, known for lush green landscapes, backwaters, and quiet natural beauty. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and nature orientation",
+        "detail": "Arrive in Araku Valley, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Guided nature walk and boat ride",
+        "detail": "Spend the day exploring Araku Valley's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Optional trek and departure",
+        "detail": "Wrap up remaining sights around Araku Valley before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "andaman",
+    "name": "Port Blair and Havelock, Andaman Islands",
+    "category": "Beach",
+    "region": "South India",
+    "price": 13499,
+    "duration": "4 Days / 3 Nights",
+    "rating": 4.4,
+    "reviews": 3379,
+    "image": "https://picsum.photos/seed/andaman/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/andaman-1/1200/700",
+      "https://picsum.photos/seed/andaman-2/1200/700",
+      "https://picsum.photos/seed/andaman-3/1200/700"
+    ],
+    "description": "Port Blair and Havelock is one of South India's most loved beach destinations, known for sun-soaked shores, gentle waves, and laid-back coastal charm. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and beach welcome",
+        "detail": "Arrive in Port Blair and Havelock, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Water sports and coastal exploration",
+        "detail": "Spend the day exploring Port Blair and Havelock's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Leisure day and departure",
+        "detail": "Wrap up remaining sights around Port Blair and Havelock before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "lakshadweep",
+    "name": "Lakshadweep Islands",
+    "category": "Beach",
+    "region": "South India",
+    "price": 15999,
+    "duration": "4 Days / 3 Nights",
+    "rating": 4.9,
+    "reviews": 4018,
+    "image": "https://picsum.photos/seed/lakshadweep/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/lakshadweep-1/1200/700",
+      "https://picsum.photos/seed/lakshadweep-2/1200/700",
+      "https://picsum.photos/seed/lakshadweep-3/1200/700"
+    ],
+    "description": "Lakshadweep Islands is one of South India's most loved beach destinations, known for sun-soaked shores, gentle waves, and laid-back coastal charm. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and beach welcome",
+        "detail": "Arrive in Lakshadweep Islands, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Water sports and coastal exploration",
+        "detail": "Spend the day exploring Lakshadweep Islands's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Leisure day and departure",
+        "detail": "Wrap up remaining sights around Lakshadweep Islands before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "goa-north",
+    "name": "North Goa, Goa",
+    "category": "Beach",
+    "region": "West India",
+    "price": 10499,
+    "duration": "4 Days / 3 Nights",
+    "rating": 4.2,
+    "reviews": 844,
+    "image": "https://picsum.photos/seed/goa-north/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/goa-north-1/1200/700",
+      "https://picsum.photos/seed/goa-north-2/1200/700",
+      "https://picsum.photos/seed/goa-north-3/1200/700"
+    ],
+    "description": "Goa is one of West India's most loved beach destinations, known for sun-soaked shores, gentle waves, and laid-back coastal charm. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and beach welcome",
+        "detail": "Arrive in Goa, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Water sports and coastal exploration",
+        "detail": "Spend the day exploring Goa's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Leisure day and departure",
+        "detail": "Wrap up remaining sights around Goa before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "mumbai",
+    "name": "Mumbai, Maharashtra",
+    "category": "City",
+    "region": "West India",
+    "price": 9499,
+    "duration": "3 Days / 2 Nights",
+    "rating": 4.0,
+    "reviews": 2205,
+    "image": "https://picsum.photos/seed/mumbai/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/mumbai-1/1200/700",
+      "https://picsum.photos/seed/mumbai-2/1200/700",
+      "https://picsum.photos/seed/mumbai-3/1200/700"
+    ],
+    "description": "Mumbai is one of West India's most loved city destinations, known for buzzing streets, local food, and a mix of old and new India. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and city orientation tour",
+        "detail": "Arrive in Mumbai, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Landmark tour and local markets",
+        "detail": "Spend the day exploring Mumbai's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Museum visit and departure",
+        "detail": "Wrap up remaining sights around Mumbai before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "pune",
+    "name": "Pune, Maharashtra",
+    "category": "City",
+    "region": "West India",
+    "price": 11499,
+    "duration": "3 Days / 2 Nights",
+    "rating": 4.2,
+    "reviews": 901,
+    "image": "https://picsum.photos/seed/pune/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/pune-1/1200/700",
+      "https://picsum.photos/seed/pune-2/1200/700",
+      "https://picsum.photos/seed/pune-3/1200/700"
+    ],
+    "description": "Pune is one of West India's most loved city destinations, known for buzzing streets, local food, and a mix of old and new India. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and city orientation tour",
+        "detail": "Arrive in Pune, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Landmark tour and local markets",
+        "detail": "Spend the day exploring Pune's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Museum visit and departure",
+        "detail": "Wrap up remaining sights around Pune before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "lonavala",
+    "name": "Lonavala, Maharashtra",
+    "category": "Nature",
+    "region": "West India",
+    "price": 9499,
+    "duration": "4 Days / 3 Nights",
+    "rating": 4.2,
+    "reviews": 577,
+    "image": "https://picsum.photos/seed/lonavala/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/lonavala-1/1200/700",
+      "https://picsum.photos/seed/lonavala-2/1200/700",
+      "https://picsum.photos/seed/lonavala-3/1200/700"
+    ],
+    "description": "Lonavala is one of West India's most loved nature destinations, known for lush green landscapes, backwaters, and quiet natural beauty. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and nature orientation",
+        "detail": "Arrive in Lonavala, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Guided nature walk and boat ride",
+        "detail": "Spend the day exploring Lonavala's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Optional trek and departure",
+        "detail": "Wrap up remaining sights around Lonavala before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "mahabaleshwar",
+    "name": "Mahabaleshwar, Maharashtra",
+    "category": "Mountain",
+    "region": "West India",
+    "price": 14999,
+    "duration": "5 Days / 4 Nights",
+    "rating": 4.1,
+    "reviews": 2269,
+    "image": "https://picsum.photos/seed/mahabaleshwar/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/mahabaleshwar-1/1200/700",
+      "https://picsum.photos/seed/mahabaleshwar-2/1200/700",
+      "https://picsum.photos/seed/mahabaleshwar-3/1200/700"
+    ],
+    "description": "Mahabaleshwar is one of West India's most loved mountain destinations, known for misty peaks, pine-scented air, and sweeping valley views. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and hillside check-in",
+        "detail": "Arrive in Mahabaleshwar, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Valley viewpoints and local sightseeing",
+        "detail": "Spend the day exploring Mahabaleshwar's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Cable car ride and departure",
+        "detail": "Wrap up remaining sights around Mahabaleshwar before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "alibaug",
+    "name": "Alibaug, Maharashtra",
+    "category": "Beach",
+    "region": "West India",
+    "price": 12999,
+    "duration": "4 Days / 3 Nights",
+    "rating": 4.7,
+    "reviews": 2075,
+    "image": "https://picsum.photos/seed/alibaug/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/alibaug-1/1200/700",
+      "https://picsum.photos/seed/alibaug-2/1200/700",
+      "https://picsum.photos/seed/alibaug-3/1200/700"
+    ],
+    "description": "Alibaug is one of West India's most loved beach destinations, known for sun-soaked shores, gentle waves, and laid-back coastal charm. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and beach welcome",
+        "detail": "Arrive in Alibaug, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Water sports and coastal exploration",
+        "detail": "Spend the day exploring Alibaug's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Leisure day and departure",
+        "detail": "Wrap up remaining sights around Alibaug before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "aurangabad",
+    "name": "Aurangabad, Maharashtra (Ajanta & Ellora)",
+    "category": "Heritage",
+    "region": "West India",
+    "price": 15499,
+    "duration": "3 Days / 2 Nights",
+    "rating": 4.1,
+    "reviews": 4192,
+    "image": "https://picsum.photos/seed/aurangabad/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/aurangabad-1/1200/700",
+      "https://picsum.photos/seed/aurangabad-2/1200/700",
+      "https://picsum.photos/seed/aurangabad-3/1200/700"
+    ],
+    "description": "Aurangabad is one of West India's most loved heritage destinations, known for centuries-old architecture, royal history, and living culture. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and old-city walking tour",
+        "detail": "Arrive in Aurangabad, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Guided fort and monument tour",
+        "detail": "Spend the day exploring Aurangabad's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Local handicraft shopping and departure",
+        "detail": "Wrap up remaining sights around Aurangabad before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "nashik",
+    "name": "Nashik, Maharashtra",
+    "category": "Nature",
+    "region": "West India",
+    "price": 12499,
+    "duration": "4 Days / 3 Nights",
+    "rating": 4.8,
+    "reviews": 3654,
+    "image": "https://picsum.photos/seed/nashik/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/nashik-1/1200/700",
+      "https://picsum.photos/seed/nashik-2/1200/700",
+      "https://picsum.photos/seed/nashik-3/1200/700"
+    ],
+    "description": "Nashik is one of West India's most loved nature destinations, known for lush green landscapes, backwaters, and quiet natural beauty. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and nature orientation",
+        "detail": "Arrive in Nashik, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Guided nature walk and boat ride",
+        "detail": "Spend the day exploring Nashik's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Optional trek and departure",
+        "detail": "Wrap up remaining sights around Nashik before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "matheran",
+    "name": "Matheran, Maharashtra",
+    "category": "Nature",
+    "region": "West India",
+    "price": 11999,
+    "duration": "4 Days / 3 Nights",
+    "rating": 4.1,
+    "reviews": 3851,
+    "image": "https://picsum.photos/seed/matheran/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/matheran-1/1200/700",
+      "https://picsum.photos/seed/matheran-2/1200/700",
+      "https://picsum.photos/seed/matheran-3/1200/700"
+    ],
+    "description": "Matheran is one of West India's most loved nature destinations, known for lush green landscapes, backwaters, and quiet natural beauty. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and nature orientation",
+        "detail": "Arrive in Matheran, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Guided nature walk and boat ride",
+        "detail": "Spend the day exploring Matheran's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Optional trek and departure",
+        "detail": "Wrap up remaining sights around Matheran before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "ahmedabad",
+    "name": "Ahmedabad, Gujarat",
+    "category": "Heritage",
+    "region": "West India",
+    "price": 12499,
+    "duration": "3 Days / 2 Nights",
+    "rating": 4.4,
+    "reviews": 4145,
+    "image": "https://picsum.photos/seed/ahmedabad/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/ahmedabad-1/1200/700",
+      "https://picsum.photos/seed/ahmedabad-2/1200/700",
+      "https://picsum.photos/seed/ahmedabad-3/1200/700"
+    ],
+    "description": "Ahmedabad is one of West India's most loved heritage destinations, known for centuries-old architecture, royal history, and living culture. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and old-city walking tour",
+        "detail": "Arrive in Ahmedabad, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Guided fort and monument tour",
+        "detail": "Spend the day exploring Ahmedabad's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Local handicraft shopping and departure",
+        "detail": "Wrap up remaining sights around Ahmedabad before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "rann-of-kutch",
+    "name": "Rann of Kutch, Gujarat",
+    "category": "Desert",
+    "region": "West India",
+    "price": 10499,
+    "duration": "3 Days / 2 Nights",
+    "rating": 4.7,
+    "reviews": 1126,
+    "image": "https://picsum.photos/seed/rann-of-kutch/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/rann-of-kutch-1/1200/700",
+      "https://picsum.photos/seed/rann-of-kutch-2/1200/700",
+      "https://picsum.photos/seed/rann-of-kutch-3/1200/700"
+    ],
+    "description": "Rann of Kutch is one of West India's most loved desert destinations, known for golden dunes, star-filled skies, and desert-camp hospitality. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and desert-camp check-in",
+        "detail": "Arrive in Rann of Kutch, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Camel safari and dune sunset",
+        "detail": "Spend the day exploring Rann of Kutch's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Folk performance evening and departure",
+        "detail": "Wrap up remaining sights around Rann of Kutch before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "diu",
+    "name": "Diu",
+    "category": "Beach",
+    "region": "West India",
+    "price": 9499,
+    "duration": "4 Days / 3 Nights",
+    "rating": 4.4,
+    "reviews": 3099,
+    "image": "https://picsum.photos/seed/diu/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/diu-1/1200/700",
+      "https://picsum.photos/seed/diu-2/1200/700",
+      "https://picsum.photos/seed/diu-3/1200/700"
+    ],
+    "description": "Diu is one of West India's most loved beach destinations, known for sun-soaked shores, gentle waves, and laid-back coastal charm. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and beach welcome",
+        "detail": "Arrive in Diu, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Water sports and coastal exploration",
+        "detail": "Spend the day exploring Diu's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Leisure day and departure",
+        "detail": "Wrap up remaining sights around Diu before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "dwarka",
+    "name": "Dwarka, Gujarat",
+    "category": "Spiritual",
+    "region": "West India",
+    "price": 11999,
+    "duration": "2 Days / 1 Night",
+    "rating": 4.9,
+    "reviews": 2356,
+    "image": "https://picsum.photos/seed/dwarka/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/dwarka-1/1200/700",
+      "https://picsum.photos/seed/dwarka-2/1200/700",
+      "https://picsum.photos/seed/dwarka-3/1200/700"
+    ],
+    "description": "Dwarka is one of West India's most loved spiritual destinations, known for sacred temples, timeless rituals, and a deep sense of peace. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and evening temple visit",
+        "detail": "Arrive in Dwarka, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Sunrise rituals and pilgrimage circuit",
+        "detail": "Spend the day exploring Dwarka's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Temple blessing ceremony and departure",
+        "detail": "Wrap up remaining sights around Dwarka before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "gir-national-park",
+    "name": "Gir National Park, Gujarat",
+    "category": "Wildlife",
+    "region": "West India",
+    "price": 14999,
+    "duration": "3 Days / 2 Nights",
+    "rating": 4.2,
+    "reviews": 3995,
+    "image": "https://picsum.photos/seed/gir-national-park/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/gir-national-park-1/1200/700",
+      "https://picsum.photos/seed/gir-national-park-2/1200/700",
+      "https://picsum.photos/seed/gir-national-park-3/1200/700"
+    ],
+    "description": "Gir National Park is one of West India's most loved wildlife destinations, known for dense forests, rare species, and thrilling safari trails. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and forest lodge check-in",
+        "detail": "Arrive in Gir National Park, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Full-day jungle safari",
+        "detail": "Spend the day exploring Gir National Park's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Morning safari and departure",
+        "detail": "Wrap up remaining sights around Gir National Park before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "khajuraho",
+    "name": "Khajuraho, Madhya Pradesh",
+    "category": "Heritage",
+    "region": "Central India",
+    "price": 8999,
+    "duration": "3 Days / 2 Nights",
+    "rating": 4.4,
+    "reviews": 2601,
+    "image": "https://picsum.photos/seed/khajuraho/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/khajuraho-1/1200/700",
+      "https://picsum.photos/seed/khajuraho-2/1200/700",
+      "https://picsum.photos/seed/khajuraho-3/1200/700"
+    ],
+    "description": "Khajuraho is one of Central India's most loved heritage destinations, known for centuries-old architecture, royal history, and living culture. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and old-city walking tour",
+        "detail": "Arrive in Khajuraho, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Guided fort and monument tour",
+        "detail": "Spend the day exploring Khajuraho's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Local handicraft shopping and departure",
+        "detail": "Wrap up remaining sights around Khajuraho before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "bhopal",
+    "name": "Bhopal, Madhya Pradesh",
+    "category": "City",
+    "region": "Central India",
+    "price": 10499,
+    "duration": "3 Days / 2 Nights",
+    "rating": 4.2,
+    "reviews": 937,
+    "image": "https://picsum.photos/seed/bhopal/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/bhopal-1/1200/700",
+      "https://picsum.photos/seed/bhopal-2/1200/700",
+      "https://picsum.photos/seed/bhopal-3/1200/700"
+    ],
+    "description": "Bhopal is one of Central India's most loved city destinations, known for buzzing streets, local food, and a mix of old and new India. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and city orientation tour",
+        "detail": "Arrive in Bhopal, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Landmark tour and local markets",
+        "detail": "Spend the day exploring Bhopal's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Museum visit and departure",
+        "detail": "Wrap up remaining sights around Bhopal before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "pachmarhi",
+    "name": "Pachmarhi, Madhya Pradesh",
+    "category": "Mountain",
+    "region": "Central India",
+    "price": 16999,
+    "duration": "5 Days / 4 Nights",
+    "rating": 4.8,
+    "reviews": 1122,
+    "image": "https://picsum.photos/seed/pachmarhi/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/pachmarhi-1/1200/700",
+      "https://picsum.photos/seed/pachmarhi-2/1200/700",
+      "https://picsum.photos/seed/pachmarhi-3/1200/700"
+    ],
+    "description": "Pachmarhi is one of Central India's most loved mountain destinations, known for misty peaks, pine-scented air, and sweeping valley views. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and hillside check-in",
+        "detail": "Arrive in Pachmarhi, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Valley viewpoints and local sightseeing",
+        "detail": "Spend the day exploring Pachmarhi's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Cable car ride and departure",
+        "detail": "Wrap up remaining sights around Pachmarhi before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "bandhavgarh",
+    "name": "Bandhavgarh National Park, Madhya Pradesh",
+    "category": "Wildlife",
+    "region": "Central India",
+    "price": 12499,
+    "duration": "3 Days / 2 Nights",
+    "rating": 4.7,
+    "reviews": 4748,
+    "image": "https://picsum.photos/seed/bandhavgarh/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/bandhavgarh-1/1200/700",
+      "https://picsum.photos/seed/bandhavgarh-2/1200/700",
+      "https://picsum.photos/seed/bandhavgarh-3/1200/700"
+    ],
+    "description": "Bandhavgarh National Park is one of Central India's most loved wildlife destinations, known for dense forests, rare species, and thrilling safari trails. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and forest lodge check-in",
+        "detail": "Arrive in Bandhavgarh National Park, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Full-day jungle safari",
+        "detail": "Spend the day exploring Bandhavgarh National Park's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Morning safari and departure",
+        "detail": "Wrap up remaining sights around Bandhavgarh National Park before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "kanha",
+    "name": "Kanha National Park, Madhya Pradesh",
+    "category": "Wildlife",
+    "region": "Central India",
+    "price": 11999,
+    "duration": "3 Days / 2 Nights",
+    "rating": 5.0,
+    "reviews": 2256,
+    "image": "https://picsum.photos/seed/kanha/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/kanha-1/1200/700",
+      "https://picsum.photos/seed/kanha-2/1200/700",
+      "https://picsum.photos/seed/kanha-3/1200/700"
+    ],
+    "description": "Kanha National Park is one of Central India's most loved wildlife destinations, known for dense forests, rare species, and thrilling safari trails. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and forest lodge check-in",
+        "detail": "Arrive in Kanha National Park, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Full-day jungle safari",
+        "detail": "Spend the day exploring Kanha National Park's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Morning safari and departure",
+        "detail": "Wrap up remaining sights around Kanha National Park before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "orchha",
+    "name": "Orchha, Madhya Pradesh",
+    "category": "Heritage",
+    "region": "Central India",
+    "price": 9499,
+    "duration": "3 Days / 2 Nights",
+    "rating": 4.4,
+    "reviews": 4263,
+    "image": "https://picsum.photos/seed/orchha/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/orchha-1/1200/700",
+      "https://picsum.photos/seed/orchha-2/1200/700",
+      "https://picsum.photos/seed/orchha-3/1200/700"
+    ],
+    "description": "Orchha is one of Central India's most loved heritage destinations, known for centuries-old architecture, royal history, and living culture. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and old-city walking tour",
+        "detail": "Arrive in Orchha, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Guided fort and monument tour",
+        "detail": "Spend the day exploring Orchha's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Local handicraft shopping and departure",
+        "detail": "Wrap up remaining sights around Orchha before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "ujjain",
+    "name": "Ujjain, Madhya Pradesh",
+    "category": "Spiritual",
+    "region": "Central India",
+    "price": 7499,
+    "duration": "2 Days / 1 Night",
+    "rating": 4.9,
+    "reviews": 800,
+    "image": "https://picsum.photos/seed/ujjain/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/ujjain-1/1200/700",
+      "https://picsum.photos/seed/ujjain-2/1200/700",
+      "https://picsum.photos/seed/ujjain-3/1200/700"
+    ],
+    "description": "Ujjain is one of Central India's most loved spiritual destinations, known for sacred temples, timeless rituals, and a deep sense of peace. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and evening temple visit",
+        "detail": "Arrive in Ujjain, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Sunrise rituals and pilgrimage circuit",
+        "detail": "Spend the day exploring Ujjain's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Temple blessing ceremony and departure",
+        "detail": "Wrap up remaining sights around Ujjain before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "gwalior",
+    "name": "Gwalior, Madhya Pradesh",
+    "category": "Heritage",
+    "region": "Central India",
+    "price": 9499,
+    "duration": "3 Days / 2 Nights",
+    "rating": 4.4,
+    "reviews": 3518,
+    "image": "https://picsum.photos/seed/gwalior/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/gwalior-1/1200/700",
+      "https://picsum.photos/seed/gwalior-2/1200/700",
+      "https://picsum.photos/seed/gwalior-3/1200/700"
+    ],
+    "description": "Gwalior is one of Central India's most loved heritage destinations, known for centuries-old architecture, royal history, and living culture. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and old-city walking tour",
+        "detail": "Arrive in Gwalior, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Guided fort and monument tour",
+        "detail": "Spend the day exploring Gwalior's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Local handicraft shopping and departure",
+        "detail": "Wrap up remaining sights around Gwalior before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "chitrakoot",
+    "name": "Chitrakoot, Madhya Pradesh",
+    "category": "Spiritual",
+    "region": "Central India",
+    "price": 7999,
+    "duration": "2 Days / 1 Night",
+    "rating": 4.9,
+    "reviews": 4047,
+    "image": "https://picsum.photos/seed/chitrakoot/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/chitrakoot-1/1200/700",
+      "https://picsum.photos/seed/chitrakoot-2/1200/700",
+      "https://picsum.photos/seed/chitrakoot-3/1200/700"
+    ],
+    "description": "Chitrakoot is one of Central India's most loved spiritual destinations, known for sacred temples, timeless rituals, and a deep sense of peace. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and evening temple visit",
+        "detail": "Arrive in Chitrakoot, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Sunrise rituals and pilgrimage circuit",
+        "detail": "Spend the day exploring Chitrakoot's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Temple blessing ceremony and departure",
+        "detail": "Wrap up remaining sights around Chitrakoot before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "raipur",
+    "name": "Raipur, Chhattisgarh",
+    "category": "City",
+    "region": "Central India",
+    "price": 8999,
+    "duration": "3 Days / 2 Nights",
+    "rating": 4.4,
+    "reviews": 4306,
+    "image": "https://picsum.photos/seed/raipur/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/raipur-1/1200/700",
+      "https://picsum.photos/seed/raipur-2/1200/700",
+      "https://picsum.photos/seed/raipur-3/1200/700"
+    ],
+    "description": "Raipur is one of Central India's most loved city destinations, known for buzzing streets, local food, and a mix of old and new India. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and city orientation tour",
+        "detail": "Arrive in Raipur, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Landmark tour and local markets",
+        "detail": "Spend the day exploring Raipur's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Museum visit and departure",
+        "detail": "Wrap up remaining sights around Raipur before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "kolkata",
+    "name": "Kolkata, West Bengal",
+    "category": "Heritage",
+    "region": "East India",
+    "price": 8999,
+    "duration": "3 Days / 2 Nights",
+    "rating": 4.2,
+    "reviews": 2103,
+    "image": "https://picsum.photos/seed/kolkata/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/kolkata-1/1200/700",
+      "https://picsum.photos/seed/kolkata-2/1200/700",
+      "https://picsum.photos/seed/kolkata-3/1200/700"
+    ],
+    "description": "Kolkata is one of East India's most loved heritage destinations, known for centuries-old architecture, royal history, and living culture. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and old-city walking tour",
+        "detail": "Arrive in Kolkata, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Guided fort and monument tour",
+        "detail": "Spend the day exploring Kolkata's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Local handicraft shopping and departure",
+        "detail": "Wrap up remaining sights around Kolkata before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "darjeeling",
+    "name": "Darjeeling, West Bengal",
+    "category": "Mountain",
+    "region": "East India",
+    "price": 10499,
+    "duration": "5 Days / 4 Nights",
+    "rating": 4.6,
+    "reviews": 4761,
+    "image": "https://picsum.photos/seed/darjeeling/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/darjeeling-1/1200/700",
+      "https://picsum.photos/seed/darjeeling-2/1200/700",
+      "https://picsum.photos/seed/darjeeling-3/1200/700"
+    ],
+    "description": "Darjeeling is one of East India's most loved mountain destinations, known for misty peaks, pine-scented air, and sweeping valley views. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and hillside check-in",
+        "detail": "Arrive in Darjeeling, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Valley viewpoints and local sightseeing",
+        "detail": "Spend the day exploring Darjeeling's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Cable car ride and departure",
+        "detail": "Wrap up remaining sights around Darjeeling before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "kalimpong",
+    "name": "Kalimpong, West Bengal",
+    "category": "Mountain",
+    "region": "East India",
+    "price": 10499,
+    "duration": "5 Days / 4 Nights",
+    "rating": 4.7,
+    "reviews": 788,
+    "image": "https://picsum.photos/seed/kalimpong/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/kalimpong-1/1200/700",
+      "https://picsum.photos/seed/kalimpong-2/1200/700",
+      "https://picsum.photos/seed/kalimpong-3/1200/700"
+    ],
+    "description": "Kalimpong is one of East India's most loved mountain destinations, known for misty peaks, pine-scented air, and sweeping valley views. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and hillside check-in",
+        "detail": "Arrive in Kalimpong, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Valley viewpoints and local sightseeing",
+        "detail": "Spend the day exploring Kalimpong's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Cable car ride and departure",
+        "detail": "Wrap up remaining sights around Kalimpong before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "sundarbans",
+    "name": "Sundarbans, West Bengal",
+    "category": "Wildlife",
+    "region": "East India",
+    "price": 12499,
+    "duration": "3 Days / 2 Nights",
+    "rating": 4.6,
+    "reviews": 4439,
+    "image": "https://picsum.photos/seed/sundarbans/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/sundarbans-1/1200/700",
+      "https://picsum.photos/seed/sundarbans-2/1200/700",
+      "https://picsum.photos/seed/sundarbans-3/1200/700"
+    ],
+    "description": "Sundarbans is one of East India's most loved wildlife destinations, known for dense forests, rare species, and thrilling safari trails. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and forest lodge check-in",
+        "detail": "Arrive in Sundarbans, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Full-day jungle safari",
+        "detail": "Spend the day exploring Sundarbans's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Morning safari and departure",
+        "detail": "Wrap up remaining sights around Sundarbans before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "digha",
+    "name": "Digha, West Bengal",
+    "category": "Beach",
+    "region": "East India",
+    "price": 16999,
+    "duration": "4 Days / 3 Nights",
+    "rating": 4.2,
+    "reviews": 4480,
+    "image": "https://picsum.photos/seed/digha/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/digha-1/1200/700",
+      "https://picsum.photos/seed/digha-2/1200/700",
+      "https://picsum.photos/seed/digha-3/1200/700"
+    ],
+    "description": "Digha is one of East India's most loved beach destinations, known for sun-soaked shores, gentle waves, and laid-back coastal charm. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and beach welcome",
+        "detail": "Arrive in Digha, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Water sports and coastal exploration",
+        "detail": "Spend the day exploring Digha's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Leisure day and departure",
+        "detail": "Wrap up remaining sights around Digha before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "puri",
+    "name": "Puri, Odisha",
+    "category": "Spiritual",
+    "region": "East India",
+    "price": 6499,
+    "duration": "2 Days / 1 Night",
+    "rating": 4.9,
+    "reviews": 881,
+    "image": "https://picsum.photos/seed/puri/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/puri-1/1200/700",
+      "https://picsum.photos/seed/puri-2/1200/700",
+      "https://picsum.photos/seed/puri-3/1200/700"
+    ],
+    "description": "Puri is one of East India's most loved spiritual destinations, known for sacred temples, timeless rituals, and a deep sense of peace. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and evening temple visit",
+        "detail": "Arrive in Puri, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Sunrise rituals and pilgrimage circuit",
+        "detail": "Spend the day exploring Puri's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Temple blessing ceremony and departure",
+        "detail": "Wrap up remaining sights around Puri before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "bhubaneswar",
+    "name": "Bhubaneswar, Odisha",
+    "category": "Heritage",
+    "region": "East India",
+    "price": 7999,
+    "duration": "3 Days / 2 Nights",
+    "rating": 4.7,
+    "reviews": 2246,
+    "image": "https://picsum.photos/seed/bhubaneswar/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/bhubaneswar-1/1200/700",
+      "https://picsum.photos/seed/bhubaneswar-2/1200/700",
+      "https://picsum.photos/seed/bhubaneswar-3/1200/700"
+    ],
+    "description": "Bhubaneswar is one of East India's most loved heritage destinations, known for centuries-old architecture, royal history, and living culture. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and old-city walking tour",
+        "detail": "Arrive in Bhubaneswar, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Guided fort and monument tour",
+        "detail": "Spend the day exploring Bhubaneswar's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Local handicraft shopping and departure",
+        "detail": "Wrap up remaining sights around Bhubaneswar before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "chilika-lake",
+    "name": "Chilika Lake, Odisha",
+    "category": "Nature",
+    "region": "East India",
+    "price": 14999,
+    "duration": "4 Days / 3 Nights",
+    "rating": 4.1,
+    "reviews": 2336,
+    "image": "https://picsum.photos/seed/chilika-lake/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/chilika-lake-1/1200/700",
+      "https://picsum.photos/seed/chilika-lake-2/1200/700",
+      "https://picsum.photos/seed/chilika-lake-3/1200/700"
+    ],
+    "description": "Chilika Lake is one of East India's most loved nature destinations, known for lush green landscapes, backwaters, and quiet natural beauty. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and nature orientation",
+        "detail": "Arrive in Chilika Lake, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Guided nature walk and boat ride",
+        "detail": "Spend the day exploring Chilika Lake's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Optional trek and departure",
+        "detail": "Wrap up remaining sights around Chilika Lake before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "patna",
+    "name": "Patna, Bihar",
+    "category": "Heritage",
+    "region": "East India",
+    "price": 7499,
+    "duration": "3 Days / 2 Nights",
+    "rating": 4.6,
+    "reviews": 3754,
+    "image": "https://picsum.photos/seed/patna/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/patna-1/1200/700",
+      "https://picsum.photos/seed/patna-2/1200/700",
+      "https://picsum.photos/seed/patna-3/1200/700"
+    ],
+    "description": "Patna is one of East India's most loved heritage destinations, known for centuries-old architecture, royal history, and living culture. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and old-city walking tour",
+        "detail": "Arrive in Patna, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Guided fort and monument tour",
+        "detail": "Spend the day exploring Patna's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Local handicraft shopping and departure",
+        "detail": "Wrap up remaining sights around Patna before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "bodh-gaya",
+    "name": "Bodh Gaya, Bihar",
+    "category": "Spiritual",
+    "region": "East India",
+    "price": 10999,
+    "duration": "2 Days / 1 Night",
+    "rating": 4.6,
+    "reviews": 4602,
+    "image": "https://picsum.photos/seed/bodh-gaya/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/bodh-gaya-1/1200/700",
+      "https://picsum.photos/seed/bodh-gaya-2/1200/700",
+      "https://picsum.photos/seed/bodh-gaya-3/1200/700"
+    ],
+    "description": "Bodh Gaya is one of East India's most loved spiritual destinations, known for sacred temples, timeless rituals, and a deep sense of peace. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and evening temple visit",
+        "detail": "Arrive in Bodh Gaya, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Sunrise rituals and pilgrimage circuit",
+        "detail": "Spend the day exploring Bodh Gaya's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Temple blessing ceremony and departure",
+        "detail": "Wrap up remaining sights around Bodh Gaya before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "gangtok",
+    "name": "Gangtok, Sikkim",
+    "category": "Mountain",
+    "region": "Northeast India",
+    "price": 14999,
+    "duration": "5 Days / 4 Nights",
+    "rating": 4.9,
+    "reviews": 1993,
+    "image": "https://picsum.photos/seed/gangtok/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/gangtok-1/1200/700",
+      "https://picsum.photos/seed/gangtok-2/1200/700",
+      "https://picsum.photos/seed/gangtok-3/1200/700"
+    ],
+    "description": "Gangtok is one of Northeast India's most loved mountain destinations, known for misty peaks, pine-scented air, and sweeping valley views. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and hillside check-in",
+        "detail": "Arrive in Gangtok, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Valley viewpoints and local sightseeing",
+        "detail": "Spend the day exploring Gangtok's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Cable car ride and departure",
+        "detail": "Wrap up remaining sights around Gangtok before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "shillong",
+    "name": "Shillong, Meghalaya",
+    "category": "Nature",
+    "region": "Northeast India",
+    "price": 13999,
+    "duration": "4 Days / 3 Nights",
+    "rating": 4.2,
+    "reviews": 3562,
+    "image": "https://picsum.photos/seed/shillong/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/shillong-1/1200/700",
+      "https://picsum.photos/seed/shillong-2/1200/700",
+      "https://picsum.photos/seed/shillong-3/1200/700"
+    ],
+    "description": "Shillong is one of Northeast India's most loved nature destinations, known for lush green landscapes, backwaters, and quiet natural beauty. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and nature orientation",
+        "detail": "Arrive in Shillong, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Guided nature walk and boat ride",
+        "detail": "Spend the day exploring Shillong's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Optional trek and departure",
+        "detail": "Wrap up remaining sights around Shillong before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "cherrapunji",
+    "name": "Cherrapunji, Meghalaya",
+    "category": "Nature",
+    "region": "Northeast India",
+    "price": 10999,
+    "duration": "4 Days / 3 Nights",
+    "rating": 4.7,
+    "reviews": 2777,
+    "image": "https://picsum.photos/seed/cherrapunji/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/cherrapunji-1/1200/700",
+      "https://picsum.photos/seed/cherrapunji-2/1200/700",
+      "https://picsum.photos/seed/cherrapunji-3/1200/700"
+    ],
+    "description": "Cherrapunji is one of Northeast India's most loved nature destinations, known for lush green landscapes, backwaters, and quiet natural beauty. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and nature orientation",
+        "detail": "Arrive in Cherrapunji, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Guided nature walk and boat ride",
+        "detail": "Spend the day exploring Cherrapunji's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Optional trek and departure",
+        "detail": "Wrap up remaining sights around Cherrapunji before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "mawlynnong",
+    "name": "Mawlynnong, Meghalaya",
+    "category": "Nature",
+    "region": "Northeast India",
+    "price": 15999,
+    "duration": "4 Days / 3 Nights",
+    "rating": 4.3,
+    "reviews": 914,
+    "image": "https://picsum.photos/seed/mawlynnong/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/mawlynnong-1/1200/700",
+      "https://picsum.photos/seed/mawlynnong-2/1200/700",
+      "https://picsum.photos/seed/mawlynnong-3/1200/700"
+    ],
+    "description": "Mawlynnong is one of Northeast India's most loved nature destinations, known for lush green landscapes, backwaters, and quiet natural beauty. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and nature orientation",
+        "detail": "Arrive in Mawlynnong, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Guided nature walk and boat ride",
+        "detail": "Spend the day exploring Mawlynnong's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Optional trek and departure",
+        "detail": "Wrap up remaining sights around Mawlynnong before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "kaziranga",
+    "name": "Kaziranga National Park, Assam",
+    "category": "Wildlife",
+    "region": "Northeast India",
+    "price": 11999,
+    "duration": "3 Days / 2 Nights",
+    "rating": 4.5,
+    "reviews": 1139,
+    "image": "https://picsum.photos/seed/kaziranga/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/kaziranga-1/1200/700",
+      "https://picsum.photos/seed/kaziranga-2/1200/700",
+      "https://picsum.photos/seed/kaziranga-3/1200/700"
+    ],
+    "description": "Kaziranga National Park is one of Northeast India's most loved wildlife destinations, known for dense forests, rare species, and thrilling safari trails. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and forest lodge check-in",
+        "detail": "Arrive in Kaziranga National Park, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Full-day jungle safari",
+        "detail": "Spend the day exploring Kaziranga National Park's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Morning safari and departure",
+        "detail": "Wrap up remaining sights around Kaziranga National Park before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "majuli",
+    "name": "Majuli Island, Assam",
+    "category": "Nature",
+    "region": "Northeast India",
+    "price": 9999,
+    "duration": "4 Days / 3 Nights",
+    "rating": 4.5,
+    "reviews": 4464,
+    "image": "https://picsum.photos/seed/majuli/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/majuli-1/1200/700",
+      "https://picsum.photos/seed/majuli-2/1200/700",
+      "https://picsum.photos/seed/majuli-3/1200/700"
+    ],
+    "description": "Majuli Island is one of Northeast India's most loved nature destinations, known for lush green landscapes, backwaters, and quiet natural beauty. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and nature orientation",
+        "detail": "Arrive in Majuli Island, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Guided nature walk and boat ride",
+        "detail": "Spend the day exploring Majuli Island's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Optional trek and departure",
+        "detail": "Wrap up remaining sights around Majuli Island before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "guwahati",
+    "name": "Guwahati, Assam",
+    "category": "City",
+    "region": "Northeast India",
+    "price": 8999,
+    "duration": "3 Days / 2 Nights",
+    "rating": 4.1,
+    "reviews": 3179,
+    "image": "https://picsum.photos/seed/guwahati/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/guwahati-1/1200/700",
+      "https://picsum.photos/seed/guwahati-2/1200/700",
+      "https://picsum.photos/seed/guwahati-3/1200/700"
+    ],
+    "description": "Guwahati is one of Northeast India's most loved city destinations, known for buzzing streets, local food, and a mix of old and new India. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and city orientation tour",
+        "detail": "Arrive in Guwahati, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Landmark tour and local markets",
+        "detail": "Spend the day exploring Guwahati's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Museum visit and departure",
+        "detail": "Wrap up remaining sights around Guwahati before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "tawang",
+    "name": "Tawang, Arunachal Pradesh",
+    "category": "Mountain",
+    "region": "Northeast India",
+    "price": 10999,
+    "duration": "5 Days / 4 Nights",
+    "rating": 4.9,
+    "reviews": 3347,
+    "image": "https://picsum.photos/seed/tawang/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/tawang-1/1200/700",
+      "https://picsum.photos/seed/tawang-2/1200/700",
+      "https://picsum.photos/seed/tawang-3/1200/700"
+    ],
+    "description": "Tawang is one of Northeast India's most loved mountain destinations, known for misty peaks, pine-scented air, and sweeping valley views. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and hillside check-in",
+        "detail": "Arrive in Tawang, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Valley viewpoints and local sightseeing",
+        "detail": "Spend the day exploring Tawang's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Cable car ride and departure",
+        "detail": "Wrap up remaining sights around Tawang before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "ziro-valley",
+    "name": "Ziro Valley, Arunachal Pradesh",
+    "category": "Nature",
+    "region": "Northeast India",
+    "price": 13499,
+    "duration": "4 Days / 3 Nights",
+    "rating": 4.2,
+    "reviews": 4770,
+    "image": "https://picsum.photos/seed/ziro-valley/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/ziro-valley-1/1200/700",
+      "https://picsum.photos/seed/ziro-valley-2/1200/700",
+      "https://picsum.photos/seed/ziro-valley-3/1200/700"
+    ],
+    "description": "Ziro Valley is one of Northeast India's most loved nature destinations, known for lush green landscapes, backwaters, and quiet natural beauty. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and nature orientation",
+        "detail": "Arrive in Ziro Valley, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Guided nature walk and boat ride",
+        "detail": "Spend the day exploring Ziro Valley's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Optional trek and departure",
+        "detail": "Wrap up remaining sights around Ziro Valley before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "dzukou-valley",
+    "name": "Dzukou Valley, Nagaland",
+    "category": "Adventure",
+    "region": "Northeast India",
+    "price": 21999,
+    "duration": "5 Days / 4 Nights",
+    "rating": 4.3,
+    "reviews": 4653,
+    "image": "https://picsum.photos/seed/dzukou-valley/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/dzukou-valley-1/1200/700",
+      "https://picsum.photos/seed/dzukou-valley-2/1200/700",
+      "https://picsum.photos/seed/dzukou-valley-3/1200/700"
+    ],
+    "description": "Dzukou Valley is one of Northeast India's most loved adventure destinations, known for high-altitude trails, adrenaline-charged activities, and rugged terrain. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and gear briefing",
+        "detail": "Arrive in Dzukou Valley, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Trekking and adventure activities",
+        "detail": "Spend the day exploring Dzukou Valley's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Final adventure activity and departure",
+        "detail": "Wrap up remaining sights around Dzukou Valley before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "loktak-lake",
+    "name": "Loktak Lake, Manipur",
+    "category": "Nature",
+    "region": "Northeast India",
+    "price": 8999,
+    "duration": "4 Days / 3 Nights",
+    "rating": 4.7,
+    "reviews": 2772,
+    "image": "https://picsum.photos/seed/loktak-lake/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/loktak-lake-1/1200/700",
+      "https://picsum.photos/seed/loktak-lake-2/1200/700",
+      "https://picsum.photos/seed/loktak-lake-3/1200/700"
+    ],
+    "description": "Loktak Lake is one of Northeast India's most loved nature destinations, known for lush green landscapes, backwaters, and quiet natural beauty. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and nature orientation",
+        "detail": "Arrive in Loktak Lake, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Guided nature walk and boat ride",
+        "detail": "Spend the day exploring Loktak Lake's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Optional trek and departure",
+        "detail": "Wrap up remaining sights around Loktak Lake before heading to the airport/station for departure."
+      }
+    ]
+  },
+  {
+    "id": "agartala",
+    "name": "Agartala, Tripura",
+    "category": "Heritage",
+    "region": "Northeast India",
+    "price": 8499,
+    "duration": "3 Days / 2 Nights",
+    "rating": 4.9,
+    "reviews": 1420,
+    "image": "https://picsum.photos/seed/agartala/900/600",
+    "gallery": [
+      "https://picsum.photos/seed/agartala-1/1200/700",
+      "https://picsum.photos/seed/agartala-2/1200/700",
+      "https://picsum.photos/seed/agartala-3/1200/700"
+    ],
+    "description": "Agartala is one of Northeast India's most loved heritage destinations, known for centuries-old architecture, royal history, and living culture. It's a favorite pick for travelers wanting an authentic, well-paced trip without an overpacked schedule.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and old-city walking tour",
+        "detail": "Arrive in Agartala, settle into your stay, and ease in with a relaxed evening nearby."
+      },
+      {
+        "day": 2,
+        "title": "Guided fort and monument tour",
+        "detail": "Spend the day exploring Agartala's best-known highlights with a local guide."
+      },
+      {
+        "day": 3,
+        "title": "Local handicraft shopping and departure",
+        "detail": "Wrap up remaining sights around Agartala before heading to the airport/station for departure."
+      }
+    ]
+  }
+]

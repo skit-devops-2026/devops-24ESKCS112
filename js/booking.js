@@ -1,17 +1,18 @@
 /* ============================================================
    TravelX - booking.js
-   Two-step booking form, dummy payment, and live summary card on booking.html.
-   Depends on common.js (must be loaded first for shared data,
-   render helpers, and localStorage-based selected-package state).
+   Two-step booking form, dummy payment, and live summary card on
+   booking.html. Waits for destinations.json to load before
+   rendering the summary card, since price/name/image all come
+   from the selected destination.
    ============================================================ */
 
 /* Local page state (only needed on booking.html) */
 let bookingTravelers = 2;
+let bookingDestination = null;
 
-/* ---------- 7. Booking page ---------- */
-
-function renderBookingSummary() {
-  const d = destinations.find((x) => x.id === getSelectedPackageId()) || destinations[0];
+function renderBookingSummary(destinationsList) {
+  const d = destinationsList.find((x) => x.id === getSelectedPackageId(destinationsList)) || destinationsList[0];
+  bookingDestination = d;
   const travelers = bookingTravelers;
   const total = d.price * travelers;
 
@@ -19,16 +20,16 @@ function renderBookingSummary() {
   document.getElementById("bookingTripImage").alt = d.name;
   document.getElementById("bookingTripName").textContent = d.name;
   document.getElementById("bookingTripDuration").textContent = d.duration;
-  document.getElementById("bookingPricePerPerson").textContent = "$" + d.price;
+  document.getElementById("bookingPricePerPerson").textContent = "₹" + d.price.toLocaleString("en-IN");
   document.getElementById("bookingTravelersCount").textContent = "x " + travelers;
-  document.getElementById("bookingTotal").textContent = "$" + total;
+  document.getElementById("bookingTotal").textContent = "₹" + total.toLocaleString("en-IN");
 }
 
-function initBookingFlow() {
+function initBookingFlow(destinationsList) {
   const travelersInput = document.getElementById("bookTravelers");
   travelersInput.addEventListener("input", () => {
     bookingTravelers = Math.max(1, Number(travelersInput.value) || 1);
-    renderBookingSummary();
+    renderBookingSummary(destinationsList);
   });
 
   document.getElementById("toStep2").addEventListener("click", () => {
@@ -80,7 +81,12 @@ function initBookingFlow() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  renderBookingSummary();
-  initBookingFlow();
+  getDestinations()
+    .then((destinationsList) => {
+      renderBookingSummary(destinationsList);
+      initBookingFlow(destinationsList);
+    })
+    .catch(() => {
+      showLoadError(document.querySelector(".booking-layout"));
+    });
 });
-
