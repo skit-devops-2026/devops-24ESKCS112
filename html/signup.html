@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="../css/common.css" />
   <link rel="stylesheet" href="../css/signup.css" />
 </head>
-<body class="signup-page">
+<body>
 
   <header class="navbar" id="navbar">
     <div class="container navbar-inner">
@@ -34,12 +34,12 @@
       </nav>
 
       <div class="navbar-actions">
-        <button id="themeToggle" class="fa-solid fa-btn" aria-label="Toggle dark mode">
+        <button id="themeToggle" class="icon-btn" aria-label="Toggle dark mode">
           <i class="fa-solid fa-moon" id="themeIcon"></i>
         </button>
         <a href="login.html" class="btn btn-ghost">Log in</a>
         <a href="signup.html" class="btn btn-primary">Sign up</a>
-        <button id="menuToggle" class="fa-solid fa-btn mobile-only" aria-label="Toggle menu">
+        <button id="menuToggle" class="icon-btn mobile-only" aria-label="Toggle menu">
           <i class="fa-solid fa-bars"></i>
         </button>
       </div>
@@ -58,25 +58,41 @@
           </div>
           <form id="signupForm">
             <label class="field">
-              <span>Full Name:</span>
+              <span>Full Name</span>
               <input type="text" id="signupName" placeholder="John Doe" required />
               <small class="field-error" id="signupNameError"></small>
             </label>
             <label class="field">
-              <span>Email Address:</span>
+              <span>Email Address</span>
               <input type="email" id="signupEmail" placeholder="you@example.com" required />
               <small class="field-error" id="signupEmailError"></small>
             </label>
             <label class="field">
-              <span>Password:</span>
-              <input type="password" id="signupPassword" placeholder="••••••••" required />
+              <span>Password</span>
+              <div class="password-field">
+                <input type="password" id="signupPassword" placeholder="••••••••" required />
+                <button type="button" class="password-toggle" id="signupPasswordToggle" aria-label="Show password">
+                  <i class="fa-solid fa-eye"></i>
+                </button>
+              </div>
               <small class="field-error" id="signupPasswordError"></small>
             </label>
             <label class="field">
-              <span>Confirm Password:</span>
-              <input type="password" id="signupConfirm" placeholder="••••••••" required />
+              <span>Confirm Password</span>
+              <div class="password-field">
+                <input type="password" id="signupConfirm" placeholder="••••••••" required />
+                <button type="button" class="password-toggle" id="signupConfirmToggle" aria-label="Show password">
+                  <i class="fa-solid fa-eye"></i>
+                </button>
+              </div>
               <small class="field-error" id="signupConfirmError"></small>
             </label>
+            <div class="field">
+              <label class="checkbox-label">
+                <input type="checkbox" id="signupTerms" /> I agree to the <a href="#" class="link-text">Terms and Conditions</a>
+              </label>
+              <small class="field-error" id="signupTermsError"></small>
+            </div>
             <button type="submit" class="btn btn-primary btn-block" id="signupSubmit">Create Account</button>
           </form>
           <p class="auth-footer-text">Already have an account? <a href="login.html" class="link-text">Log in</a></p>

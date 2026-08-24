@@ -1,7 +1,8 @@
 /* ============================================================
    TravelX - login.js
-   Login form validation + demo submit on login.html.
-   Depends on common.js (must be loaded first for isValidEmail()).
+   Login form validation, show/hide password, and demo submit on
+   login.html. Depends on common.js for isValidEmail() and
+   initPasswordToggle().
    ============================================================ */
 
 function initLoginForm() {
@@ -38,5 +39,5 @@ function initLoginForm() {
 
 document.addEventListener("DOMContentLoaded", () => {
   initLoginForm();
+  initPasswordToggle(document.getElementById("loginPasswordToggle"), document.getElementById("loginPassword"));
 });
-

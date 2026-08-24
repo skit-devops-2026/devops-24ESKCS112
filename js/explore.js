@@ -1,32 +1,59 @@
 /* ============================================================
    TravelX - explore.js
-   Filtering, sorting, and pagination for explore.html.
-   Depends on common.js (must be loaded first for shared data,
-   render helpers, and localStorage-based selected-package state).
+   Search (with suggestions), category/price/rating filters,
+   sorting, and pagination for explore.html. All filtering runs
+   against the destinations array loaded once from
+   data/destinations.json via common.js's getDestinations().
    ============================================================ */
-
-/* ---------- 5. Explore page (filter, sort, paginate) ---------- */
 
 /* Local page state (only needed on explore.html) */
 const state = {
+  allDestinations: [],
   exploreQuery: new URLSearchParams(window.location.search).get("q") || "",
   exploreCategories: [],
-  exploreMaxPrice: 1500,
+  explorePriceBucket: "any",
   exploreMinRating: 0,
   exploreSort: "recommended",
   explorePage: 1,
-  pageSize: 6
+  pageSize: 6,
 };
 
+/* ---------- Search matching (name, category, description, region - case-insensitive) ---------- */
+
+function matchesSearch(d, query) {
+  if (!query) return true;
+  const q = query.toLowerCase();
+  return (
+    d.name.toLowerCase().includes(q) ||
+    d.category.toLowerCase().includes(q) ||
+    d.description.toLowerCase().includes(q) ||
+    (d.region && d.region.toLowerCase().includes(q))
+  );
+}
+
+/* ---------- Price bucket matching ---------- */
+
+function matchesPriceBucket(price, bucket) {
+  switch (bucket) {
+    case "under10":
+      return price < 10000;
+    case "10-15":
+      return price >= 10000 && price <= 15000;
+    case "15-20":
+      return price > 15000 && price <= 20000;
+    case "above20":
+      return price > 20000;
+    default:
+      return true; // "any"
+  }
+}
+
 function getFilteredDestinations() {
-  let list = destinations.filter((d) => {
-    const matchesQuery = state.exploreQuery
-      ? d.name.toLowerCase().includes(state.exploreQuery.toLowerCase()) ||
-        d.category.toLowerCase().includes(state.exploreQuery.toLowerCase())
-      : true;
+  let list = state.allDestinations.filter((d) => {
+    const matchesQuery = matchesSearch(d, state.exploreQuery);
     const matchesCategory =
       state.exploreCategories.length === 0 || state.exploreCategories.includes(d.category);
-    const matchesPrice = d.price <= state.exploreMaxPrice;
+    const matchesPrice = matchesPriceBucket(d.price, state.explorePriceBucket);
     const matchesRating = d.rating >= state.exploreMinRating;
     return matchesQuery && matchesCategory && matchesPrice && matchesRating;
   });
@@ -77,11 +104,60 @@ function renderExplore() {
   if (nextBtn) nextBtn.addEventListener("click", () => { state.explorePage = Math.min(totalPages, state.explorePage + 1); renderExplore(); });
 }
 
+/* ---------- Search suggestions dropdown ---------- */
+
+function renderSuggestions(query) {
+  const box = document.getElementById("searchSuggestions");
+  if (!query) {
+    box.innerHTML = "";
+    box.classList.add("hidden");
+    return;
+  }
+
+  const q = query.toLowerCase();
+  const matches = state.allDestinations
+    .filter((d) => d.name.toLowerCase().includes(q) || d.category.toLowerCase().includes(q))
+    .slice(0, 6);
+
+  if (matches.length === 0) {
+    box.innerHTML = "";
+    box.classList.add("hidden");
+    return;
+  }
+
+  box.innerHTML = matches
+    .map((d) => `<button type="button" class="suggestion-item" data-suggest="${d.name.replace(/"/g, "&quot;")}">${d.name}</button>`)
+    .join("");
+  box.classList.remove("hidden");
+
+  box.querySelectorAll("[data-suggest]").forEach((item) => {
+    item.addEventListener("click", () => {
+      const searchInput = document.getElementById("exploreSearch");
+      searchInput.value = item.dataset.suggest;
+      state.exploreQuery = item.dataset.suggest;
+      state.explorePage = 1;
+      box.innerHTML = "";
+      box.classList.add("hidden");
+      renderExplore();
+    });
+  });
+}
+
 function initExploreControls() {
-  document.getElementById("exploreSearch").addEventListener("input", (e) => {
+  const searchInput = document.getElementById("exploreSearch");
+
+  searchInput.addEventListener("input", (e) => {
     state.exploreQuery = e.target.value;
     state.explorePage = 1;
+    renderSuggestions(e.target.value.trim());
     renderExplore();
+  });
+
+  /* Hide suggestions when clicking anywhere outside the search box */
+  document.addEventListener("click", (e) => {
+    if (!e.target.closest(".search-with-suggestions")) {
+      document.getElementById("searchSuggestions").classList.add("hidden");
+    }
   });
 
   document.getElementById("sortSelect").addEventListener("change", (e) => {
@@ -99,12 +175,12 @@ function initExploreControls() {
     });
   });
 
-  const priceRange = document.getElementById("priceRange");
-  priceRange.addEventListener("input", (e) => {
-    state.exploreMaxPrice = Number(e.target.value);
-    document.getElementById("maxPriceLabel").textContent = "$" + state.exploreMaxPrice;
-    state.explorePage = 1;
-    renderExplore();
+  document.querySelectorAll('input[name="priceBucket"]').forEach((radio) => {
+    radio.addEventListener("change", () => {
+      state.explorePriceBucket = radio.value;
+      state.explorePage = 1;
+      renderExplore();
+    });
   });
 
   document.querySelectorAll("#ratingFilters .chip").forEach((chip) => {
@@ -120,13 +196,12 @@ function initExploreControls() {
 
   function resetFilters() {
     state.exploreCategories = [];
-    state.exploreMaxPrice = 1500;
+    state.explorePriceBucket = "any";
     state.exploreMinRating = 0;
     state.exploreQuery = "";
     state.explorePage = 1;
     document.querySelectorAll("#categoryFilters input").forEach((c) => (c.checked = false));
-    document.getElementById("priceRange").value = 1500;
-    document.getElementById("maxPriceLabel").textContent = "$1500";
+    document.querySelector('input[name="priceBucket"][value="any"]').checked = true;
     document.getElementById("exploreSearch").value = "";
     document.querySelectorAll("#ratingFilters .chip").forEach((c) => c.classList.remove("active-chip"));
     document.querySelector('#ratingFilters .chip[data-rating="0"]').classList.add("active-chip");
@@ -142,6 +217,13 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("exploreSearch").value = state.exploreQuery;
   }
   initExploreControls();
-  renderExplore();
-});
 
+  getDestinations()
+    .then((destinationsList) => {
+      state.allDestinations = destinationsList;
+      renderExplore();
+    })
+    .catch(() => {
+      showLoadError(document.getElementById("exploreGrid"));
+    });
+});
