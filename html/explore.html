@@ -12,6 +12,9 @@
   <!-- Font Awesome icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 
+  <!-- Leaflet.js: powers the interactive India map view on this page -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
   <!-- Shared styles first, then this page's own styles -->
   <link rel="stylesheet" href="../css/common.css" />
   <link rel="stylesheet" href="../css/explore.css" />
@@ -70,6 +73,14 @@
               <option value="rating">Top Rated</option>
             </select>
           </div>
+          <div class="view-toggle" id="viewToggle" role="group" aria-label="Switch between grid and map view">
+            <button type="button" class="view-toggle-btn active" data-view="grid">
+              <i class="fa-solid fa-table-cells-large"></i> Grid
+            </button>
+            <button type="button" class="view-toggle-btn" data-view="map">
+              <i class="fa-solid fa-map-location-dot"></i> Map
+            </button>
+          </div>
         </div>
 
         <div class="explore-layout">
@@ -114,14 +125,28 @@
           <!-- Results -->
           <div class="explore-results">
             <p class="results-count"><span id="resultsCount">0</span> results found</p>
-            <div class="grid grid-3" id="exploreGrid"><!-- Injected --></div>
-            <div class="empty-state hidden" id="exploreEmpty">
-              <i class="fa-solid fa-magnifying-glass"></i>
-              <h3>No destinations match your filters</h3>
-              <p>Try widening your price range, clearing a category, or searching a different term.</p>
-              <button type="button" class="btn btn-outline" id="emptyReset">Reset filters</button>
+
+            <!-- Grid view (default) -->
+            <div id="gridView">
+              <div class="grid grid-3" id="exploreGrid"><!-- Injected --></div>
+              <div class="empty-state hidden" id="exploreEmpty">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <h3>No destinations match your filters</h3>
+                <p>Try widening your price range, clearing a category, or searching a different term.</p>
+                <button type="button" class="btn btn-outline" id="emptyReset">Reset filters</button>
+              </div>
+              <div class="pagination" id="pagination"><!-- Injected --></div>
             </div>
-            <div class="pagination" id="pagination"><!-- Injected --></div>
+
+            <!-- Map view (hidden until "Map" is selected) -->
+            <div id="mapView" class="hidden">
+              <div class="map-legend">
+                <i class="fa-solid fa-circle-info"></i>
+                Showing <span id="mapResultsCount">0</span> destinations that match your current filters.
+                Click a pin to preview a destination, then open its full details.
+              </div>
+              <div id="destinationsMap" class="destinations-map"></div>
+            </div>
           </div>
         </div>
       </div>
@@ -166,8 +191,9 @@
   </footer>
 
 
-  <!-- Shared script first (data + helpers), then this page's own script -->
+  <!-- Shared script first (data + helpers), then Leaflet, then this page's own script -->
   <script src="../js/common.js"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="../js/explore.js"></script>
 </body>
 </html>

@@ -31,7 +31,9 @@
         "title": "Local handicraft shopping and departure",
         "detail": "Wrap up remaining sights around Jaipur before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 26.9124,
+    "lng": 75.7873
   },
   {
     "id": "udaipur",
@@ -65,7 +67,9 @@
         "title": "Spa morning and departure",
         "detail": "Wrap up remaining sights around Udaipur before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 24.5854,
+    "lng": 73.7125
   },
   {
     "id": "jaisalmer",
@@ -99,7 +103,9 @@
         "title": "Folk performance evening and departure",
         "detail": "Wrap up remaining sights around Jaisalmer before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 26.9157,
+    "lng": 70.9083
   },
   {
     "id": "jodhpur",
@@ -133,7 +139,9 @@
         "title": "Local handicraft shopping and departure",
         "detail": "Wrap up remaining sights around Jodhpur before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 26.2389,
+    "lng": 73.0243
   },
   {
     "id": "mount-abu",
@@ -167,7 +175,9 @@
         "title": "Cable car ride and departure",
         "detail": "Wrap up remaining sights around Mount Abu before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 24.5926,
+    "lng": 72.7156
   },
   {
     "id": "pushkar",
@@ -201,7 +211,9 @@
         "title": "Temple blessing ceremony and departure",
         "detail": "Wrap up remaining sights around Pushkar before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 26.4899,
+    "lng": 74.5511
   },
   {
     "id": "bikaner",
@@ -235,7 +247,9 @@
         "title": "Folk performance evening and departure",
         "detail": "Wrap up remaining sights around Bikaner before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 28.0229,
+    "lng": 73.3119
   },
   {
     "id": "agra",
@@ -269,7 +283,9 @@
         "title": "Local handicraft shopping and departure",
         "detail": "Wrap up remaining sights around Agra before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 27.1767,
+    "lng": 78.0081
   },
   {
     "id": "delhi",
@@ -303,7 +319,9 @@
         "title": "Museum visit and departure",
         "detail": "Wrap up remaining sights around Delhi before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 28.6139,
+    "lng": 77.209
   },
   {
     "id": "varanasi",
@@ -337,7 +355,9 @@
         "title": "Temple blessing ceremony and departure",
         "detail": "Wrap up remaining sights around Varanasi before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 25.3176,
+    "lng": 82.9739
   },
   {
     "id": "lucknow",
@@ -371,7 +391,9 @@
         "title": "Local handicraft shopping and departure",
         "detail": "Wrap up remaining sights around Lucknow before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 26.8467,
+    "lng": 80.9462
   },
   {
     "id": "shimla",
@@ -405,7 +427,9 @@
         "title": "Cable car ride and departure",
         "detail": "Wrap up remaining sights around Shimla before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 31.1048,
+    "lng": 77.1734
   },
   {
     "id": "manali",
@@ -439,7 +463,9 @@
         "title": "Cable car ride and departure",
         "detail": "Wrap up remaining sights around Manali before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 32.2432,
+    "lng": 77.1892
   },
   {
     "id": "dharamshala",
@@ -473,7 +499,9 @@
         "title": "Temple blessing ceremony and departure",
         "detail": "Wrap up remaining sights around Dharamshala before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 32.219,
+    "lng": 76.3234
   },
   {
     "id": "mcleodganj",
@@ -507,7 +535,9 @@
         "title": "Temple blessing ceremony and departure",
         "detail": "Wrap up remaining sights around McLeod Ganj before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 32.2432,
+    "lng": 76.3216
   },
   {
     "id": "kasol",
@@ -541,7 +571,9 @@
         "title": "Final adventure activity and departure",
         "detail": "Wrap up remaining sights around Kasol before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 32.01,
+    "lng": 77.3145
   },
   {
     "id": "spiti-valley",
@@ -575,7 +607,9 @@
         "title": "Final adventure activity and departure",
         "detail": "Wrap up remaining sights around Spiti Valley before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 32.2461,
+    "lng": 78.0349
   },
   {
     "id": "dalhousie",
@@ -609,7 +643,9 @@
         "title": "Cable car ride and departure",
         "detail": "Wrap up remaining sights around Dalhousie before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 32.5387,
+    "lng": 75.97
   },
   {
     "id": "rishikesh",
@@ -643,7 +679,9 @@
         "title": "Final adventure activity and departure",
         "detail": "Wrap up remaining sights around Rishikesh before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 30.0869,
+    "lng": 78.2676
   },
   {
     "id": "haridwar",
@@ -677,7 +715,9 @@
         "title": "Temple blessing ceremony and departure",
         "detail": "Wrap up remaining sights around Haridwar before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 29.9457,
+    "lng": 78.1642
   },
   {
     "id": "nainital",
@@ -711,7 +751,9 @@
         "title": "Optional trek and departure",
         "detail": "Wrap up remaining sights around Nainital before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 29.3919,
+    "lng": 79.4542
   },
   {
     "id": "mussoorie",
@@ -745,7 +787,9 @@
         "title": "Cable car ride and departure",
         "detail": "Wrap up remaining sights around Mussoorie before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 30.4598,
+    "lng": 78.0664
   },
   {
     "id": "jim-corbett",
@@ -779,7 +823,9 @@
         "title": "Morning safari and departure",
         "detail": "Wrap up remaining sights around Jim Corbett National Park before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 29.53,
+    "lng": 78.7747
   },
   {
     "id": "auli",
@@ -813,7 +859,9 @@
         "title": "Final adventure activity and departure",
         "detail": "Wrap up remaining sights around Auli before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 30.53,
+    "lng": 79.5667
   },
   {
     "id": "amritsar",
@@ -847,7 +895,9 @@
         "title": "Temple blessing ceremony and departure",
         "detail": "Wrap up remaining sights around Amritsar before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 31.634,
+    "lng": 74.8723
   },
   {
     "id": "chandigarh",
@@ -881,7 +931,9 @@
         "title": "Museum visit and departure",
         "detail": "Wrap up remaining sights around Chandigarh before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 30.7333,
+    "lng": 76.7794
   },
   {
     "id": "leh-ladakh",
@@ -915,7 +967,9 @@
         "title": "Final adventure activity and departure",
         "detail": "Wrap up remaining sights around Leh-Ladakh before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 34.1526,
+    "lng": 77.5771
   },
   {
     "id": "srinagar",
@@ -949,7 +1003,9 @@
         "title": "Optional trek and departure",
         "detail": "Wrap up remaining sights around Srinagar before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 34.0837,
+    "lng": 74.7973
   },
   {
     "id": "gulmarg",
@@ -983,7 +1039,9 @@
         "title": "Cable car ride and departure",
         "detail": "Wrap up remaining sights around Gulmarg before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 34.0484,
+    "lng": 74.3805
   },
   {
     "id": "pahalgam",
@@ -1017,7 +1075,9 @@
         "title": "Cable car ride and departure",
         "detail": "Wrap up remaining sights around Pahalgam before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 34.0161,
+    "lng": 75.3313
   },
   {
     "id": "munnar",
@@ -1051,7 +1111,9 @@
         "title": "Cable car ride and departure",
         "detail": "Wrap up remaining sights around Munnar before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 10.0889,
+    "lng": 77.0595
   },
   {
     "id": "alleppey",
@@ -1085,7 +1147,9 @@
         "title": "Optional trek and departure",
         "detail": "Wrap up remaining sights around Alleppey before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 9.4981,
+    "lng": 76.3388
   },
   {
     "id": "kumarakom",
@@ -1119,7 +1183,9 @@
         "title": "Optional trek and departure",
         "detail": "Wrap up remaining sights around Kumarakom before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 9.6177,
+    "lng": 76.4285
   },
   {
     "id": "kochi",
@@ -1153,7 +1219,9 @@
         "title": "Local handicraft shopping and departure",
         "detail": "Wrap up remaining sights around Kochi before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 9.9312,
+    "lng": 76.2673
   },
   {
     "id": "wayanad",
@@ -1187,7 +1255,9 @@
         "title": "Morning safari and departure",
         "detail": "Wrap up remaining sights around Wayanad before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 11.6854,
+    "lng": 76.132
   },
   {
     "id": "thekkady",
@@ -1221,7 +1291,9 @@
         "title": "Morning safari and departure",
         "detail": "Wrap up remaining sights around Thekkady before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 9.5916,
+    "lng": 77.16
   },
   {
     "id": "varkala",
@@ -1255,7 +1327,9 @@
         "title": "Leisure day and departure",
         "detail": "Wrap up remaining sights around Varkala before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 8.7379,
+    "lng": 76.7163
   },
   {
     "id": "kovalam",
@@ -1289,7 +1363,9 @@
         "title": "Leisure day and departure",
         "detail": "Wrap up remaining sights around Kovalam before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 8.4004,
+    "lng": 76.9787
   },
   {
     "id": "ooty",
@@ -1323,7 +1399,9 @@
         "title": "Cable car ride and departure",
         "detail": "Wrap up remaining sights around Ooty before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 11.4102,
+    "lng": 76.695
   },
   {
     "id": "kodaikanal",
@@ -1357,7 +1435,9 @@
         "title": "Cable car ride and departure",
         "detail": "Wrap up remaining sights around Kodaikanal before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 10.2381,
+    "lng": 77.4892
   },
   {
     "id": "chennai",
@@ -1391,7 +1471,9 @@
         "title": "Museum visit and departure",
         "detail": "Wrap up remaining sights around Chennai before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 13.0827,
+    "lng": 80.2707
   },
   {
     "id": "madurai",
@@ -1425,7 +1507,9 @@
         "title": "Local handicraft shopping and departure",
         "detail": "Wrap up remaining sights around Madurai before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 9.9252,
+    "lng": 78.1198
   },
   {
     "id": "rameswaram",
@@ -1459,7 +1543,9 @@
         "title": "Temple blessing ceremony and departure",
         "detail": "Wrap up remaining sights around Rameswaram before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 9.2876,
+    "lng": 79.3129
   },
   {
     "id": "kanyakumari",
@@ -1493,7 +1579,9 @@
         "title": "Leisure day and departure",
         "detail": "Wrap up remaining sights around Kanyakumari before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 8.0883,
+    "lng": 77.5385
   },
   {
     "id": "pondicherry",
@@ -1527,7 +1615,9 @@
         "title": "Spa morning and departure",
         "detail": "Wrap up remaining sights around Pondicherry before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 11.9416,
+    "lng": 79.8083
   },
   {
     "id": "mysore",
@@ -1561,7 +1651,9 @@
         "title": "Local handicraft shopping and departure",
         "detail": "Wrap up remaining sights around Mysore before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 12.2958,
+    "lng": 76.6394
   },
   {
     "id": "coorg",
@@ -1595,7 +1687,9 @@
         "title": "Optional trek and departure",
         "detail": "Wrap up remaining sights around Coorg before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 12.3375,
+    "lng": 75.8069
   },
   {
     "id": "hampi",
@@ -1629,7 +1723,9 @@
         "title": "Local handicraft shopping and departure",
         "detail": "Wrap up remaining sights around Hampi before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 15.335,
+    "lng": 76.46
   },
   {
     "id": "gokarna",
@@ -1663,7 +1759,9 @@
         "title": "Leisure day and departure",
         "detail": "Wrap up remaining sights around Gokarna before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 14.5479,
+    "lng": 74.3188
   },
   {
     "id": "chikmagalur",
@@ -1697,7 +1795,9 @@
         "title": "Optional trek and departure",
         "detail": "Wrap up remaining sights around Chikmagalur before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 13.3161,
+    "lng": 75.772
   },
   {
     "id": "bangalore",
@@ -1731,7 +1831,9 @@
         "title": "Museum visit and departure",
         "detail": "Wrap up remaining sights around Bangalore before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 12.9716,
+    "lng": 77.5946
   },
   {
     "id": "bandipur",
@@ -1765,7 +1867,9 @@
         "title": "Morning safari and departure",
         "detail": "Wrap up remaining sights around Bandipur National Park before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 11.6717,
+    "lng": 76.6336
   },
   {
     "id": "hyderabad",
@@ -1799,7 +1903,9 @@
         "title": "Local handicraft shopping and departure",
         "detail": "Wrap up remaining sights around Hyderabad before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 17.385,
+    "lng": 78.4867
   },
   {
     "id": "tirupati",
@@ -1833,7 +1939,9 @@
         "title": "Temple blessing ceremony and departure",
         "detail": "Wrap up remaining sights around Tirupati before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 13.6288,
+    "lng": 79.4192
   },
   {
     "id": "visakhapatnam",
@@ -1867,7 +1975,9 @@
         "title": "Leisure day and departure",
         "detail": "Wrap up remaining sights around Visakhapatnam before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 17.6868,
+    "lng": 83.2185
   },
   {
     "id": "araku-valley",
@@ -1901,7 +2011,9 @@
         "title": "Optional trek and departure",
         "detail": "Wrap up remaining sights around Araku Valley before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 18.3273,
+    "lng": 82.877
   },
   {
     "id": "andaman",
@@ -1935,7 +2047,9 @@
         "title": "Leisure day and departure",
         "detail": "Wrap up remaining sights around Port Blair and Havelock before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 11.6234,
+    "lng": 92.7265
   },
   {
     "id": "lakshadweep",
@@ -1969,7 +2083,9 @@
         "title": "Leisure day and departure",
         "detail": "Wrap up remaining sights around Lakshadweep Islands before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 10.5667,
+    "lng": 72.6417
   },
   {
     "id": "goa-north",
@@ -2003,7 +2119,9 @@
         "title": "Leisure day and departure",
         "detail": "Wrap up remaining sights around Goa before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 15.5057,
+    "lng": 73.8278
   },
   {
     "id": "mumbai",
@@ -2037,7 +2155,9 @@
         "title": "Museum visit and departure",
         "detail": "Wrap up remaining sights around Mumbai before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 19.076,
+    "lng": 72.8777
   },
   {
     "id": "pune",
@@ -2071,7 +2191,9 @@
         "title": "Museum visit and departure",
         "detail": "Wrap up remaining sights around Pune before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 18.5204,
+    "lng": 73.8567
   },
   {
     "id": "lonavala",
@@ -2105,7 +2227,9 @@
         "title": "Optional trek and departure",
         "detail": "Wrap up remaining sights around Lonavala before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 18.7546,
+    "lng": 73.4062
   },
   {
     "id": "mahabaleshwar",
@@ -2139,7 +2263,9 @@
         "title": "Cable car ride and departure",
         "detail": "Wrap up remaining sights around Mahabaleshwar before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 17.9307,
+    "lng": 73.6477
   },
   {
     "id": "alibaug",
@@ -2173,7 +2299,9 @@
         "title": "Leisure day and departure",
         "detail": "Wrap up remaining sights around Alibaug before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 18.6414,
+    "lng": 72.8722
   },
   {
     "id": "aurangabad",
@@ -2207,7 +2335,9 @@
         "title": "Local handicraft shopping and departure",
         "detail": "Wrap up remaining sights around Aurangabad before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 19.8762,
+    "lng": 75.3433
   },
   {
     "id": "nashik",
@@ -2241,7 +2371,9 @@
         "title": "Optional trek and departure",
         "detail": "Wrap up remaining sights around Nashik before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 19.9975,
+    "lng": 73.7898
   },
   {
     "id": "matheran",
@@ -2275,7 +2407,9 @@
         "title": "Optional trek and departure",
         "detail": "Wrap up remaining sights around Matheran before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 18.987,
+    "lng": 73.2698
   },
   {
     "id": "ahmedabad",
@@ -2309,7 +2443,9 @@
         "title": "Local handicraft shopping and departure",
         "detail": "Wrap up remaining sights around Ahmedabad before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 23.0225,
+    "lng": 72.5714
   },
   {
     "id": "rann-of-kutch",
@@ -2343,7 +2479,9 @@
         "title": "Folk performance evening and departure",
         "detail": "Wrap up remaining sights around Rann of Kutch before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 23.7337,
+    "lng": 69.8597
   },
   {
     "id": "diu",
@@ -2377,7 +2515,9 @@
         "title": "Leisure day and departure",
         "detail": "Wrap up remaining sights around Diu before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 20.7144,
+    "lng": 70.9874
   },
   {
     "id": "dwarka",
@@ -2411,7 +2551,9 @@
         "title": "Temple blessing ceremony and departure",
         "detail": "Wrap up remaining sights around Dwarka before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 22.2442,
+    "lng": 68.9685
   },
   {
     "id": "gir-national-park",
@@ -2445,7 +2587,9 @@
         "title": "Morning safari and departure",
         "detail": "Wrap up remaining sights around Gir National Park before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 21.12,
+    "lng": 70.79
   },
   {
     "id": "khajuraho",
@@ -2479,7 +2623,9 @@
         "title": "Local handicraft shopping and departure",
         "detail": "Wrap up remaining sights around Khajuraho before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 24.8318,
+    "lng": 79.9199
   },
   {
     "id": "bhopal",
@@ -2513,7 +2659,9 @@
         "title": "Museum visit and departure",
         "detail": "Wrap up remaining sights around Bhopal before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 23.2599,
+    "lng": 77.4126
   },
   {
     "id": "pachmarhi",
@@ -2547,7 +2695,9 @@
         "title": "Cable car ride and departure",
         "detail": "Wrap up remaining sights around Pachmarhi before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 22.4676,
+    "lng": 78.4336
   },
   {
     "id": "bandhavgarh",
@@ -2581,7 +2731,9 @@
         "title": "Morning safari and departure",
         "detail": "Wrap up remaining sights around Bandhavgarh National Park before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 23.68,
+    "lng": 80.97
   },
   {
     "id": "kanha",
@@ -2615,7 +2767,9 @@
         "title": "Morning safari and departure",
         "detail": "Wrap up remaining sights around Kanha National Park before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 22.335,
+    "lng": 80.6119
   },
   {
     "id": "orchha",
@@ -2649,7 +2803,9 @@
         "title": "Local handicraft shopping and departure",
         "detail": "Wrap up remaining sights around Orchha before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 25.3516,
+    "lng": 78.6417
   },
   {
     "id": "ujjain",
@@ -2683,7 +2839,9 @@
         "title": "Temple blessing ceremony and departure",
         "detail": "Wrap up remaining sights around Ujjain before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 23.1793,
+    "lng": 75.7849
   },
   {
     "id": "gwalior",
@@ -2717,7 +2875,9 @@
         "title": "Local handicraft shopping and departure",
         "detail": "Wrap up remaining sights around Gwalior before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 26.2183,
+    "lng": 78.1828
   },
   {
     "id": "chitrakoot",
@@ -2751,7 +2911,9 @@
         "title": "Temple blessing ceremony and departure",
         "detail": "Wrap up remaining sights around Chitrakoot before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 25.2001,
+    "lng": 80.8331
   },
   {
     "id": "raipur",
@@ -2785,7 +2947,9 @@
         "title": "Museum visit and departure",
         "detail": "Wrap up remaining sights around Raipur before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 21.2514,
+    "lng": 81.6296
   },
   {
     "id": "kolkata",
@@ -2819,7 +2983,9 @@
         "title": "Local handicraft shopping and departure",
         "detail": "Wrap up remaining sights around Kolkata before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 22.5726,
+    "lng": 88.3639
   },
   {
     "id": "darjeeling",
@@ -2853,7 +3019,9 @@
         "title": "Cable car ride and departure",
         "detail": "Wrap up remaining sights around Darjeeling before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 27.041,
+    "lng": 88.2663
   },
   {
     "id": "kalimpong",
@@ -2887,7 +3055,9 @@
         "title": "Cable car ride and departure",
         "detail": "Wrap up remaining sights around Kalimpong before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 27.067,
+    "lng": 88.47
   },
   {
     "id": "sundarbans",
@@ -2921,7 +3091,9 @@
         "title": "Morning safari and departure",
         "detail": "Wrap up remaining sights around Sundarbans before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 21.9497,
+    "lng": 88.9468
   },
   {
     "id": "digha",
@@ -2955,7 +3127,9 @@
         "title": "Leisure day and departure",
         "detail": "Wrap up remaining sights around Digha before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 21.6274,
+    "lng": 87.5088
   },
   {
     "id": "puri",
@@ -2989,7 +3163,9 @@
         "title": "Temple blessing ceremony and departure",
         "detail": "Wrap up remaining sights around Puri before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 19.8135,
+    "lng": 85.8312
   },
   {
     "id": "bhubaneswar",
@@ -3023,7 +3199,9 @@
         "title": "Local handicraft shopping and departure",
         "detail": "Wrap up remaining sights around Bhubaneswar before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 20.2961,
+    "lng": 85.8245
   },
   {
     "id": "chilika-lake",
@@ -3057,7 +3235,9 @@
         "title": "Optional trek and departure",
         "detail": "Wrap up remaining sights around Chilika Lake before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 19.7,
+    "lng": 85.32
   },
   {
     "id": "patna",
@@ -3091,7 +3271,9 @@
         "title": "Local handicraft shopping and departure",
         "detail": "Wrap up remaining sights around Patna before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 25.5941,
+    "lng": 85.1376
   },
   {
     "id": "bodh-gaya",
@@ -3125,7 +3307,9 @@
         "title": "Temple blessing ceremony and departure",
         "detail": "Wrap up remaining sights around Bodh Gaya before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 24.6959,
+    "lng": 84.991
   },
   {
     "id": "gangtok",
@@ -3159,7 +3343,9 @@
         "title": "Cable car ride and departure",
         "detail": "Wrap up remaining sights around Gangtok before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 27.3389,
+    "lng": 88.6065
   },
   {
     "id": "shillong",
@@ -3193,7 +3379,9 @@
         "title": "Optional trek and departure",
         "detail": "Wrap up remaining sights around Shillong before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 25.5788,
+    "lng": 91.8933
   },
   {
     "id": "cherrapunji",
@@ -3227,7 +3415,9 @@
         "title": "Optional trek and departure",
         "detail": "Wrap up remaining sights around Cherrapunji before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 25.2702,
+    "lng": 91.7323
   },
   {
     "id": "mawlynnong",
@@ -3261,7 +3451,9 @@
         "title": "Optional trek and departure",
         "detail": "Wrap up remaining sights around Mawlynnong before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 25.2,
+    "lng": 91.9333
   },
   {
     "id": "kaziranga",
@@ -3295,7 +3487,9 @@
         "title": "Morning safari and departure",
         "detail": "Wrap up remaining sights around Kaziranga National Park before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 26.5775,
+    "lng": 93.1714
   },
   {
     "id": "majuli",
@@ -3329,7 +3523,9 @@
         "title": "Optional trek and departure",
         "detail": "Wrap up remaining sights around Majuli Island before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 26.95,
+    "lng": 94.17
   },
   {
     "id": "guwahati",
@@ -3363,7 +3559,9 @@
         "title": "Museum visit and departure",
         "detail": "Wrap up remaining sights around Guwahati before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 26.1445,
+    "lng": 91.7362
   },
   {
     "id": "tawang",
@@ -3397,7 +3595,9 @@
         "title": "Cable car ride and departure",
         "detail": "Wrap up remaining sights around Tawang before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 27.5859,
+    "lng": 91.8594
   },
   {
     "id": "ziro-valley",
@@ -3431,7 +3631,9 @@
         "title": "Optional trek and departure",
         "detail": "Wrap up remaining sights around Ziro Valley before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 27.5514,
+    "lng": 93.8322
   },
   {
     "id": "dzukou-valley",
@@ -3465,7 +3667,9 @@
         "title": "Final adventure activity and departure",
         "detail": "Wrap up remaining sights around Dzukou Valley before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 25.63,
+    "lng": 94.1
   },
   {
     "id": "loktak-lake",
@@ -3499,7 +3703,9 @@
         "title": "Optional trek and departure",
         "detail": "Wrap up remaining sights around Loktak Lake before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 24.5464,
+    "lng": 93.81
   },
   {
     "id": "agartala",
@@ -3533,6 +3739,8 @@
         "title": "Local handicraft shopping and departure",
         "detail": "Wrap up remaining sights around Agartala before heading to the airport/station for departure."
       }
-    ]
+    ],
+    "lat": 23.8315,
+    "lng": 91.2868
   }
 ]
