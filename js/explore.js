@@ -16,7 +16,88 @@ const state = {
   exploreSort: "recommended",
   explorePage: 1,
   pageSize: 6,
+  currentView: "grid",
 };
+
+/* ---------- Interactive India map (Leaflet.js) ----------
+   Feature: lets users see where a filtered set of destinations actually
+   sit on the map, instead of only reading a list - handy when someone is
+   planning around a region ("what else is near Rajasthan?") rather than
+   a specific destination name. The map is created lazily, the first time
+   the user switches to Map view, and its markers are kept in sync with
+   whatever filters/search are currently applied. */
+
+let map = null;
+let markerLayer = null;
+
+function initMap() {
+  if (map) return; // already created
+
+  map = L.map("destinationsMap", { scrollWheelZoom: false }).setView([22.5, 80], 5);
+
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    maxZoom: 18,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+  }).addTo(map);
+
+  markerLayer = L.layerGroup().addTo(map);
+}
+
+function renderMapMarkers(filtered) {
+  document.getElementById("mapResultsCount").textContent = filtered.length;
+  if (!map) return; // map view hasn't been opened yet - nothing to update
+
+  markerLayer.clearLayers();
+
+  filtered.forEach((d) => {
+    if (typeof d.lat !== "number" || typeof d.lng !== "number") return;
+
+    const marker = L.marker([d.lat, d.lng]);
+    marker.bindPopup(`
+      <div class="map-popup">
+        <img src="${d.image}" alt="${d.name}" />
+        <h4>${d.name}</h4>
+        <p>${d.category} &middot; ₹${d.price.toLocaleString("en-IN")}/person</p>
+        <a href="details.html?id=${d.id}" class="btn btn-primary btn-sm">View details</a>
+      </div>
+    `);
+    marker.addTo(markerLayer);
+  });
+
+  /* Fit the map to whatever pins are currently showing, so a narrowed-down
+     search (e.g. "Rajasthan") zooms in instead of leaving the user staring
+     at the whole country with 5 tiny dots in one corner. */
+  if (filtered.length > 0) {
+    const bounds = L.latLngBounds(filtered.filter((d) => d.lat && d.lng).map((d) => [d.lat, d.lng]));
+    map.fitBounds(bounds.pad(0.25));
+  }
+}
+
+function switchView(view) {
+  state.currentView = view;
+  document.getElementById("gridView").classList.toggle("hidden", view !== "grid");
+  document.getElementById("mapView").classList.toggle("hidden", view !== "map");
+  document.querySelectorAll(".view-toggle-btn").forEach((btn) => {
+    btn.classList.toggle("active", btn.dataset.view === view);
+  });
+
+  if (view === "map") {
+    initMap();
+    /* Leaflet can't measure a container that was just made visible in the
+       same tick, so give the browser one frame before asking it to resize
+       and re-fit - without this the map renders as a small blank corner. */
+    requestAnimationFrame(() => {
+      map.invalidateSize();
+      renderMapMarkers(getFilteredDestinations());
+    });
+  }
+}
+
+function initViewToggle() {
+  document.querySelectorAll(".view-toggle-btn").forEach((btn) => {
+    btn.addEventListener("click", () => switchView(btn.dataset.view));
+  });
+}
 
 /* ---------- Search matching (name, category, description, region - case-insensitive) ---------- */
 
@@ -74,6 +155,10 @@ function renderExplore() {
   const pageItems = filtered.slice(start, start + state.pageSize);
 
   document.getElementById("resultsCount").textContent = filtered.length;
+
+  /* Keep the map's pins in sync with the same filtered set the grid shows,
+     so switching views mid-search doesn't reset anything. */
+  renderMapMarkers(filtered);
 
   const grid = document.getElementById("exploreGrid");
   const emptyState = document.getElementById("exploreEmpty");
@@ -217,6 +302,7 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("exploreSearch").value = state.exploreQuery;
   }
   initExploreControls();
+  initViewToggle();
 
   getDestinations()
     .then((destinationsList) => {
