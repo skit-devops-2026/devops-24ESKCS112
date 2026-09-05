@@ -38,9 +38,7 @@ install:
 
 test:
 	@echo "Checking TravelX frontend files..."
-	test -d html
-	test -d css
-	test -d js
+	python -c "import os,sys; folders=['html','css','js']; missing=[f for f in folders if not os.path.isdir(f)]; print('Missing:', ', '.join(missing)) if missing else print('All frontend folders OK'); sys.exit(1 if missing else 0)"
 	@echo "Frontend tests passed"
 
 build:
@@ -49,4 +47,4 @@ build:
 
 run:
 	@echo "Starting TravelX frontend..."
-	cd html && python3 -m http.server 8000
+	python -m http.server 8000 --directory html

@@ -2,31 +2,25 @@ pipeline {
     agent any
 
     stages {
-        stage('Checkout') {
-            steps {
-                checkout scm
-            }
-        }
-
         stage('Test') {
             steps {
-                sh 'make test'
+                bat 'make test'
             }
         }
 
         stage('Build') {
             steps {
-                sh 'make build'
+                bat 'make build'
             }
         }
     }
 
     post {
         success {
-            echo 'Build and tests completed successfully!'
+            echo 'TravelX CI pipeline completed successfully!'
         }
         failure {
-            echo 'Build failed!'
+            echo 'TravelX CI pipeline failed!'
         }
     }
 }
