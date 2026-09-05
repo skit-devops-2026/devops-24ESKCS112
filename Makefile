@@ -34,19 +34,19 @@
 .PHONY: install test build run
 
 install:
-	@echo "No dependencies required for TravelX frontend"
+	@echo No dependencies required for TravelX frontend
 
 test:
-	@echo "Checking TravelX frontend files..."
-	test -d html
-	test -d css
-	test -d js
-	@echo "Frontend tests passed"
+	@echo Checking TravelX frontend files...
+	if exist html (echo html folder OK) else (exit /b 1)
+	if exist css (echo css folder OK) else (exit /b 1)
+	if exist js (echo js folder OK) else (exit /b 1)
+	@echo Frontend tests passed
 
 build:
-	@echo "Building TravelX frontend..."
-	@echo "No build step required for HTML/CSS/JavaScript"
+	@echo Building TravelX frontend...
+	@echo No build step required for HTML/CSS/JavaScript
 
 run:
-	@echo "Starting TravelX frontend..."
-	cd html && python3 -m http.server 8000
+	@echo Starting TravelX frontend...
+	cd html && python -m http.server 8000
