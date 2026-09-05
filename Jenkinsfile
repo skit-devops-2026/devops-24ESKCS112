@@ -2,15 +2,22 @@ pipeline {
     agent any
 
     stages {
+
         stage('Test') {
             steps {
-                bat 'make test'
+                bat '''
+                    set "PATH=C:\\Program Files (x86)\\GnuWin32\\bin;%PATH%"
+                    make test
+                '''
             }
         }
 
         stage('Build') {
             steps {
-                bat 'make build'
+                bat '''
+                    set "PATH=C:\\Program Files (x86)\\GnuWin32\\bin;%PATH%"
+                    make build
+                '''
             }
         }
     }
@@ -19,6 +26,7 @@ pipeline {
         success {
             echo 'TravelX CI pipeline completed successfully!'
         }
+
         failure {
             echo 'TravelX CI pipeline failed!'
         }
