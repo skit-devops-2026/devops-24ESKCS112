@@ -34,17 +34,17 @@
 .PHONY: install test build run
 
 install:
-	@echo "No dependencies required for TravelX frontend"
+	@echo No dependencies required for TravelX frontend
 
 test:
-	@echo "Checking TravelX frontend files..."
+	@echo Checking TravelX frontend files...
 	python -c "import os,sys; folders=['html','css','js']; missing=[f for f in folders if not os.path.isdir(f)]; print('Missing:', ', '.join(missing)) if missing else print('All frontend folders OK'); sys.exit(1 if missing else 0)"
-	@echo "Frontend tests passed"
+	@echo Frontend tests passed
 
 build:
-	@echo "Building TravelX frontend..."
-	@echo "No build step required for HTML/CSS/JavaScript"
+	@echo Building TravelX frontend...
+	@echo No build step required for HTML/CSS/JavaScript
 
 run:
-	@echo "Starting TravelX frontend..."
+	@echo Starting TravelX frontend...
 	python -m http.server 8000 --directory html
