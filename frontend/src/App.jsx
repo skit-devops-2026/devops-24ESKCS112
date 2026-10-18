@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import Explore from './pages/Explore';
+import DestinationDetails from './pages/DestinationDetails';
 
 import './styles/common.css';
 import './styles/home.css';
@@ -16,7 +17,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/explore" element={<Explore />} />
-          {/* Baaki routes yahan add karo */}
+           <Route path="/details" element={<DestinationDetails />} />
         </Routes>
         <Footer />
       </BrowserRouter>
