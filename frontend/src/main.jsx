@@ -6,6 +6,7 @@ import App from './App.jsx'
 import './styles/common.css' 
 import './styles/home.css'
 import './styles/explore.css'
+import './styles/details.css'
 // ... jo bhi files hain
 
 ReactDOM.createRoot(document.getElementById('root')).render(
