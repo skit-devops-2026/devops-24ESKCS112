@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import Explore from './pages/Explore';
 import DestinationDetails from './pages/DestinationDetails';
+import Booking from './pages/Booking';
 
 import './styles/common.css';
 import './styles/home.css';
@@ -18,6 +19,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/explore" element={<Explore />} />
            <Route path="/details" element={<DestinationDetails />} />
+           <Route path="/booking" element={<Booking />} />
         </Routes>
         <Footer />
       </BrowserRouter>
