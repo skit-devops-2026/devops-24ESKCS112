@@ -6,9 +6,9 @@ import Home from './pages/Home';
 import Explore from './pages/Explore';
 import DestinationDetails from './pages/DestinationDetails';
 import Booking from './pages/Booking';
-
-import './styles/common.css';
-import './styles/home.css';
+import Login from './pages/Login';
+import Signup from './pages/Signup';
+import Dashboard from './pages/Dashboard';
 
 function App() {
   return (
@@ -18,8 +18,11 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/explore" element={<Explore />} />
-           <Route path="/details" element={<DestinationDetails />} />
-           <Route path="/booking" element={<Booking />} />
+          <Route path="/details" element={<DestinationDetails />} />
+          <Route path="/booking" element={<Booking />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<Signup />} />
+          <Route path="/dashboard" element={<Dashboard />} />
         </Routes>
         <Footer />
       </BrowserRouter>
