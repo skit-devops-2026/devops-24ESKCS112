@@ -8,6 +8,9 @@ import './styles/home.css'
 import './styles/explore.css'
 import './styles/details.css'
 import './styles/booking.css';
+import './styles/dashboard.css'
+import './styles/about.css'
+import './styles/contact.css'
 // ... jo bhi files hain
 
 ReactDOM.createRoot(document.getElementById('root')).render(

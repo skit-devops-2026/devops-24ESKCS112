@@ -9,22 +9,35 @@ import Booking from './pages/Booking';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
 import Dashboard from './pages/Dashboard';
+import About from './pages/About';
+import Contact from './pages/Contact';
+
+// ... imports ...
 
 function App() {
   return (
     <ThemeProvider>
       <BrowserRouter>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/explore" element={<Explore />} />
-          <Route path="/details" element={<DestinationDetails />} />
-          <Route path="/booking" element={<Booking />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/signup" element={<Signup />} />
-          <Route path="/dashboard" element={<Dashboard />} />
-        </Routes>
-        <Footer />
+        {/* Ek main wrapper div add karo */}
+        <div className="app-wrapper"> 
+          <Navbar />
+          
+          <main className="main-content">
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/explore" element={<Explore />} />
+              <Route path="/details" element={<DestinationDetails />} />
+              <Route path="/booking" element={<Booking />} />
+              <Route path="/login" element={<Login />} />
+              <Route path="/signup" element={<Signup />} />
+              <Route path="/dashboard" element={<Dashboard />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/contact" element={<Contact />} />
+            </Routes>
+          </main>
+          
+          <Footer />
+        </div>
       </BrowserRouter>
     </ThemeProvider>
   );
