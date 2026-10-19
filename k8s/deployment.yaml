@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: travelx-deployment
+  labels:
+    app: travelx
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: travelx
+  template:
+    metadata:
+      labels:
+        app: travelx
+    spec:
+      containers:
+      - name: travelx-frontend
+        image: travel-x:latest
+        ports:
+        - containerPort: 80
+        imagePullPolicy: Never
