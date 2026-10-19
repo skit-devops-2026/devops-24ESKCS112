@@ -37,9 +37,8 @@ jobs:
       - run: make install
       - run: make test
       - run: make build
-
   # ---------------------------------------------------------------------------
-  # M4 — Containerization. (Milestone 5 - Hume ise uncomment kar diya hai)
+  # M4 — Containerization.
   # ---------------------------------------------------------------------------
   docker:
     name: Build and push images
@@ -47,24 +46,24 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: read
-      packages: write  # GitHub Registry me write karne ke liye zaroori hai
+      packages: write
     steps:
       - uses: actions/checkout@v4
 
-      # GitHub Container Registry (GHCR) me log in karne ke liye
       - uses: docker/login-action@v3
         with:
           registry: ghcr.io
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
-      # Sirf Frontend (React) ki image build aur push hogi
       - uses: docker/build-push-action@v6
         with:
           context: ./frontend
           file: ./frontend/Dockerfile
           push: true
-          tags: ghcr.io/${{ github.actor }}/travel-x:latest
+          # Yahan aapka username poora lowercase (dineshgehlot2005) kar diya hai
+          tags: ghcr.io/dineshgehlot2005/travel-x:latest
+
 
   # ---------------------------------------------------------------------------
   # M5 — Deployment. Add a deploy job here.
