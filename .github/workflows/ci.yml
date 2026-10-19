@@ -37,8 +37,9 @@ jobs:
       - run: make install
       - run: make test
       - run: make build
-  #   # ---------------------------------------------------------------------------
-  # M4 — Containerization.
+
+  # ---------------------------------------------------------------------------
+  # M4 — Containerization (Milestone 5)
   # ---------------------------------------------------------------------------
   docker:
     name: Build and push images
@@ -57,11 +58,11 @@ jobs:
         run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
 
       - name: Tag for GHCR
-        # Note: repository name lowercase me hona chahiye
-        run: docker tag travel-x ghcr.io/dineshgehlot2005/devops-24eskcs112:latest
+        run: docker tag travel-x ghcr.io/skit-devops-2026/devops-24eskcs112:latest
 
       - name: Push to GHCR
-        run: docker push ghcr.io/dineshgehlot2005/devops-24eskcs112:latest
+        run: docker push ghcr.io/skit-devops-2026/devops-24eskcs112:latest
 
+  # ---------------------------------------------------------------------------
   # M5 — Deployment. Add a deploy job here.
   # ---------------------------------------------------------------------------
