@@ -11,16 +11,16 @@
 .PHONY: install test build run
 
 install:
-	npm install
+	cd frontend && npm install
 
 test:
 	@echo Running React build test...
-	npm run build
+	cd frontend && npm run build
 
 build:
 	@echo Building React project...
-	npm run build
+	cd frontend && npm run build
 
 run:
 	@echo Starting React development server...
-	npm run dev
+	cd frontend && npm run dev
