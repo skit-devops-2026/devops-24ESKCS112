@@ -28,7 +28,7 @@ make run
 
 ## Live URL
 
-<Add once M5 is done. Until then, leave as is.>
+https://travelx-bb9l.onrender.com/
 
 ## Health endpoint
 
