@@ -168,3 +168,21 @@ html[data-theme="dark"] .perk-icon {
   margin: 0.5rem 0 1.5rem;
   position: relative;
 }
+
+/* Ye lines ensure karti hain ki page poori screen cover kare */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Humara pehle wala code, jo footer ko niche push karega */
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+}
