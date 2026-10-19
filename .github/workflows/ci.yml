@@ -37,7 +37,7 @@ jobs:
       - run: make install
       - run: make test
       - run: make build
-  # ---------------------------------------------------------------------------
+  #   # ---------------------------------------------------------------------------
   # M4 — Containerization.
   # ---------------------------------------------------------------------------
   docker:
@@ -50,21 +50,18 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: docker/login-action@v3
-        with:
-          registry: ghcr.io
-          username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
+      - name: Build the Docker image
+        run: docker build -t travel-x ./frontend
 
-      - uses: docker/build-push-action@v6
-        with:
-          context: ./frontend
-          file: ./frontend/Dockerfile
-          push: true
-          # Yahan aapka username poora lowercase (dineshgehlot2005) kar diya hai
-          tags: ghcr.io/dineshgehlot2005/travel-x:latest
+      - name: Log in to GitHub Container Registry
+        run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
 
+      - name: Tag for GHCR
+        # Note: repository name lowercase me hona chahiye
+        run: docker tag travel-x ghcr.io/dineshgehlot2005/devops-24eskcs112:latest
 
-  # ---------------------------------------------------------------------------
+      - name: Push to GHCR
+        run: docker push ghcr.io/dineshgehlot2005/devops-24eskcs112:latest
+
   # M5 — Deployment. Add a deploy job here.
   # ---------------------------------------------------------------------------
