@@ -1,10 +1,9 @@
 import { Link, NavLink } from 'react-router-dom';
 import { FaPlane, FaMoon, FaSun, FaBars } from 'react-icons/fa';
-// Agar tumne ThemeContext banaya hai toh isko uncomment karo:
-// import { useTheme } from '../context/ThemeContext';
+import { useTheme } from '../context/ThemeContext'; // 👈 Import karo
 
 const Navbar = () => {
-  // const { theme, toggleTheme } = useTheme(); // Context use kar rahe ho toh yeh chalu karo
+  const { theme, toggleTheme } = useTheme(); // 👈 Hook use karo
 
   return (
     <header className="navbar" id="navbar">
@@ -23,9 +22,11 @@ const Navbar = () => {
         </nav>
 
         <div className="navbar-actions">
-          <button className="icon-btn" aria-label="Toggle dark mode">
-            <FaMoon /> {/* Baad me isko theme toggle se connect karenge */}
+          {/* 👇 Yahan onClick={toggleTheme} aur dynamic icon laga diya hai */}
+          <button onClick={toggleTheme} className="icon-btn" aria-label="Toggle dark mode">
+            {theme === 'dark' ? <FaSun /> : <FaMoon />}
           </button>
+          
           <Link to="/login" className="btn btn-ghost">Log in</Link>
           <Link to="/signup" className="btn btn-primary">Sign up</Link>
           <button className="icon-btn mobile-only" aria-label="Toggle menu">

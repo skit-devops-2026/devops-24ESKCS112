@@ -1,7 +1,19 @@
-import { Link } from 'react-router-dom';
-import { FaLocationDot, FaCalendarDays, FaUsers, FaMagnifyingGlass, FaShieldHalved, FaWallet, FaHeadset, FaCircleCheck, FaQuoteRight } from 'react-icons/fa6';
-import destinationsData from '../data/destinations.json';
-import DestinationCard from '../components/DestinationCard';
+import { Link } from "react-router-dom";
+import {
+  FaLocationDot,
+  FaCalendarDays,
+  FaUsers,
+  FaMagnifyingGlass,
+  FaShieldHalved,
+  FaWallet,
+  FaHeadset,
+  FaCircleCheck,
+  FaQuoteRight,
+} from "react-icons/fa6";
+import destinationsData from "../data/destinations.json";
+import DestinationCard from "../components/DestinationCard";
+
+import { useWishlist } from "../hooks/useWishlist";
 
 // Tumhari common.js se Packages ka data
 const packages = [
@@ -10,55 +22,87 @@ const packages = [
     name: "Goa Beach Escape",
     destinationId: "goa-north",
     price: 12999,
-    includes: ["4-star beach resort", "Airport transfers", "North Goa sightseeing"],
+    includes: [
+      "4-star beach resort",
+      "Airport transfers",
+      "North Goa sightseeing",
+    ],
   },
   {
     id: "udaipur-royal-romance",
     name: "Udaipur Royal Romance",
     destinationId: "udaipur",
     price: 17999,
-    includes: ["Lake-view heritage hotel", "Private boat ride", "Candlelight dinner"],
+    includes: [
+      "Lake-view heritage hotel",
+      "Private boat ride",
+      "Candlelight dinner",
+    ],
   },
   {
     id: "manali-himalayan-adventure",
     name: "Manali Himalayan Adventure",
     destinationId: "manali",
     price: 14999,
-    includes: ["Mountain resort stay", "Guided Solang Valley trip", "Bonfire evening"],
+    includes: [
+      "Mountain resort stay",
+      "Guided Solang Valley trip",
+      "Bonfire evening",
+    ],
   },
 ];
 
 // Tumhari common.js se Testimonials ka data
 const testimonials = [
-  { name: "Aditi Sharma", location: "Jaipur, Rajasthan", avatar: "https://i.pravatar.cc/60?img=47", text: "TravelX made our Goa trip completely stress-free from start to finish." },
-  { name: "Rohan Mehta", location: "Delhi", avatar: "https://i.pravatar.cc/60?img=12", text: "The Udaipur package exceeded every expectation we had." },
-  { name: "Priya Nair", location: "Kochi, Kerala", avatar: "https://i.pravatar.cc/60?img=32", text: "Booking was seamless and support responded within minutes." },
+  {
+    name: "Aditi Sharma",
+    location: "Jaipur, Rajasthan",
+    avatar: "https://i.pravatar.cc/60?img=47",
+    text: "TravelX made our Goa trip completely stress-free from start to finish.",
+  },
+  {
+    name: "Rohan Mehta",
+    location: "Delhi",
+    avatar: "https://i.pravatar.cc/60?img=12",
+    text: "The Udaipur package exceeded every expectation we had.",
+  },
+  {
+    name: "Priya Nair",
+    location: "Kochi, Kerala",
+    avatar: "https://i.pravatar.cc/60?img=32",
+    text: "Booking was seamless and support responded within minutes.",
+  },
 ];
 
 const Home = () => {
-  // Tumhare home.js ke hisaab se Top 3 highest rated destinations nikalna
-  const featured = [...destinationsData].sort((a, b) => b.rating - a.rating).slice(0, 3);
+  const { wishlist, toggleWishlist } = useWishlist(); // Hook use karo
+  const featured = [...destinationsData]
+    .sort((a, b) => b.rating - a.rating)
+    .slice(0, 3);
 
   // Package ke liye uske destination ki image nikalna
   const getPackageImage = (destId) => {
-    const dest = destinationsData.find(d => d.id === destId);
-    return dest ? dest.image : '';
+    const dest = destinationsData.find((d) => d.id === destId);
+    return dest ? dest.image : "";
   };
 
   return (
     <main>
       <section id="home" className="page active">
-        
         {/* Hero Section */}
         <section className="hero">
           <div className="hero-glow hero-glow-1"></div>
           <div className="hero-glow hero-glow-2"></div>
           <div className="container hero-inner">
-            <span className="badge-pill">Over 2M+ happy travelers worldwide</span>
-            <h1 className="hero-title">Explore More. <span className="text-sunset">Worry Less.</span></h1>
+            <span className="badge-pill">
+              Over 2M+ happy travelers worldwide
+            </span>
+            <h1 className="hero-title">
+              Explore More. <span className="text-sunset">Worry Less.</span>
+            </h1>
             <p className="hero-subtitle">
-              Discover handpicked destinations, exclusive travel packages, and unforgettable
-              experiences &mdash; all in one place.
+              Discover handpicked destinations, exclusive travel packages, and
+              unforgettable experiences &mdash; all in one place.
             </p>
 
             {/* Search bar */}
@@ -90,21 +134,27 @@ const Home = () => {
         {/* Trust perks */}
         <section className="container perks">
           <div className="perk-card">
-            <span className="perk-icon"><FaShieldHalved /></span>
+            <span className="perk-icon">
+              <FaShieldHalved />
+            </span>
             <div>
               <h3>Verified stays</h3>
               <p>Every hotel quality-checked by our experts.</p>
             </div>
           </div>
           <div className="perk-card">
-            <span className="perk-icon"><FaWallet /></span>
+            <span className="perk-icon">
+              <FaWallet />
+            </span>
             <div>
               <h3>Best price guarantee</h3>
               <p>Found it cheaper? We'll match it.</p>
             </div>
           </div>
           <div className="perk-card">
-            <span className="perk-icon"><FaHeadset /></span>
+            <span className="perk-icon">
+              <FaHeadset />
+            </span>
             <div>
               <h3>24/7 support</h3>
               <p>Round-the-clock help, any time.</p>
@@ -121,7 +171,12 @@ const Home = () => {
           </div>
           <div className="grid grid-3">
             {featured.map((dest) => (
-              <DestinationCard key={dest.id} data={dest} />
+              <DestinationCard
+                key={dest.id}
+                data={dest}
+                isWishlisted={wishlist.includes(dest.id)}
+                onToggleWishlist={toggleWishlist}
+              />
             ))}
           </div>
         </section>
@@ -137,21 +192,47 @@ const Home = () => {
             {packages.map((pkg) => (
               <div key={pkg.id} className="card pkg-card">
                 {/* Inline style kyunki humne waisa hi code copy kiya hai */}
-                <div className="dest-card-img" style={{height: '140px', borderRadius: '16px', overflow: 'hidden', margin: '-1.25rem -1.25rem 1rem'}}>
-                  <img src={getPackageImage(pkg.destinationId)} alt={pkg.name} style={{width: '100%', height: '100%', objectFit: 'cover'}} />
+                <div
+                  className="dest-card-img"
+                  style={{
+                    height: "140px",
+                    borderRadius: "16px",
+                    overflow: "hidden",
+                    margin: "-1.25rem -1.25rem 1rem",
+                  }}
+                >
+                  <img
+                    src={getPackageImage(pkg.destinationId)}
+                    alt={pkg.name}
+                    style={{
+                      width: "100%",
+                      height: "100%",
+                      objectFit: "cover",
+                    }}
+                  />
                 </div>
                 <div className="pkg-card-top">
                   <h3>{pkg.name}</h3>
                 </div>
                 <ul className="pkg-included">
                   {pkg.includes.map((item, idx) => (
-                    <li key={idx}><FaCircleCheck /> {item}</li>
+                    <li key={idx}>
+                      <FaCircleCheck /> {item}
+                    </li>
                   ))}
                 </ul>
                 <div className="dashed-divider"></div>
                 <div className="pkg-card-footer">
-                  <p className="dest-price">₹{pkg.price.toLocaleString('en-IN')}<span>/person</span></p>
-                  <button type="button" className="btn btn-accent btn-sm">Book Now</button>
+                  <p className="dest-price">
+                    ₹{pkg.price.toLocaleString("en-IN")}
+                    <span>/person</span>
+                  </p>
+                  <Link
+                    to={`/booking?id=${pkg.destinationId}`}
+                    className="btn btn-accent btn-sm"
+                  >
+                    Book Now
+                  </Link>
                 </div>
               </div>
             ))}
@@ -189,7 +270,9 @@ const Home = () => {
             <div className="cta-glow"></div>
             <h2>Ready for your next adventure?</h2>
             <p>Book today and get exclusive early-bird discounts.</p>
-            <Link to="/explore" className="btn btn-accent">Book Now</Link>
+            <Link to="/explore" className="btn btn-accent">
+              Book Now
+            </Link>
           </div>
         </section>
       </section>

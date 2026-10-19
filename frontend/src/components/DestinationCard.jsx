@@ -1,15 +1,23 @@
 import { Link } from 'react-router-dom';
 import { FaStar, FaClock, FaHeart } from 'react-icons/fa';
 
-const DestinationCard = ({ data }) => {
+const DestinationCard = ({ data, isWishlisted, onToggleWishlist }) => {
   return (
     <div className="card dest-card">
       <div className="dest-card-img">
         <img src={data.image} alt={data.name} />
         <span className="dest-tag">{data.category}</span>
-        <button type="button" className="wishlist-toggle">
+        
+        {/* Wishlist Button */}
+        <button 
+          type="button" 
+          className={`wishlist-toggle ${isWishlisted ? 'active' : ''}`}
+          onClick={() => onToggleWishlist(data.id)}
+          style={{ color: isWishlisted ? '#ef4444' : 'inherit' }}
+        >
           <FaHeart />
         </button>
+
       </div>
       <div className="dest-card-body">
         <div className="dest-card-top">

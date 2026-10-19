@@ -11,6 +11,7 @@ import './styles/booking.css';
 import './styles/dashboard.css'
 import './styles/about.css'
 import './styles/contact.css'
+import 'leaflet/dist/leaflet.css';
 // ... jo bhi files hain
 
 ReactDOM.createRoot(document.getElementById('root')).render(
