@@ -1,8 +1,53 @@
-version: "3.9"
+
 services:
   app:
     build:
       context: ./frontend
       dockerfile: Dockerfile
     ports:
-      - "8080:80"
+      - "8081:80"
+    networks:
+      - monitoring-net
+
+  nginx-exporter:
+    image: nginx/nginx-prometheus-exporter:1.4.2
+    command:
+      - --nginx.scrape-uri=http://app:80/nginx_status
+    ports:
+      - "127.0.0.1:9113:9113"
+    networks:
+      monitoring-net:
+        ipv4_address: 172.30.0.10
+    depends_on:
+      - app
+
+  prometheus:
+    image: prom/prometheus
+    ports:
+      - "127.0.0.1:9090:9090"
+    volumes:
+      - ./monitoring/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+    networks:
+      - monitoring-net
+    depends_on:
+      - nginx-exporter
+
+  grafana:
+    image: grafana/grafana
+    ports:
+      - "127.0.0.1:3000:3000"
+    volumes:
+      - grafana-data:/var/lib/grafana
+    networks:
+      - monitoring-net
+    depends_on:
+      - prometheus
+
+networks:
+  monitoring-net:
+    ipam:
+      config:
+        - subnet: 172.30.0.0/24
+
+volumes:
+  grafana-data:
