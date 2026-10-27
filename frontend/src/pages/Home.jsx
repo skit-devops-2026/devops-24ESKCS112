@@ -10,7 +10,7 @@ import {
   FaCircleCheck,
   FaQuoteRight,
 } from "react-icons/fa6";
-import destinationsData from "../data/destinations.json";
+import { useDestinations } from '../hooks/useDestinations';
 import DestinationCard from "../components/DestinationCard";
 
 import { useWishlist } from "../hooks/useWishlist";
@@ -75,14 +75,15 @@ const testimonials = [
 ];
 
 const Home = () => {
+  const { destinations } = useDestinations();
   const { wishlist, toggleWishlist } = useWishlist(); // Hook use karo
-  const featured = [...destinationsData]
+  const featured = [...destinations]
     .sort((a, b) => b.rating - a.rating)
     .slice(0, 3);
 
   // Package ke liye uske destination ki image nikalna
   const getPackageImage = (destId) => {
-    const dest = destinationsData.find((d) => d.id === destId);
+    const dest = destinations.find((d) => d.id === destId);
     return dest ? dest.image : "";
   };
 

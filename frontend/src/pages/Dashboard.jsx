@@ -1,6 +1,7 @@
-import { useState } from 'react';
-import destinationsData from '../data/destinations.json';
+import { useState, useEffect } from 'react';
 import { useWishlist } from '../hooks/useWishlist';
+import { useDestinations } from '../hooks/useDestinations';
+import { useAuth } from '../context/AuthContext';
 import { FaCalendarDays, FaHeart, FaUserGear, FaTrash, FaLocationDot } from 'react-icons/fa6';
 
 const bookingsHistory = [
@@ -11,19 +12,63 @@ const bookingsHistory = [
 const Dashboard = () => {
   const [activeTab, setActiveTab] = useState('bookings');
   
-  // Asli Wishlist hook use karo
   const { wishlist, toggleWishlist } = useWishlist();
+  const { destinations } = useDestinations();
+  const { user, updateProfile } = useAuth(); 
 
-  // Map IDs to data
+  const [profileData, setProfileData] = useState({
+    name: '',
+    email: '',
+    phone: ''
+  });
+
+  // User load hone par form me details bharna
+  useEffect(() => {
+    if (user) {
+      setProfileData({
+        name: user.name || '',
+        email: user.email || '',
+        phone: user.phone || ''
+      });
+    }
+  }, [user]);
+
   const wishlistDestinations = wishlist
-    .map(id => destinationsData.find(d => d.id === id))
+    .map(id => destinations.find(d => d.id === id))
     .filter(Boolean);
+
+  const handleProfileChange = (e) => {
+    setProfileData({ ...profileData, [e.target.name]: e.target.value });
+  };
+
+  const handleProfileSubmit = (e) => {
+    e.preventDefault();
+    
+    // 1. Current Session Update (Navbar ke liye)
+    updateProfile({
+      name: profileData.name,
+      email: profileData.email,
+      phone: profileData.phone
+    });
+
+    // 2. Main Database Update (Logout/Login ke liye)
+    const existingUsers = JSON.parse(localStorage.getItem('travelx_users') || '[]');
+    const updatedUsers = existingUsers.map(u => {
+      if (u.email === user.email) { // Purani email se match karke update
+        return { ...u, name: profileData.name, email: profileData.email };
+      }
+      return u;
+    });
+    localStorage.setItem('travelx_users', JSON.stringify(updatedUsers));
+
+    alert("Profile changes saved successfully!");
+  };
 
   return (
     <main>
       <section id="dashboard" className="page active">
         <div className="container section">
-          <h1>My Dashboard</h1>
+          <h1>Welcome, {user?.name || 'User'}</h1> 
           <p className="text-muted">Manage your bookings, wishlist, and account details.</p>
 
           <div className="dashboard-layout">
@@ -41,6 +86,7 @@ const Dashboard = () => {
 
             <div className="dashboard-content">
               
+              {/* Bookings Tab */}
               {activeTab === 'bookings' && (
                 <div className="dash-panel active">
                   {bookingsHistory.map((b) => (
@@ -58,6 +104,7 @@ const Dashboard = () => {
                 </div>
               )}
 
+              {/* Wishlist Tab */}
               {activeTab === 'wishlist' && (
                 <div className="dash-panel active">
                   {wishlistDestinations.length === 0 ? (
@@ -75,7 +122,6 @@ const Dashboard = () => {
                               <h5>{d.name}</h5>
                               <p><FaLocationDot /> {d.category}</p>
                             </div>
-                            {/* Yahan toggleWishlist use karo */}
                             <button className="wishlist-remove" onClick={() => toggleWishlist(d.id)}>
                               <FaTrash />
                             </button>
@@ -87,17 +133,35 @@ const Dashboard = () => {
                 </div>
               )}
 
+              {/* Profile Tab */}
               {activeTab === 'profile' && (
                 <div className="dash-panel active">
                   <div className="card profile-card">
                     <div className="profile-avatar-row">
-                      <img src="https://i.pravatar.cc/100?img=5" alt="Profile" />
+                      {/* Dynamic Gender-Neutral Avatar */}
+                      <img 
+                        src={`https://ui-avatars.com/api/?name=${user?.name || 'User'}&background=0ea5e9&color=fff&rounded=true&bold=true&size=128`} 
+                        alt="Profile" 
+                      />
                       <button type="button" className="btn btn-outline btn-sm">Change Photo</button>
                     </div>
-                    <form onSubmit={(e) => { e.preventDefault(); alert("Profile changes saved."); }}>
-                      <label className="field"><span>Full Name</span><input type="text" defaultValue="Dinesh Sharma" /></label>
-                      <label className="field"><span>Email Address</span><input type="email" defaultValue="dinesh@example.com" /></label>
-                      <label className="field"><span>Phone Number</span><input type="tel" placeholder="+91 98765 43210" /></label>
+                    
+                    <form onSubmit={handleProfileSubmit}>
+                      <label className="field">
+                        <span>Full Name</span>
+                        <input type="text" name="name" value={profileData.name} onChange={handleProfileChange} required />
+                      </label>
+                      
+                      <label className="field">
+                        <span>Email Address</span>
+                        <input type="email" name="email" value={profileData.email} onChange={handleProfileChange} required />
+                      </label>
+                      
+                      <label className="field">
+                        <span>Phone Number</span>
+                        <input type="tel" name="phone" value={profileData.phone} onChange={handleProfileChange} placeholder="+91 98765 43210" />
+                      </label>
+                      
                       <button type="submit" className="btn btn-primary btn-block">Save Changes</button>
                     </form>
                   </div>
