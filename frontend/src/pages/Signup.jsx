@@ -1,9 +1,12 @@
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { FaPlane, FaEye, FaEyeSlash } from 'react-icons/fa6';
+import { useAuth } from '../context/AuthContext';
 
 const Signup = () => {
   const navigate = useNavigate();
+  const { login } = useAuth(); // Auth hook
+  
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -38,10 +41,20 @@ const Signup = () => {
 
     if (Object.keys(newErrors).length === 0) {
       setIsLoading(true);
-      // Simulate API call
+      
+      // 👇 User ko local "database" me save karo 👇
+      const existingUsers = JSON.parse(localStorage.getItem('travelx_users') || '[]');
+      existingUsers.push({ 
+        name: formData.name, 
+        email: formData.email, 
+        password: formData.password 
+      });
+      localStorage.setItem('travelx_users', JSON.stringify(existingUsers));
+
       setTimeout(() => {
         setIsLoading(false);
-        navigate('/dashboard'); // Redirect to dashboard
+        login(formData.email, formData.name); // Real naam se login karo
+        navigate('/dashboard'); 
       }, 1000);
     }
   };
@@ -60,41 +73,20 @@ const Signup = () => {
             <form onSubmit={handleSubmit}>
               <label className="field">
                 <span>Full Name</span>
-                <input 
-                  type="text" 
-                  name="name"
-                  placeholder="John Doe" 
-                  value={formData.name}
-                  onChange={handleChange}
-                  required 
-                />
+                <input type="text" name="name" placeholder="John Doe" value={formData.name} onChange={handleChange} required />
                 <small className="field-error">{errors.name}</small>
               </label>
 
               <label className="field">
                 <span>Email Address</span>
-                <input 
-                  type="email" 
-                  name="email"
-                  placeholder="you@example.com" 
-                  value={formData.email}
-                  onChange={handleChange}
-                  required 
-                />
+                <input type="email" name="email" placeholder="you@example.com" value={formData.email} onChange={handleChange} required />
                 <small className="field-error">{errors.email}</small>
               </label>
 
               <label className="field">
                 <span>Password</span>
                 <div className="password-field">
-                  <input 
-                    type={showPassword ? "text" : "password"} 
-                    name="password"
-                    placeholder="••••••••" 
-                    value={formData.password}
-                    onChange={handleChange}
-                    required 
-                  />
+                  <input type={showPassword ? "text" : "password"} name="password" placeholder="••••••••" value={formData.password} onChange={handleChange} required />
                   <button type="button" className="password-toggle" onClick={() => setShowPassword(!showPassword)}>
                     {showPassword ? <FaEyeSlash /> : <FaEye />}
                   </button>
@@ -105,14 +97,7 @@ const Signup = () => {
               <label className="field">
                 <span>Confirm Password</span>
                 <div className="password-field">
-                  <input 
-                    type={showConfirm ? "text" : "password"} 
-                    name="confirm"
-                    placeholder="••••••••" 
-                    value={formData.confirm}
-                    onChange={handleChange}
-                    required 
-                  />
+                  <input type={showConfirm ? "text" : "password"} name="confirm" placeholder="••••••••" value={formData.confirm} onChange={handleChange} required />
                   <button type="button" className="password-toggle" onClick={() => setShowConfirm(!showConfirm)}>
                     {showConfirm ? <FaEyeSlash /> : <FaEye />}
                   </button>
@@ -122,12 +107,7 @@ const Signup = () => {
 
               <div className="field">
                 <label className="checkbox-label">
-                  <input 
-                    type="checkbox" 
-                    name="terms"
-                    checked={formData.terms}
-                    onChange={handleChange}
-                  /> I agree to the <a href="#" className="link-text">Terms and Conditions</a>
+                  <input type="checkbox" name="terms" checked={formData.terms} onChange={handleChange} /> I agree to the <a href="#" className="link-text">Terms and Conditions</a>
                 </label>
                 <small className="field-error">{errors.terms}</small>
               </div>

@@ -1,9 +1,12 @@
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { FaPlane, FaEye, FaEyeSlash } from 'react-icons/fa6';
+import { useAuth } from '../context/AuthContext';
 
 const Login = () => {
+  const { login } = useAuth();
   const navigate = useNavigate();
+  
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [errors, setErrors] = useState({});
@@ -19,16 +22,31 @@ const Login = () => {
     if (!isValidEmail(email)) newErrors.email = "Enter a valid email address";
     if (password.length < 6) newErrors.password = "Password must be at least 6 characters";
 
-    setErrors(newErrors);
-
-    if (Object.keys(newErrors).length === 0) {
-      setIsLoading(true);
-      // Simulate API call
-      setTimeout(() => {
-        setIsLoading(false);
-        navigate('/dashboard'); // Redirect to dashboard
-      }, 1000);
+    if (Object.keys(newErrors).length > 0) {
+      setErrors(newErrors);
+      return;
     }
+
+    setIsLoading(true);
+    
+    // Database (localStorage) se users nikalo
+    const existingUsers = JSON.parse(localStorage.getItem('travelx_users') || '[]');
+    
+    // Email aur Password dono match karo
+    const foundUser = existingUsers.find(u => u.email === email && u.password === password);
+
+    setTimeout(() => {
+      setIsLoading(false);
+      
+      if (foundUser) {
+        // Sahi details mili toh login karo
+        login(foundUser.email, foundUser.name); 
+        navigate('/dashboard'); 
+      } else {
+        // Galat password ya email
+        setErrors({ password: "Invalid email or password" });
+      }
+    }, 1000);
   };
 
   return (
@@ -45,31 +63,15 @@ const Login = () => {
             <form onSubmit={handleSubmit}>
               <label className="field">
                 <span>Email Address</span>
-                <input 
-                  type="email" 
-                  placeholder="you@example.com" 
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  required 
-                />
+                <input type="email" placeholder="you@example.com" value={email} onChange={(e) => setEmail(e.target.value)} required />
                 <small className="field-error">{errors.email}</small>
               </label>
 
               <label className="field">
                 <span>Password</span>
                 <div className="password-field">
-                  <input 
-                    type={showPassword ? "text" : "password"} 
-                    placeholder="••••••••" 
-                    value={password}
-                    onChange={(e) => setPassword(e.target.value)}
-                    required 
-                  />
-                  <button 
-                    type="button" 
-                    className="password-toggle" 
-                    onClick={() => setShowPassword(!showPassword)}
-                  >
+                  <input type={showPassword ? "text" : "password"} placeholder="••••••••" value={password} onChange={(e) => setPassword(e.target.value)} required />
+                  <button type="button" className="password-toggle" onClick={() => setShowPassword(!showPassword)}>
                     {showPassword ? <FaEyeSlash /> : <FaEye />}
                   </button>
                 </div>
